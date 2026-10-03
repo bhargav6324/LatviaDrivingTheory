@@ -7,8 +7,9 @@ public enum SubscriptionType: String, Codable {
     case lifetime
 }
 
-/// Central manager for StoreKit 2 in-app purchases and Latvia Driving Theory Pro entitlement verification.
-/// Direct architectural adaptation of the battle-tested RuralKeep StoreKit 2 implementation with dual-product support.
+/// Central manager for StoreKit 2 in-app purchases and Latvia Driving Theory Pro entitlement verification with dual-product support:
+/// 1. PRO uz mūžu (Non-Consumable IAP)
+/// 2. PRO mēnesim (Auto-Renewable Subscription)
 @MainActor
 public final class PurchaseManager: ObservableObject {
     public static let shared = PurchaseManager()

@@ -6,8 +6,7 @@ public enum PaywallTier {
     case monthly
 }
 
-/// Polished Paywall for Latvia Driving Theory ("CSDD Teorijas Eksāmens").
-/// Adapts the verified Rural Keep StoreKit 2 architecture and paywall design with dual-product support:
+/// StoreKit 2 paywall for Latvia Driving Theory ("CSDD Teorijas Eksāmens") with dual-product support:
 /// 1. PRO uz mūžu (Non-Consumable IAP)
 /// 2. PRO mēnesim (Auto-Renewable Subscription)
 public struct PremiumPaywallView: View {
@@ -483,9 +482,10 @@ public struct PremiumPaywallView: View {
                     .font(.headline)
                     .foregroundColor(AppColors.textPrimary)
 
+                let priceStr = purchaseManager.lifetimeDisplayPrice.map { " (\($0))" } ?? ""
                 Text(localization.currentLanguage == .latvian
-                     ? "Pārejiet uz vienreizēju pirkumu un atceliet ikmēneša maksājumus (\(purchaseManager.lifetimeDisplayPrice))."
-                     : "Switch to a permanent one-time purchase without monthly renewal (\(purchaseManager.lifetimeDisplayPrice)).")
+                     ? "Pārejiet uz vienreizēju pirkumu un atceliet ikmēneša maksājumus\(priceStr)."
+                     : "Switch to a permanent one-time purchase without monthly renewal\(priceStr).")
                     .font(.caption)
                     .foregroundColor(AppColors.textSecondary)
                     .multilineTextAlignment(.center)

@@ -52,6 +52,9 @@
             ReferencedContainer = "container:LatviaDrivingTheory.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <StoreKitConfigurationFileReference
+         identifier = "../../LatviaDrivingTheory.storekit">
+      </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
