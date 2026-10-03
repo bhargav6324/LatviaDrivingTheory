@@ -131,6 +131,7 @@
 		F98361BC6F53625A672ADB56 /* Features/Home/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/HomeView.swift; sourceTree = "<group>"; };
 		FB0A911F6B8FB7E76BDDEA08 /* DesignSystem/AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/AppColors.swift; sourceTree = "<group>"; };
 		FEF4ADE045C7021B8927CF02 /* Components/AppLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/AppLogoView.swift; sourceTree = "<group>"; };
+		A10000000000000000000088 /* LatviaDrivingTheory.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = LatviaDrivingTheory.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +148,7 @@
 		016E5C04A36B9E44ADA45781 = {
 			isa = PBXGroup;
 			children = (
+				A10000000000000000000088 /* LatviaDrivingTheory.storekit */,
 				561AB6B54CA0E34C0B6B78A5 /* LatviaDrivingTheory */,
 				1BABC9FE70385367B81EC546 /* Products */,
 			);

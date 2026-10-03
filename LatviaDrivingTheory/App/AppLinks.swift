@@ -28,11 +28,22 @@ public enum AppLinks {
     public static let bundleID = "com.latviadriving.theory"
 
     // Primary StoreKit Product Identifiers
-    public static let lifetimeProductID = "lv.drivingtheory.pro.lifetime"
-    public static let monthlyProductID = "lv.drivingtheory.pro.monthly"
+    public static let lifetimeProductID = StoreProducts.lifetime
+    public static let monthlyProductID = StoreProducts.monthly
 
     public static let allProductIDs: [String] = [
-        lifetimeProductID,
-        monthlyProductID
+        StoreProducts.lifetime,
+        StoreProducts.monthly
+    ]
+}
+
+/// Canonical StoreKit 2 product identifiers for Latvia Driving Theory
+public enum StoreProducts {
+    public static let lifetime = "lv.drivingtheory.pro.lifetime"
+    public static let monthly = "lv.drivingtheory.pro.monthly"
+
+    public static let all: Set<String> = [
+        lifetime,
+        monthly
     ]
 }

@@ -29,6 +29,10 @@ struct LatviaDrivingTheoryApp: App {
                 .environmentObject(purchaseManager)
                 .environmentObject(storeKit)
                 .environmentObject(goalManager)
+                .task {
+                    await purchaseManager.loadProducts()
+                    await purchaseManager.refreshEntitlements()
+                }
         }
     }
 }

@@ -80,6 +80,18 @@ public struct PremiumPaywallView: View {
                 if purchaseManager.lifetimeProduct == nil || purchaseManager.monthlyProduct == nil {
                     await purchaseManager.loadProducts()
                 }
+                if purchaseManager.lifetimeProduct == nil && purchaseManager.monthlyProduct != nil {
+                    selectedTier = .monthly
+                } else if purchaseManager.lifetimeProduct != nil {
+                    selectedTier = .lifetime
+                }
+            }
+            .onAppear {
+                if purchaseManager.lifetimeProduct == nil && purchaseManager.monthlyProduct != nil {
+                    selectedTier = .monthly
+                } else if purchaseManager.lifetimeProduct != nil {
+                    selectedTier = .lifetime
+                }
             }
             .alert(localization.currentLanguage == .latvian ? "PRO atbloķēts!" : "PRO Unlocked!", isPresented: $showSuccessAlert) {
                 Button(localization.t(.ok)) {
@@ -212,7 +224,7 @@ public struct PremiumPaywallView: View {
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 24)
             } else if purchaseManager.lifetimeProduct == nil && purchaseManager.monthlyProduct == nil {
-                VStack(spacing: 8) {
+                VStack(spacing: 12) {
                     Image(systemName: "exclamationmark.triangle")
                         .font(.title2)
                         .foregroundColor(AppColors.accentGold)
@@ -220,6 +232,23 @@ public struct PremiumPaywallView: View {
                         .font(.subheadline)
                         .foregroundColor(AppColors.textSecondary)
                         .multilineTextAlignment(.center)
+
+                    Button {
+                        Task {
+                            await purchaseManager.loadProducts()
+                        }
+                    } label: {
+                        HStack(spacing: 6) {
+                            Image(systemName: "arrow.clockwise")
+                            Text(localization.currentLanguage == .latvian ? "Mēģināt vēlreiz" : "Retry")
+                        }
+                        .font(.footnote.weight(.semibold))
+                        .foregroundColor(AppColors.latviaCarmine)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 8)
+                        .background(AppColors.cardBackgroundElevated)
+                        .clipShape(Capsule())
+                    }
                 }
                 .frame(maxWidth: .infinity)
                 .padding(20)
