@@ -129,49 +129,37 @@ public final class PurchaseManager: ObservableObject {
 
     /// Loads both Lifetime and Monthly StoreKit 2 products.
     public func loadProducts() async {
-        let productIDs = Self.productIDs
+        let ids = Self.productIDs
 
         #if DEBUG
-        print("========================================")
-        print("🛒 [STOREKIT DEBUG] Product Load Initiated")
-        print("  • App Bundle ID: \(Bundle.main.bundleIdentifier ?? "nil")")
-        print("  • Requested IDs: \(productIDs)")
-        if let storefront = await Storefront.current {
-            print("  • Storefront Country: \(storefront.countryCode)")
-        } else {
-            print("  • Storefront: nil / unavailable")
-        }
-        print("========================================")
+        print("=== LATVIA STOREKIT DEBUG ===")
+        print("Bundle:", Bundle.main.bundleIdentifier ?? "nil")
+        print("Requested IDs:", ids)
         #endif
 
         do {
-            let fetched = try await Product.products(for: productIDs)
-            self.products = fetched
+            let products = try await Product.products(for: ids)
+            self.products = products
 
             // Map returned products by product.id
-            self.lifetimeProduct = fetched.first { $0.id == Self.lifetimeProductID }
-            self.monthlyProduct = fetched.first { $0.id == Self.monthlyProductID }
+            self.lifetimeProduct = products.first { $0.id == Self.lifetimeProductID }
+            self.monthlyProduct = products.first { $0.id == Self.monthlyProductID }
 
             #if DEBUG
-            print("🛒 [STOREKIT DEBUG] Products Returned: \(fetched.count)")
-            for p in fetched {
-                print("  • ID: \(p.id)")
-                print("    Type: \(p.type)")
-                print("    DisplayName: \(p.displayName)")
-                print("    DisplayPrice: \(p.displayPrice)")
+            print("Returned count:", products.count)
+            for product in products {
+                print("Returned product:")
+                print("ID:", product.id)
+                print("Name:", product.displayName)
+                print("Price:", product.displayPrice)
+                print("Type:", product.type)
             }
-            if fetched.isEmpty {
-                print("⚠️ [STOREKIT DEBUG] WARNING: Zero products returned for \(productIDs)!")
-                print("  • Local testing requires: LatviaDrivingTheory.storekit active in Scheme -> Run -> Options -> StoreKit Configuration")
-                print("  • App Store Connect testing requires: products Cleared for Sale and approved in App Store Connect for bundle '\(Bundle.main.bundleIdentifier ?? "")'")
-            }
-            print("========================================")
             #endif
             self.hasLoadedProducts = true
         } catch {
             #if DEBUG
-            print("❌ [STOREKIT DEBUG] StoreKit load error: \(error)")
-            print("========================================")
+            print("STOREKIT PRODUCT LOAD ERROR:")
+            print(error)
             #endif
             self.products = []
             self.lifetimeProduct = nil

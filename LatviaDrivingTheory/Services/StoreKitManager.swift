@@ -15,8 +15,14 @@ public final class StoreKitManager: ObservableObject {
         PremiumAccessManager.shared
     }
 
+    public static let lifetimeID = "lv.drivingtheory.pro.lifetime"
+    public static let monthlyID = "lv.drivingtheory.pro.monthly"
+
     public static var lifetimeProductID: String {
-        AppLinks.lifetimeProductID
+        lifetimeID
+    }
+    public static var monthlyProductID: String {
+        monthlyID
     }
 
     public var isPremiumUnlocked: Bool { purchaseManager.isPro }

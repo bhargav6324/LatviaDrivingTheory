@@ -1,0 +1,99 @@
+{
+  "identifier" : "LatviaProductsStoreKit",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "3001",
+      "localizations" : [
+        {
+          "description" : "Lifetime access to all PRO features.",
+          "displayName" : "PRO Lifetime",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Lifetime access to all PRO features.",
+          "displayName" : "PRO Lifetime",
+          "locale" : "en_GB"
+        }
+      ],
+      "productID" : "lv.drivingtheory.pro.lifetime",
+      "referenceName" : "PRO Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "2001",
+      "localizations" : [
+        {
+          "description" : "Latvia Driving Theory Pro Subscriptions",
+          "displayName" : "Latvia Driving Theory Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Latvia Driving Theory Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "2002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly access to all PRO features.",
+              "displayName" : "PRO Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "lv.drivingtheory.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "PRO Monthly",
+          "subscriptionGroupID" : "2001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
