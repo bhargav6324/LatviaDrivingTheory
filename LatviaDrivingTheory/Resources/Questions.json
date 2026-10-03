@@ -1,0 +1,4078 @@
+[
+  {
+    "id": "LV-B-PRI-001",
+    "topic": "right_of_way",
+    "subtopic": "Labās rokas likums vienādas nozīmes krustojumā",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "128. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Tu tuvojies vienādas nozīmes ceļu krustojumam. No labās puses tuvojas cits automobilis. Kuram ir priekšroka?",
+        "options": [
+          "Automobilim, kas tuvojas no labās puses",
+          "Tavam automobilim, jo tu brauc taisni",
+          "Tam vadītājam, kurš pirmais sasniedz krustojuma robežu",
+          "Automobilim ar lielāku braukšanas ātrumu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vienādas nozīmes ceļu krustojumā vadītājam jādod ceļš transportlīdzekļiem, kas tuvojas krustojumam no labās puses (CSN 128. punkts). Piemērošana: Tā kā cits automobilis tuvojas tev no labās puses, tev tas ir jāpalaiž. Biežākā kļūda: Uzskatīt, ka taisna braukšana automātiski dod priekšroku bez zīmēm.",
+        "keyTakeaway": "Vienādas nozīmes krustojumos vienmēr dod ceļu no labās puses braucošajam."
+      },
+      "en": {
+        "question": "You approach an uncontrolled intersection of equal roads. Another car is approaching from your right. Who has priority?",
+        "options": [
+          "The car approaching from your right",
+          "Your car, because you are driving straight",
+          "The driver who reaches the intersection boundary first",
+          "The vehicle traveling at a higher speed"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 128 (the right-hand rule), drivers must yield to vehicles approaching from the right at equal crossroads. Misconception: Thinking driving straight gives priority without signs.",
+        "keyTakeaway": "Always yield to the right at uncontrolled equal intersections."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PRI-002",
+    "topic": "right_of_way",
+    "subtopic": "Nogriešanās pa kreisi pretī braucošajiem",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "129. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Krustojumā veicot kreiso pagriezienu, kuram transportlīdzeklim tev jādod ceļš?",
+        "options": [
+          "Pretim braucošajiem, kas brauc taisni vai nogriežas pa labi",
+          "Tikai aiz muguras braucošajiem transportlīdzekļiem",
+          "Nevienam, ja tu pirmais ieslēdzi pagrieziena rādītāju",
+          "Tikai sabiedriskajam transportam aizmugurē"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Nogriežoties pa kreisi vai apgriežoties braukšanai pretējā virzienā, jādod ceļš pretim braucošajiem transportlīdzekļiem, kas brauc taisni vai nogriežas pa labi (CSN 129. punkts). Nogriežoties pa kreisi, tu šķērso pretējās kustības joslu, tādēļ pretī braucošajiem ir priekšroka.",
+        "keyTakeaway": "Griežoties pa kreisi, palaid visus pretī braucošos (taisni un pa labi braucošos)."
+      },
+      "en": {
+        "question": "When turning left at an intersection, which vehicles must you yield to?",
+        "options": [
+          "Oncoming vehicles proceeding straight or turning right",
+          "Only vehicles traveling directly behind you",
+          "None, if you were the first to indicate",
+          "Only buses behind you"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 129, when turning left or making a U-turn, drivers must yield to oncoming traffic going straight or turning right.",
+        "keyTakeaway": "When turning left, yield to all oncoming vehicles proceeding straight or turning right."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PRI-003",
+    "topic": "right_of_way",
+    "subtopic": "Vienlaicīga pārkārtošanās",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "82. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Divi automobiļi brauc pa blakus joslām vienā virzienā un vienlaicīgi vēlas pārkārtoties vidējā joslā. Kuram ir priekšroka?",
+        "options": [
+          "Automobilim, kas atrodas pa labi (labās rokas princips)",
+          "Automobilim, kas atrodas pa kreisi",
+          "Automobilim, kuram ir lielāks ātrums",
+          "Automobilim, kurš pirmais ieslēdza rādītāju"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ja transportlīdzekļi pārkārtojas vienlaicīgi, vadītājam jādod ceļš transportlīdzeklim, kas atrodas pa labi (CSN 82. punkts). Parastā gadījumā ceļu dod tas, kurš maina joslu, bet vienlaicīgas maiņas gadījumā spēkā ir labās rokas likums.",
+        "keyTakeaway": "Vienlaicīgi mainot joslu, priekšroka ir automobilim no labās puses."
+      },
+      "en": {
+        "question": "Two cars traveling in adjacent lanes in the same direction attempt to merge simultaneously into the center lane. Who has priority?",
+        "options": [
+          "The car on the right (right-hand rule applies)",
+          "The car on the left",
+          "The car traveling at higher speed",
+          "The car that signaled first"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 82, when drivers in adjacent lanes change lanes simultaneously, the driver with the vehicle on their right must yield.",
+        "keyTakeaway": "In simultaneous lane merging, priority belongs to the vehicle on the right."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PRI-004",
+    "topic": "right_of_way",
+    "subtopic": "Izbraukšana no piegulošās teritorijas",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "78. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Izbraucot uz ceļa no pagalma, stāvvietas vai DUS teritorijas, kādi ir tavi pienākumi?",
+        "options": [
+          "Jādod ceļš visiem citiem satiksmes dalībniekiem (gājējiem, velobraucējiem, transportlīdzekļiem)",
+          "Jādod ceļš tikai no kreisās puses braucošajiem automobiļiem",
+          "Priekšroka ir tev, jo tu jau uzsāki manevru",
+          "Jādod ceļš tikai sabiedriskajam transportam"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Izbraucot uz ceļa no piegulošās teritorijas (pagalms, degvielas uzpildes stacija, stāvvieta), vadītājam jādod ceļš visiem satiksmes dalībniekiem, kas pārvietojas pa šo ceļu vai ietvi (CSN 78. punkts).",
+        "keyTakeaway": "Izbraucot no pagalma vai DUS, tev nav priekšrokas ne pret vienu."
+      },
+      "en": {
+        "question": "When entering a road from a courtyard, parking area, or petrol station, what are your duties?",
+        "options": [
+          "Yield to all other road users (pedestrians, cyclists, and vehicles)",
+          "Yield only to vehicles coming from the left",
+          "You have priority because you have started moving",
+          "Yield only to public transit"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 78, entering a roadway from adjacent territory requires yielding to all existing road and footpath traffic.",
+        "keyTakeaway": "Exiting private property or parking yields to all road users."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PRI-005",
+    "topic": "right_of_way",
+    "subtopic": "Galvenais ceļš maina virzienu",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "132. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Krustojumā galvenais ceļš pagriežas pa kreisi (zīme 201 ar plāksnīti 801). Tu brauc pa galveno ceļu pa kreisi. No mazāk svarīga ceļa labajā pusē tuvojas auto. Kuram ir priekšroka?",
+        "options": [
+          "Tev, jo tu atrodies uz galvenā ceļa",
+          "Labās puses vadītājam, jo darbojas labās rokas likums",
+          "Abiem vienlaicīgi jāsaskaņo braukšana ar žestiem",
+          "Tam, kurš brauc taisni"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vadītājam uz galvenā ceļa ir priekšroka pār mazāk svarīga ceļa vadītājiem neatkarīgi no viņa manevra virziena (CSN 132. punkts). Labās rokas likums tiek piemērots tikai to vadītāju starpā, kuru ceļiem ir vienāds statuss.",
+        "keyTakeaway": "Galvenais ceļš vienmēr dominē pār mazāk svarīgu ceļu."
+      },
+      "en": {
+        "question": "At an intersection, the priority road turns left (sign 201 with plate 801). You follow it to the left. A car approaches from your right on a secondary road. Who has priority?",
+        "options": [
+          "You, because you are on the priority road",
+          "The driver on the right under the right-hand rule",
+          "Both drivers must negotiate by gestures",
+          "Whichever vehicle is driving straight"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 132, priority road traffic always has right of way over secondary road traffic. The right-hand rule only resolves conflicts between vehicles on equally ranked roads.",
+        "keyTakeaway": "Priority road traffic always takes precedence over secondary road traffic."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PRI-006",
+    "topic": "right_of_way",
+    "subtopic": "Paātrinājuma joslas nosacījumi",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "84. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Uzbraucot uz autoceļa pa paātrinājuma joslu, kādi ir tavi pienākumi pirms pārkārtošanās pamatjoslā?",
+        "options": [
+          "Jāuzņem satiksmes plūsmas ātrums un jādod ceļš pa blakus joslu braucošajiem",
+          "Jābrauc ar priekšroku, jo uz paātrinājuma joslas vadītājam ir priekšroka",
+          "Nekavējoties jāapstājas joslas sākumā un jāgaida tukšs ceļš",
+          "Jāieslēdz avārijas gaismas un jāmaina josla"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ja ir izveidota paātrinājuma josla, vadītājam pa to jāpaātrinās un, pārkārtojoties uz blakus joslu, jādod ceļš transportlīdzekļiem, kas brauc pa šo blakus joslu (CSN 84. punkts).",
+        "keyTakeaway": "Paātrinājuma joslā uzņem ātrumu, bet dod ceļu pamatjoslā braucošajiem."
+      },
+      "en": {
+        "question": "When entering a highway via an acceleration lane, what are your obligations before merging into the main lane?",
+        "options": [
+          "Match traffic speed and yield to vehicles already traveling in the adjacent lane",
+          "Force merge because acceleration lane traffic has priority",
+          "Stop immediately at the start of the ramp and wait for an empty road",
+          "Turn on hazard lights and merge immediately"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 84, acceleration lane traffic must accelerate and yield to vehicles already moving in the through lane.",
+        "keyTakeaway": "Accelerate on the entry slip road, but yield to highway lane traffic."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PRI-007",
+    "topic": "right_of_way",
+    "subtopic": "Operatīvā transporta palaišana",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "27. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Tev aizmugurē tuvojas operatīvais transportlīdzeklis ar ieslēgtu zilu bākuguni un skaņas signālu. Kāda ir pareizā rīcība?",
+        "options": [
+          "Jādod ceļš un, ja nepieciešams, jāatbrīvo josla vai jāapstājas brauktuves malā",
+          "Jāpalielina ātrums, lai neaizkavētu operatīvo dienestu",
+          "Jāturpina braukt pa savu joslu nemainīgā ātrumā",
+          "Jāveic tūlītēja strauja bremzēšana joslas vidū"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Tuvojoties transportlīdzeklim ar iedegtu zilu bākuguni un ieslēgtu speciālu skaņas signālu, citiem vadītājiem jādod tam ceļš, atbrīvojot brauktuves daļu vai apstājoties (CSN 27. punkts).",
+        "keyTakeaway": "Operatīvajam transportam ar sirēnu un bākugunīm vienmēr dod ceļu."
+      },
+      "en": {
+        "question": "An emergency vehicle with flashing blue lights and an active siren is approaching behind you. What must you do?",
+        "options": [
+          "Yield by clearing the lane or safely moving to the edge of the road to stop if necessary",
+          "Speed up to stay ahead and not delay the emergency services",
+          "Maintain your lane and constant speed regardless",
+          "Brake abruptly to an immediate stop in your lane"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 27, drivers must yield and create a rescue path or safely pull over for emergency vehicles operating emergency lights and sirens.",
+        "keyTakeaway": "Always yield and clear the lane for emergency vehicles with active sirens and lights."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PRI-008",
+    "topic": "right_of_way",
+    "subtopic": "Atpakaļgaitas manevra drošība",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "94. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādi ir vadītāja pienākumi, braucot atpakaļgaitā?",
+        "options": [
+          "Jāpārliecinās par drošību un jādod ceļš citiem satiksmes dalībniekiem",
+          "Atpakaļgaitā braucošajam ir priekšroka pār citiem transportlīdzekļiem",
+          "Jāpaļaujas tikai uz atpakaļskata spoguļiem un nav jādod ceļš gājējiem",
+          "Pietiek ieslēgt skaņas signālu pirms manevra"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Braucot atpakaļgaitā, vadītājs nedrīkst traucēt citus satiksmes dalībniekus. Šaubu gadījumā jāpiesaista cita persona drošības nodrošināšanai (CSN 94. punkts).",
+        "keyTakeaway": "Braucot atpakaļgaitā, vadītājam nekad nav priekšrokas."
+      },
+      "en": {
+        "question": "What are the driver's duties when reversing a vehicle?",
+        "options": [
+          "Ensure maneuver safety and yield to all other road users and pedestrians",
+          "The reversing driver has priority because rear visibility is restricted",
+          "Rely solely on mirrors without yielding to pedestrians",
+          "Honk the horn once before reversing without checking traffic"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 94, reversing vehicles must not obstruct or endanger any road users and must yield to all traffic.",
+        "keyTakeaway": "Reversing vehicles never have priority and must yield to all road users."
+      }
+    }
+  },
+  {
+    "id": "LV-B-INT-001",
+    "topic": "intersections",
+    "subtopic": "Apļveida krustojums ar zīmi 'Dodiet ceļu'",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "128. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Pirms apļveida krustojuma uzstādīta zīme 'Dodiet ceļu' (206.) un 'Apbraukšanas virziens' (409.). Kuram ir priekšroka?",
+        "options": [
+          "Transportlīdzekļiem, kas jau brauc pa apli",
+          "Transportlīdzekļiem, kas iebrauc aplī no labās puses",
+          "Tam, kurš pirmais sasniedz krustojumu",
+          "Kravas automobiļiem un autobusiem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ja pirms apļa ir uzstādīta zīme 'Dodiet ceļu' (206.), iebraucējam jādod ceļš visiem, kas jau pārvietojas pa apļveida krustojumu (CSN 206. punkts).",
+        "keyTakeaway": "Zīme 'Dodiet ceļu' pirms apļa nozīmē, ka aplis ir galvenais ceļš."
+      },
+      "en": {
+        "question": "A roundabout entrance is marked with sign 206 'Give Way' and sign 409 'Roundabout'. Who has priority?",
+        "options": [
+          "Vehicles already circulating on the roundabout",
+          "Vehicles entering the roundabout (right-hand rule)",
+          "Whichever driver enters the intersection first",
+          "Heavy trucks and buses exclusively"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: With sign 206 posted, circulating traffic on the roundabout has right of way over entering vehicles.",
+        "keyTakeaway": "Sign 206 before a roundabout grants priority to vehicles on the roundabout."
+      }
+    }
+  },
+  {
+    "id": "LV-B-INT-002",
+    "topic": "intersections",
+    "subtopic": "Iebraukšana krustojumā sastrēguma laikā",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "136. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Luksoforā deg zaļais signāls, bet aiz krustojuma izveidojies sastrēgums. Vai tev atļauts iebraukt krustojumā?",
+        "options": [
+          "Aizliegts, ja apstāšanās krustojumā traucēs šķērseniskajai satiksmei",
+          "Atļauts jebkurā gadījumā, jo deg zaļā gaisma",
+          "Atļauts, ja laicīgi ieslēgts pagrieziena rādītājs",
+          "Atļauts tikai vieglajiem automobiļiem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vadītājam aizliegts iebraukt krustojumā pat pie atļaujošā signāla, ja izveidojies sastrēgums, kas piespiedīs vadītāju apstāties krustojumā un traucēt šķērseniskajai kustībai (CSN 136. punkts).",
+        "keyTakeaway": "Neiebrauc krustojumā, ja nevari to pilnībā šķērsot."
+      },
+      "en": {
+        "question": "The traffic light is green, but traffic is backed up beyond the intersection. May you enter the intersection?",
+        "options": [
+          "No, if stopping within the intersection will obstruct cross-traffic",
+          "Yes, green light allows entry under all conditions",
+          "Yes, provided your turn indicator is active",
+          "Yes, but only for passenger cars"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 136, entering an intersection is prohibited even on green if congestion prevents clearing it before cross-traffic is blocked.",
+        "keyTakeaway": "Never block an intersection; only enter if the exit is clear."
+      }
+    }
+  },
+  {
+    "id": "LV-B-INT-003",
+    "topic": "intersections",
+    "subtopic": "Labais pagrieziens daudzjoslu ceļā",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "89. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kā pareizi jāveic labais pagrieziens krustojumā uz ceļa ar vairākām braukšanas joslām vienā virzienā?",
+        "options": [
+          "Iespējami tuvāk brauktuves labajai malai labajā malējā joslā",
+          "Uzreiz jebkurā no brīvajām braukšanas joslām",
+          "Tikai uz kreiso malējo joslu",
+          "Pa vidējo joslu, lai netraucētu gājējiem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Nogriežoties pa labi, transportlīdzeklim jāpārvietojas pēc iespējas tuvāk brauktuves labajai malai un jāiebrauc labajā malējā joslā (CSN 89. punkts).",
+        "keyTakeaway": "Labais pagrieziens vienmēr jāsāk un jāpabeidz pēc iespējas tuvāk labajai malai."
+      },
+      "en": {
+        "question": "How should a right turn onto a multi-lane road be executed at an intersection?",
+        "options": [
+          "As close as possible to the right edge of the carriageway into the rightmost lane",
+          "Directly into any lane of your choice",
+          "Only into the leftmost lane to keep the right lane clear",
+          "Into the middle lane to avoid pedestrians"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 89, right turns must be kept as close as possible to the right curb into the rightmost lane.",
+        "keyTakeaway": "Turn right into the rightmost lane as close as possible to the right curb."
+      }
+    }
+  },
+  {
+    "id": "LV-B-INT-004",
+    "topic": "intersections",
+    "subtopic": "Izbraukšana no apļa joslas",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "88. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "No kuras joslas atļauts izbraukt no apļveida krustojuma, ja ceļa zīmes nenosaka citādi?",
+        "options": [
+          "Tikai no labās malējās joslas, ieslēdzot labo pagrieziena rādītāju",
+          "No jebkuras joslas bez pagrieziena rādītāja",
+          "Tikai no iekšējās (kreisās) joslas",
+          "No vidējās joslas, ieslēdzot kreiso rādītāju"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Izbraukšana no apļa ir labais pagrieziens, tādēļ pirms izbraukšanas jāieņem labā malējā josla un jārāda labais pagrieziena signāls (CSN 88. punkts).",
+        "keyTakeaway": "Izbrauc no apļa tikai no labās joslas ar labo pagrieziena rādītāju."
+      },
+      "en": {
+        "question": "From which lane may you exit a roundabout, unless signs indicate otherwise?",
+        "options": [
+          "Only from the rightmost lane with the right turn indicator activated",
+          "From any lane without turn signals",
+          "Only from the innermost left lane",
+          "From the center lane using the left indicator"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 88, exiting a roundabout is a right turn and must be executed from the rightmost lane with a right turn signal.",
+        "keyTakeaway": "Exit a roundabout from the rightmost lane using the right turn indicator."
+      }
+    }
+  },
+  {
+    "id": "LV-B-INT-005",
+    "topic": "intersections",
+    "subtopic": "T-veida krustojums bez zīmēm",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "128. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "T-veida krustojumā nav nevienas priekšrokas zīmes. Tu brauc pa taisno posmu, bet no sānceļa labajā pusē tuvojas auto. Kuram ir priekšroka?",
+        "options": [
+          "Automobilim no labās puses sānceļa (labās rokas likums)",
+          "Tev, jo tavs ceļš turpinās taisni",
+          "T-veida krustojumos taisnais ceļš vienmēr ir galvenais",
+          "Tam, kurš brauc ar lielāku ātrumu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ja nav priekšrokas ceļa zīmju, T-veida krustojums ir vienādas nozīmes krustojums. Taisnvirziena kustība nepiešķir galvenā ceļa statusu bez zīmēm (CSN 128. punkts).",
+        "keyTakeaway": "T-veida krustojums bez zīmēm ir vienādas nozīmes krustojums (labā roka)."
+      },
+      "en": {
+        "question": "At a T-junction without any priority signs, you are driving straight. Another vehicle approaches from the side road on your right. Who has priority?",
+        "options": [
+          "The vehicle approaching from the right side road (right-hand rule)",
+          "You, because your road continues straight",
+          "The straight road is always the main road at T-junctions",
+          "The vehicle traveling at higher speed"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Without priority signs, a T-junction is an uncontrolled intersection of equal roads. The right-hand rule applies (CSN Section 128).",
+        "keyTakeaway": "Uncontrolled T-intersections follow the right-hand rule."
+      }
+    }
+  },
+  {
+    "id": "LV-B-INT-006",
+    "topic": "intersections",
+    "subtopic": "Pretējo kreiso pagriezienu izmainīšanās",
+    "difficulty": "hard",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "137. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Krustojumā divi pretim braucoši vadītāji vienlaicīgi veic kreiso pagriezienu. Kā viņiem jāizmainās?",
+        "options": [
+          "Ar labajiem sāniem (neapbraucot vienam otru no aizmugures), ja konfigurācija to pieļauj",
+          "Obligāti jāapbrauc vienam otru no aizmugures ar kreisajiem sāniem",
+          "Viens vadītājs nedrīkst griezties, kamēr otrs nav pilnībā aizbraucis",
+          "Priekšroka ir lielākajam transportlīdzeklim"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Veicot vienlaicīgu kreiso pagriezienu no pretējiem virzieniem, vadītāji parasti izmainās ar labajiem sāniem, nodrošinot caurlaides spēju un drošību (CSN 137. punkts).",
+        "keyTakeaway": "Pretējie kreisie pagriezieni parasti izmainās ar labajiem sāniem."
+      },
+      "en": {
+        "question": "At an intersection, two oncoming vehicles are both turning left simultaneously. How should they pass each other?",
+        "options": [
+          "Pass right-side to right-side without crossing behind each other, where geometry allows",
+          "Mandatorily loop behind each other left-side to left-side",
+          "One driver must wait until the other has cleared the entire crossing",
+          "The larger vehicle passes first"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Simultaneous oncoming left turns normally pass right-side to right-side to maintain traffic flow and visibility.",
+        "keyTakeaway": "Oncoming left turns generally pass with right sides adjacent."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LGT-001",
+    "topic": "traffic_lights",
+    "subtopic": "Mirgojošs dzeltens luksofora signāls",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "49. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Ko nozīmē mirgojošs dzeltens luksofora signāls krustojumā?",
+        "options": [
+          "Krustojums ir neregulējams; jāievēro priekšrokas zīmes vai labās rokas likums",
+          "Krustojumu šķērsot ir pilnībā aizliegts",
+          "Luksofors tūlīt pārslēgsies uz zaļo signālu",
+          "Visiem vadītājiem obligāti pilnībā jāapstājas"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Mirgojošs dzeltens signāls atļauj kustību un informē par neregulējamu krustojumu vai gājēju pāreju, brīdinot par bīstamību (CSN 49. punkts).",
+        "keyTakeaway": "Mirgojoša dzeltenā gaisma = neregulējams krustojums (ievēro zīmes un labo roku)."
+      },
+      "en": {
+        "question": "What does a flashing yellow traffic signal indicate at an intersection?",
+        "options": [
+          "The intersection is uncontrolled; obey priority road signs or the right-hand rule",
+          "Entering the intersection is strictly prohibited",
+          "The light will immediately change to green",
+          "All vehicles must come to a mandatory full stop"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 49, a flashing yellow light indicates an uncontrolled intersection or crossing where normal priority rules apply.",
+        "keyTakeaway": "Flashing yellow light means uncontrolled intersection: follow signs and priority rules."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LGT-002",
+    "topic": "traffic_lights",
+    "subtopic": "Zaļā bulta papildsekcijā pie sarkanā",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "51. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Luksofora pamatgaismā deg sarkanais signāls, bet papildsekcijā iedegusies zaļā bulta pa labi. Kādi ir tavi pienākumi?",
+        "options": [
+          "Atļauts braukt bultas virzienā, dodot ceļu citu virzienu transportam un gājējiem",
+          "Tev ir pilnīga priekšroka pār visiem citiem satiksmes dalībniekiem",
+          "Aizliegts kustēties, jo pamatsignāls ir sarkans",
+          "Drīkst braukt taisni un pa labi bez apstāšanās"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Zaļās bultas signāls papildsekcijā kopā ar sarkano pamatsignālu atļauj braukt bultas virzienā, bet vadītājam jādod ceļš no citiem virzieniem braucošajiem un gājējiem (CSN 51. punkts).",
+        "keyTakeaway": "Papildsekcija pie sarkanā atļauj manevru, bet prasa dot ceļu visiem pārējiem."
+      },
+      "en": {
+        "question": "The main traffic light is red, but a green arrow is illuminated in the additional right-turn section. What is your obligation?",
+        "options": [
+          "You may turn in the arrow direction, yielding to other traffic and pedestrians",
+          "You have absolute priority over all other road users",
+          "Movement is prohibited because the main signal is red",
+          "You may proceed straight and right without slowing down"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 51, proceeding on a supplementary green arrow while the main signal is red is permitted only after yielding to all other vehicles and pedestrians.",
+        "keyTakeaway": "A green arrow with red main light permits turning only after yielding to all traffic."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LGT-003",
+    "topic": "traffic_lights",
+    "subtopic": "Regulētāja žesti: rokas uz sāniem",
+    "difficulty": "hard",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "38. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Regulētājs stāv ar rokām izstieptām uz sāniem. No krūšu un muguras puses kustība ir:",
+        "options": [
+          "Aizliegta visiem transportlīdzekļiem un gājējiem",
+          "Atļauta tikai taisni",
+          "Atļauta tikai pagriezienam pa labi",
+          "Atļauta sabiedriskajam transportam"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ja regulētāja rokas ir izstieptas uz sāniem vai nolaistas, no krūšu un muguras puses visu transportlīdzekļu un gājēju kustība ir aizliegta (CSN 38. punkts).",
+        "keyTakeaway": "Pret regulētāja krūtīm un muguru braukt ir aizliegts (kā pie sarkanās gaismas)."
+      },
+      "en": {
+        "question": "The traffic controller stands with arms stretched sideways. Traffic approaching facing his chest or back is:",
+        "options": [
+          "Prohibited for all vehicles and pedestrians",
+          "Permitted only straight ahead",
+          "Permitted only for right turns",
+          "Permitted exclusively for public transit"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 38, facing the traffic controller's chest or back means stop (equivalent to a red light).",
+        "keyTakeaway": "Facing the traffic controller's chest or back means stop."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LGT-004",
+    "topic": "traffic_lights",
+    "subtopic": "Sarkans un dzeltens reizē",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "47. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Luksoforā vienlaicīgi iedegas sarkanais un dzeltenais signāls. Ko tas nozīmē?",
+        "options": [
+          "Kustība joprojām ir aizliegta; tas brīdina par tūlītēju zaļā signāla ieslēgšanos",
+          "Drīkst uzsākt braukšanu uzmanīgi",
+          "Luksofors ir bojāts un jābrauc pēc labās rokas",
+          "Atļauts nogriezties tikai pa labi"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Sarkanais signāls kopā ar dzelteno aizliedz kustību un brīdina par zaļā signāla tūlītēju iedegšanos (CSN 47. punkts).",
+        "keyTakeaway": "Sarkans + dzeltens aizliedz braukšanu un gatavo zaļajam."
+      },
+      "en": {
+        "question": "The traffic light illuminates red and yellow signals simultaneously. What does this mean?",
+        "options": [
+          "Movement is still prohibited; it prepares drivers for the imminent green signal",
+          "You may begin moving cautiously immediately",
+          "The signal is malfunctioning and you should proceed by right-hand rule",
+          "Movement is permitted only to the right"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 47, red combined with yellow prohibits driving and prepares traffic for the upcoming green signal.",
+        "keyTakeaway": "Red and yellow together still prohibits movement."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LGT-005",
+    "topic": "traffic_lights",
+    "subtopic": "Kontūrbulta uz zaļā fona",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "46. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Luksofora zaļajā signālā ir iestrādāts melns bultu kontūrs (tikai taisni un pa labi). Kuros virzienos atļauts braukt?",
+        "options": [
+          "Tikai bultu norādītajos virzienos (taisni un pa labi)",
+          "Jebkurā virzienā, jo deg zaļā gaisma",
+          "Arī apgriezties pretējā virzienā",
+          "Visos virzienos, ja joslā nav citu auto"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Zaļais signāls ar bultas kontūru atļauj braukt tikai bultas norādītajos virzienos (CSN 46. punkts). Pagrieziens pa kreisi šajā gadījumā ir aizliegts.",
+        "keyTakeaway": "Kontūrbulta uz zaļā luksofora atļauj braukt tikai tās norādītajos virzienos."
+      },
+      "en": {
+        "question": "The green traffic light lens shows black contour arrows pointing straight and right only. In which directions may you proceed?",
+        "options": [
+          "Only in the directions indicated by the arrows (straight and right)",
+          "Any direction because the light is green",
+          "U-turns are permitted as well",
+          "All directions if your lane is clear"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 46, directional arrows on the signal lens restrict traffic movement strictly to the indicated paths.",
+        "keyTakeaway": "Directional arrows on a green signal permit travel only in the indicated directions."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LGT-006",
+    "topic": "traffic_lights",
+    "subtopic": "Mirgojošs zaļais signāls",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "48. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Ko nozīmē mirgojošs zaļais luksofora signāls?",
+        "options": [
+          "Atļauj kustību un informē, ka zaļā signāla laiks drīz beigsies",
+          "Aizliedz iebraukt krustojumā",
+          "Prasa tūlītēju avārijas bremzēšanu",
+          "Norāda, ka gājējiem iedegusies zaļā gaisma"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Mirgojošs zaļais signāls atļauj kustību un informē, ka drīz iedegsies dzeltenais signāls (CSN 48. punkts).",
+        "keyTakeaway": "Mirgojošs zaļais atļauj braukt, bet brīdina par drīzu dzeltenā ieslēgšanos."
+      },
+      "en": {
+        "question": "What does a flashing green traffic light mean?",
+        "options": [
+          "It permits travel and warns that the green phase is ending shortly",
+          "It prohibits entering the intersection immediately",
+          "It demands immediate emergency braking",
+          "It warns that pedestrians now have priority"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 48, flashing green permits passage and warns that yellow will follow shortly.",
+        "keyTakeaway": "Flashing green allows travel while warning of an imminent change to yellow."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-001",
+    "topic": "road_signs",
+    "subtopic": "Zīme 206 vs 207 atšķirība",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "206. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāda ir galvenā atšķirība starp ceļa zīmi 206 'Dodiet ceļu' un zīmi 207 'Neapstājoties tālāk braukt aizliegts' (STOP)?",
+        "options": [
+          "Pie zīmes 207 obligāti pilnībā jāapstājas pat pie brīva ceļa, pie zīmes 206 apstāšanās nav obligāta, ja ceļš ir brīvs",
+          "Zīme 206 ir spēkā tikai tumsā",
+          "Pie zīmes 206 ir jāapstājas vienmēr, bet pie 207 tikai, ja brauc vilciens",
+          "Nav nekādas atšķirības"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Zīme 206 prasa dot ceļu, bet nepieprasa obligātu apstāšanos, ja satiksmes dalībnieku nav. Zīme 207 prasa obligātu pilnīgu apstāšanos pie stop-līnijas vai krustojuma malas pat tad, ja ceļš ir pilnīgi tukšs (CSN 206. un 207. zīme).",
+        "keyTakeaway": "STOP zīme 207 pieprasa pilnīgu apstāšanos vienmēr; zīme 206 prasa apstāties tikai tad, ja jādod ceļš."
+      },
+      "en": {
+        "question": "What is the main difference between sign 206 'Give Way' and sign 207 'Stop'?",
+        "options": [
+          "Sign 207 mandates a complete stop even if the road is clear; sign 206 does not require stopping if clear",
+          "Sign 206 applies only in darkness",
+          "Sign 206 requires stopping always, while 207 only applies to trains",
+          "There is no legal difference between them"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Sign 207 requires an unconditional complete stop at the stop line or crossing boundary. Sign 206 requires yielding without an obligatory stop if clear.",
+        "keyTakeaway": "STOP sign 207 mandates a full stop every time; Give Way 206 requires stopping only to yield."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-002",
+    "topic": "road_signs",
+    "subtopic": "Zīme 301 'Iebraukt aizliegts'",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "301. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādiem transportlīdzekļiem aizliegts braukt aiz ceļa zīmes 301 'Iebraukt aizliegts' ('ķieģelis')?",
+        "options": [
+          "Visu veidu transportlīdzekļiem, izņemot pasažieru sabiedrisko transportu, kas brauc pa maršrutu",
+          "Tikai kravas automobiļiem",
+          "Tikai transportlīdzekļiem ar piekabi",
+          "Tikai traktortehnikai"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Zīme 301 'Iebraukt aizliegts' aizliedz braukt visu veidu transportlīdzekļiem šajā virzienā. Izņēmums ir tikai noteiktā maršrutā braucošs pasažieru sabiedriskais transports (CSN 301. zīme).",
+        "keyTakeaway": "Zīme 'Ķieģelis' aizliedz iebraukšanu visiem, izņemot maršruta sabiedrisko transportu."
+      },
+      "en": {
+        "question": "Which vehicles are prohibited from proceeding past sign 301 'No Entry' ('brick')?",
+        "options": [
+          "All vehicles, except scheduled public route transport",
+          "Only heavy cargo vehicles",
+          "Only vehicles with trailers",
+          "Only agricultural tractors"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Sign 301 prohibits entry for all vehicles from that direction, with exemption only for designated public transit routes.",
+        "keyTakeaway": "No Entry ('brick') prohibits all traffic except scheduled public transit."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-003",
+    "topic": "road_signs",
+    "subtopic": "Zīmes 312 ātruma ierobežojuma darbības zona",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "312. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Līdz kurai vietai ir spēkā zīme 312 'Maksimālā ātruma ierobežojums' (piem., 50 km/h), ja nav papildplāksnītes?",
+        "options": [
+          "Līdz tuvākajam krustojumam aiz zīmes vai apdzīvotas vietas beigām",
+          "Tieši 1 kilometru",
+          "Līdz vadītājs nolemj paātrināties",
+          "Līdz nākamajai gājēju pārejai"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Zīmes 312 darbības zona stiepjas no tās uzstādīšanas vietas līdz tuvākajam krustojumam aiz tās, bet, ja krustojuma nav, — līdz apdzīvotas vietas beigām vai ierobežojuma beigu zīmei 313/317 (CSN 312. zīme).",
+        "keyTakeaway": "Ātruma ierobežojuma zīme darbojas līdz tuvākajam krustojumam vai zīmei 313."
+      },
+      "en": {
+        "question": "Up to which point does speed limit sign 312 apply if no supplementary distance plate is present?",
+        "options": [
+          "To the nearest intersection behind the sign or to the end of the built-up area",
+          "Exactly 1 kilometer",
+          "Until the driver chooses to accelerate",
+          "To the next pedestrian crossing"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Sign 312 speed restrictions apply from the sign to the nearest intersection, or to the end of the town or sign 313/317.",
+        "keyTakeaway": "Speed limit signs apply until the nearest intersection or cancellation sign."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-004",
+    "topic": "road_signs",
+    "subtopic": "Zīme 326 vs 327",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "326. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāda ir atšķirība starp zīmi 326 'Apstāties aizliegts' (ar krustu) un zīmi 327 'Stāvēt aizliegts' (ar vienu svītru)?",
+        "options": [
+          "Zīme 326 aizliedz jebkādu apstāšanos; zīme 327 aizliedz stāvēšanu, bet atļauj īslaicīgu apstāšanos līdz 5 min vai pasažieru iekāpšanai",
+          "Zīme 326 attiecas tikai uz kravas auto",
+          "Zīme 327 aizliedz visu veidu apstāšanos",
+          "Nav atšķirības"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Zīme 326 (divas krusteniskas svītras) aizliedz gan apstāšanos, gan stāvēšanu. Zīme 327 (viena diagonāla svītra) aizliedz stāvēšanu, bet atļauj apstāšanos pasažieru iekāpšanai/izkāpšanai vai kravas iekraušanai/izkraušanai (CSN 326. un 327. zīme).",
+        "keyTakeaway": "326 aizliedz pat apstāšanos uz sekundi; 327 atļauj īslaicīgu apstāšanos pasažieriem."
+      },
+      "en": {
+        "question": "What is the difference between sign 326 'No Stopping' (cross) and sign 327 'No Parking' (single slash)?",
+        "options": [
+          "Sign 326 prohibits all stopping; sign 327 prohibits parking but permits momentary stopping for passenger pickup/drop-off",
+          "Sign 326 applies only to trucks",
+          "Sign 327 prohibits all stopping completely",
+          "There is no difference"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Sign 326 (cross) bans both stopping and parking. Sign 327 (slash) allows momentary stopping to embark/disembark passengers.",
+        "keyTakeaway": "Sign 326 bans all stopping; Sign 327 allows brief stopping for passengers."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-005",
+    "topic": "road_signs",
+    "subtopic": "Brīdinājuma zīmju attālums ārpus apdzīvotām vietām",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "101. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā attālumā pirms bīstamā posma ārpus apdzīvotām vietām parasti tiek uzstādītas brīdinājuma zīmes (trīsstūrveida ar sarkanu apmali)?",
+        "options": [
+          "150–300 metru attālumā (apdzīvotās vietās 50–100 m)",
+          "500–1000 metru attālumā",
+          "Tieši pirms bīstamās vietas (0–10 m)",
+          "25–50 metru attālumā"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ārpus apdzīvotām vietām brīdinājuma zīmes uzstāda 150–300 m attālumā pirms bīstamā posma sākuma, bet apdzīvotās vietās — 50–100 m attālumā (CSN 1. pielikums).",
+        "keyTakeaway": "Brīdinājuma zīmes ārpus pilsētas ir 150–300 m pirms briesmām, pilsētā — 50–100 m."
+      },
+      "en": {
+        "question": "At what distance before a hazard are warning signs normally placed outside built-up areas?",
+        "options": [
+          "150–300 meters (50–100 meters inside built-up areas)",
+          "500–1000 meters",
+          "Directly at the hazard (0–10 meters)",
+          "25–50 meters"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Warning signs are positioned 150–300 meters before the hazard on rural roads and 50–100 meters in urban areas.",
+        "keyTakeaway": "Warning signs: 150–300m outside built-up areas, 50–100m inside."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-006",
+    "topic": "road_signs",
+    "subtopic": "Zīme 539 'Dzīvojamā zona'",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "539. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir maksimālais atļautais braukšanas ātrums teritorijā aiz ceļa zīmes 539 'Dzīvojamā zona'?",
+        "options": [
+          "20 km/h",
+          "30 km/h",
+          "50 km/h",
+          "10 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Dzīvojamajā zonā transportlīdzekļu braukšanas ātrums nedrīkst pārsniegt 20 km/h (CSN 155. punkts). Turklāt gājējiem un velosipēdistiem ir priekšroka visā ceļa platumā.",
+        "keyTakeaway": "Dzīvojamajā zonā maksimālais ātrums ir 20 km/h un gājējiem ir priekšroka."
+      },
+      "en": {
+        "question": "What is the maximum permitted speed in an area marked with sign 539 'Living Zone'?",
+        "options": [
+          "20 km/h",
+          "30 km/h",
+          "50 km/h",
+          "10 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 155, maximum speed in a living zone is 20 km/h, and pedestrians have priority throughout the street.",
+        "keyTakeaway": "Living zone maximum speed is 20 km/h; pedestrians have priority everywhere."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-007",
+    "topic": "road_signs",
+    "subtopic": "Zīme 401 'Braukt taisni'",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "401. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Ceļa zīme 401 'Braukt taisni' uzstādīta tieši pirms krustojuma. Kuros virzienos atļauts braukt šajā krustojumā?",
+        "options": [
+          "Tikai taisni",
+          "Taisni un apgriezties braukšanai pretējā virzienā",
+          "Taisni un pa labi",
+          "Jebkurā virzienā pēc apstāšanās"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Zīme 401 'Braukt taisni' atļauj braukt tikai zīmē norādītajā virzienā — taisni. Pagriezieni pa labi, pa kreisi un apgriešanās ir aizliegti (CSN 401. zīme).",
+        "keyTakeaway": "Zīme 'Braukt taisni' pirms krustojuma atļauj kustību tikai taisni."
+      },
+      "en": {
+        "question": "Mandatory sign 401 'Proceed Straight' is placed immediately before an intersection. Which movements are permitted?",
+        "options": [
+          "Only straight ahead",
+          "Straight and U-turns",
+          "Straight and right turns",
+          "Any direction after coming to a full stop"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Sign 401 permits travel exclusively straight ahead through the immediate intersection; turns and U-turns are barred.",
+        "keyTakeaway": "Sign 401 mandates proceeding only straight ahead."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-008",
+    "topic": "road_signs",
+    "subtopic": "Zīme 323 'Nogriezties pa kreisi aizliegts'",
+    "difficulty": "hard",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "323. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Ceļa zīme 323 aizliedz nogriezties pa kreisi. Vai aiz šīs zīmes ir atļauts apgriezties braukšanai pretējā virzienā?",
+        "options": [
+          "Jā, apgriezties ir atļauts, jo zīme aizliedz tikai kreiso pagriezienu",
+          "Nē, apgriezties ir kategoriski aizliegts",
+          "Tikai naktī",
+          "Tikai sabiedriskajam transportam"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Zīme 323 'Nogriezties pa kreisi aizliegts' aizliedz tikai kreiso pagriezienu, bet neatceļ un neaizliedz apgriešanos braukšanai pretējā virzienā (CSN 323. zīme).",
+        "keyTakeaway": "Zīme 'Nogriezties pa kreisi aizliegts' neatceļ apgriešanos pretējā virzienā."
+      },
+      "en": {
+        "question": "Sign 323 prohibits left turns. Does this sign prohibit making a U-turn?",
+        "options": [
+          "No, making a U-turn is permitted because the sign only prohibits turning left",
+          "Yes, U-turns are strictly prohibited",
+          "Only at night",
+          "Exempt only for public transport"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Sign 323 restricts left turns specifically but does not prohibit making a U-turn unless prohibited by road markings or additional signs.",
+        "keyTakeaway": "No Left Turn sign does not prohibit making a U-turn."
+      }
+    }
+  },
+  {
+    "id": "LV-B-MRK-001",
+    "topic": "road_markings",
+    "subtopic": "Nepārtrauktā līnija 920",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "920. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Vai vadītājam atļauts šķērsot ceļa horizontālo apzīmējumu 920 (nepārtraukto balto līniju)?",
+        "options": [
+          "Šķērsot šo līniju ir aizliegts",
+          "Atļauts, ja netiek traucēti citi vadītāji",
+          "Atļauts, veicot apdzīšanu",
+          "Atļauts tikai pagriezienam pa kreisi pagalmos"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ceļa apzīmējumu 920 (nepārtrauktu šauru līniju) šķērsot ir aizliegts (CSN 920. marķējums). To izmanto pretējo un vienā virzienā braucošo plūsmu nodalīšanai bīstamās vietās.",
+        "keyTakeaway": "Balto nepārtraukto līniju šķērsot ir kategoriski aizliegts."
+      },
+      "en": {
+        "question": "Is a driver permitted to cross horizontal road marking 920 (solid white line)?",
+        "options": [
+          "Crossing this line is prohibited",
+          "Permitted if other drivers are not inconvenienced",
+          "Permitted during overtaking maneuvers",
+          "Permitted only when turning left into courtyards"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN marking 920, crossing a single solid white line is strictly prohibited.",
+        "keyTakeaway": "Crossing a single solid white line is prohibited."
+      }
+    }
+  },
+  {
+    "id": "LV-B-MRK-002",
+    "topic": "road_markings",
+    "subtopic": "Dubultā nepārtrauktā līnija 922",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "922. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir ceļa apzīmējuma 922 (dubultās nepārtrauktās līnijas) mērķis un prasība?",
+        "options": [
+          "Nodala pretēju virzienu transporta plūsmas uz ceļiem ar divām vai vairāk joslām katrā virzienā; to šķērsot aizliegts",
+          "Atļauj apdzīšanu, ja ātrums ir virs 70 km/h",
+          "Norāda vietu, kur atļauts apstāties",
+          "Tā ir tikai ieteikuma līnija"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ceļa apzīmējums 922 (dubultā nepārtrauktā līnija) sadala pretēju virzienu transporta plūsmas uz ceļiem ar divām vai vairākām braukšanas joslām katrā virzienā. Šo līniju šķērsot ir aizliegts (CSN 922. marķējums).",
+        "keyTakeaway": "Dubulto nepārtraukto līniju šķērsot ir kategoriski aizliegts."
+      },
+      "en": {
+        "question": "What is the function and rule regarding double solid line marking 922?",
+        "options": [
+          "Separates opposing traffic streams on roads with two or more lanes in each direction; crossing is prohibited",
+          "Permits overtaking if traveling over 70 km/h",
+          "Designates authorized parking areas",
+          "It is purely advisory"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Marking 922 separates opposing traffic streams on multi-lane carriageways; crossing it is strictly prohibited.",
+        "keyTakeaway": "Double solid lines separate multi-lane traffic; crossing is strictly prohibited."
+      }
+    }
+  },
+  {
+    "id": "LV-B-MRK-003",
+    "topic": "road_markings",
+    "subtopic": "Stop-līnija 929",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "929. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kur vadītājam jāapstājas, ja pirms krustojuma uz brauktuves ir uzvilkta stop-līnija 929 un deg sarkanais luksofora signāls?",
+        "options": [
+          "Tieši pirms stop-līnijas 929",
+          "Krustojuma centrā",
+          "Pie luksofora staba",
+          "Jebkurā vietā, no kuras labi redzama gājēju pāreja"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Stop-līnija 929 norāda vietu, kur vadītājam jāapstājas pie aizliedzošā luksofora signāla vai pirms zīmes 207 (CSN 929. marķējums). Apstāšanās aiz stop-līnijas ir pārkāpums.",
+        "keyTakeaway": "Apstājies pirms stop-līnijas, nevis uz tās vai aiz tās."
+      },
+      "en": {
+        "question": "Where must a driver stop when facing a red traffic light at an intersection with stop line marking 929?",
+        "options": [
+          "Directly before stop line 929",
+          "In the center of the intersection",
+          "At the base of the traffic light post",
+          "Anywhere with good visibility of pedestrians"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Marking 929 indicates the exact transverse stopping position when prohibited from proceeding by red lights or sign 207.",
+        "keyTakeaway": "Stop immediately before stop line 929."
+      }
+    }
+  },
+  {
+    "id": "LV-B-MRK-004",
+    "topic": "road_markings",
+    "subtopic": "Dzeltenā nepārtrauktā līnija 943 uz apmales",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "943. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Ko apzīmē dzeltena nepārtraukta līnija 943, kas uzvilkta uz brauktuves malas vai apmales?",
+        "options": [
+          "Aizliedz transportlīdzekļu apstāšanos un stāvēšanu",
+          "Aizliedz tikai stāvēšanu, bet atļauj īslaicīgu pasažieru iekāpšanu",
+          "Norāda velosipēdu celiņa robežu",
+          "Norāda maksas stāvvietas zonu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Dzeltena nepārtraukta līnija 943 uz brauktuves malas vai apmales apzīmē vietu, kur transportlīdzekļiem apstāties un stāvēt ir aizliegts (CSN 943. marķējums).",
+        "keyTakeaway": "Dzeltena nepārtraukta līnija = apstāties un stāvēt aizliegts."
+      },
+      "en": {
+        "question": "What does solid yellow line 943 painted along the curb or carriageway edge signify?",
+        "options": [
+          "Prohibits stopping and parking entirely",
+          "Prohibits parking only, allowing momentary passenger boarding",
+          "Marks the boundary of a cycle path",
+          "Indicates a paid parking space"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Solid yellow edge line 943 prohibits both stopping and parking.",
+        "keyTakeaway": "Solid yellow line along curb means no stopping and no parking."
+      }
+    }
+  },
+  {
+    "id": "LV-B-MRK-005",
+    "topic": "road_markings",
+    "subtopic": "Dzeltenā pārtrauktā līnija 944",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "944. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Ko nozīmē dzeltena pārtraukta līnija 944 uz brauktuves malas vai apmales?",
+        "options": [
+          "Aizliedz stāvēšanu, bet atļauj īslaicīgu apstāšanos",
+          "Aizliedz jebkādu apstāšanos",
+          "Norāda vietu, kur atļauts apdzīt",
+          "Norāda autobusu pieturas robežu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Dzeltena pārtraukta līnija 944 apzīmē vietu, kur transportlīdzekļiem stāvēt aizliegts, taču īslaicīga apstāšanās pasažieru iekāpšanai vai kravas iekraušanai ir atļauta (CSN 944. marķējums).",
+        "keyTakeaway": "Dzeltena pārtraukta līnija = stāvēt aizliegts, bet apstāties drīkst."
+      },
+      "en": {
+        "question": "What is indicated by broken yellow line 944 painted on the curb or roadway edge?",
+        "options": [
+          "Prohibits parking, but permits momentary stopping",
+          "Prohibits all stopping completely",
+          "Indicates an overtaking zone",
+          "Marks the limits of a bus stop"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Broken yellow line 944 designates a no-parking zone where brief stopping to load/unload passengers is permitted.",
+        "keyTakeaway": "Broken yellow curb line means no parking, but stopping is allowed."
+      }
+    }
+  },
+  {
+    "id": "LV-B-MRK-006",
+    "topic": "road_markings",
+    "subtopic": "Dzeltenā zig-zag līnija 947",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "947. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir dzeltenās zig-zag līnijas 947 mērķis uz brauktuves?",
+        "options": [
+          "Apzīmē pasažieru sabiedriskā transporta vai taksometru pieturu",
+          "Norāda bīstamu pagriezienu",
+          "Norāda vietu, kur atļauts novietot automobili stāvēšanai",
+          "Brīdina par ātrumvalni ('guļošo policistu')"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apzīmējums 947 (dzeltena zig-zag līnija) apzīmē pasažieru sabiedriskā transporta vai taksometru stāvvietas zonu (CSN 947. marķējums). Citiem transportlīdzekļiem stāvēt šeit ir aizliegts.",
+        "keyTakeaway": "Dzeltenā zig-zag līnija = sabiedriskā transporta pietura (citiem stāvēt aizliegts)."
+      },
+      "en": {
+        "question": "What is the meaning of yellow zigzag road marking 947?",
+        "options": [
+          "Designates a public route transport or taxi stop area",
+          "Warns of a severe curve",
+          "Marks authorized customer parking",
+          "Warns of a speed hump ahead"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Yellow zigzag marking 947 marks the stopping zone for public route transport and taxis; parking by other vehicles is barred.",
+        "keyTakeaway": "Yellow zigzag marks a bus/taxi stop zone; no parking for other vehicles."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SPD-001",
+    "topic": "speed_and_distance",
+    "subtopic": "Standarta ātrums apdzīvotā vietā",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "101. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir maksimālais atļautais braukšanas ātrums vieglajam automobilim apdzīvotās vietās Latvijā, ja nav citu zīmju?",
+        "options": [
+          "50 km/h",
+          "60 km/h",
+          "70 km/h",
+          "40 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apdzīvotās vietās visu transportlīdzekļu braukšanas ātrums nedrīkst pārsniegt 50 km/h, ja vien ceļa zīmes nenosaka citādi (CSN 101. punkts).",
+        "keyTakeaway": "Apdzīvotās vietās standarta ātrums ir 50 km/h."
+      },
+      "en": {
+        "question": "What is the default maximum speed limit for passenger cars in built-up areas in Latvia unless posted otherwise?",
+        "options": [
+          "50 km/h",
+          "60 km/h",
+          "70 km/h",
+          "40 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 101, the general speed limit inside all built-up areas is 50 km/h unless signs permit a higher or lower limit.",
+        "keyTakeaway": "The default speed limit in built-up areas is 50 km/h."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SPD-002",
+    "topic": "speed_and_distance",
+    "subtopic": "Standarta ātrums ārpus apdzīvotām vietām",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "101. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir maksimālais atļautais ātrums B kategorijas automobilim ārpus apdzīvotām vietām uz asfaltēta ceļa?",
+        "options": [
+          "90 km/h",
+          "100 km/h",
+          "110 km/h",
+          "80 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ārpus apdzīvotām vietām vieglajiem automobiļiem standarta maksimālais braukšanas ātrums ir 90 km/h (CSN 101. punkts). Atsevišķos posmos vasaras sezonā ar zīmēm var tikt atļauts līdz 100 vai 110 km/h.",
+        "keyTakeaway": "Ārpus apdzīvotām vietām standarta ātrums ir 90 km/h."
+      },
+      "en": {
+        "question": "What is the standard maximum speed limit for Category B vehicles outside built-up areas on paved roads?",
+        "options": [
+          "90 km/h",
+          "100 km/h",
+          "110 km/h",
+          "80 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 101, the default speed limit outside built-up areas for passenger cars is 90 km/h unless posted otherwise.",
+        "keyTakeaway": "The default rural speed limit is 90 km/h."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SPD-003",
+    "topic": "speed_and_distance",
+    "subtopic": "Drošas distances 2 sekunžu likums",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "107. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir ieteicamais minimālais laika intervāls (droša distance) līdz priekšā braucošajam transportlīdzeklim normālos vasaras apstākļos?",
+        "options": [
+          "Vismaz 2 sekundes",
+          "Vismaz 0.5 sekundes",
+          "Vismaz 5 sekundes",
+          "Distanci nosaka tikai pēc automobiļa garumiem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Braucot aiz cita transportlīdzekļa, jāietur distance, kas garantē drošu apstāšanos pēkšņas priekšējā auto bremzēšanas gadījumā. Uz sausa asfalta tas atbilst vismaz 2 sekunžu laika intervālam (CSN 107. punkts).",
+        "keyTakeaway": "Sausos apstākļos ievēro vismaz 2 sekunžu distanci."
+      },
+      "en": {
+        "question": "What is the recommended minimum time interval (following distance) behind the preceding vehicle in normal dry summer conditions?",
+        "options": [
+          "At least 2 seconds",
+          "At least 0.5 seconds",
+          "At least 5 seconds",
+          "Following distance is measured only in car lengths"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: The safe following distance under normal conditions corresponds to at least a 2-second time gap to allow for driver reaction time and braking (CSN Section 107).",
+        "keyTakeaway": "Maintain at least a 2-second following distance in dry conditions."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SPD-004",
+    "topic": "speed_and_distance",
+    "subtopic": "Distance ziemas un slapja ceļa apstākļos",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "107. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kā jāmaina distance līdz priekšā braucošajam transportlīdzeklim uz apledojuša vai slapja ceļa?",
+        "options": [
+          "Būtiski jāpalielina (vismaz līdz 3–4 sekundēm vai vairāk), jo bremzēšanas ceļš kļūst ievērojami garāks",
+          "Var samazināt, jo ātrums ir mazāks",
+          "Distancei nav nozīmes, ja auto ir labas riepas",
+          "Jābrauc maksimāli tuvu, lai izmantotu priekšējā auto sliedes"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ziemā, apledojumā un slapjos apstākļos riepu saķere ar ceļu krasi samazinās, un bremzēšanas ceļš var pieaugt 4 līdz 8 reizes. Tāpēc distance obligāti jādubulto (CSN 107. punkts).",
+        "keyTakeaway": "Uz slidena vai slapja ceļa distanci palielini vismaz divkārt."
+      },
+      "en": {
+        "question": "How should following distance be adjusted on wet or icy road surfaces?",
+        "options": [
+          "Substantially increase it (to at least 3–4 seconds or more) because braking distance increases dramatically",
+          "Reduce it because average speeds are lower",
+          "Following distance is irrelevant with premium tires",
+          "Tailgate closely to stay in the preceding car's tracks"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Reduced friction on wet or icy roads prolongs stopping distance up to fourfold or more, necessitating doubled or tripled following distance.",
+        "keyTakeaway": "Double your following distance on wet, snowy, or icy roads."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SPD-005",
+    "topic": "speed_and_distance",
+    "subtopic": "Vilkšanas maksimālais ātrums",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "207. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir maksimālais atļautais ātrums, velkot mehānisko transportlīdzekli ar elastīgo saiti Latvijā?",
+        "options": [
+          "50 km/h",
+          "70 km/h",
+          "90 km/h",
+          "30 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Velkot mehānisko transportlīdzekli, braukšanas ātrums nedrīkst pārsniegt 50 km/h gan apdzīvotās vietās, gan ārpus tām (CSN 101. un 207. punkts).",
+        "keyTakeaway": "Velkot citu transportlīdzekli, maksimālais atļautais ātrums ir 50 km/h."
+      },
+      "en": {
+        "question": "What is the maximum permitted speed when towing a motor vehicle using a flexible tow rope in Latvia?",
+        "options": [
+          "50 km/h",
+          "70 km/h",
+          "90 km/h",
+          "30 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Sections 101 and 207, towing speed must never exceed 50 km/h anywhere.",
+        "keyTakeaway": "Maximum speed while towing another vehicle is 50 km/h."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SPD-006",
+    "topic": "speed_and_distance",
+    "subtopic": "Ātruma izvēle sliktas redzamības apstākļos",
+    "difficulty": "hard",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "99. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds pamatprincips nosaka ātruma izvēli biezā miglā vai tumsā?",
+        "options": [
+          "Ātrumam jābūt tādam, lai vadītājs spētu apturēt transportlīdzekli redzamības robežās",
+          "Jābrauc ar maksimālo atļauto ceļa ātrumu, ieslēdzot skaņas signālu",
+          "Vienmēr jābrauc ar precīzi 90 km/h",
+          "Jāpaļaujas tikai uz navigācijas ierīces karti"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vadītājam jābrauc ar ātrumu, kas nepārsniedz noteiktos ierobežojumus, ņemot vērā redzamību braukšanas virzienā. Ātrumam jābūt tādam, lai vadītājs spētu apturēt transportlīdzekli redzamības robežās (CSN 99. punkts).",
+        "keyTakeaway": "Bremzēšanas ceļam vienmēr jābūt īsākam par redzamības attālumu."
+      },
+      "en": {
+        "question": "What fundamental principle governs speed selection in heavy fog or darkness?",
+        "options": [
+          "Speed must allow stopping safely within the driver's clear distance of vision ahead",
+          "Drive at the maximum speed limit while sounding the horn",
+          "Always maintain exactly 90 km/h",
+          "Rely entirely on GPS navigation guidance"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 99, speed must allow stopping within the driver's forward field of visibility.",
+        "keyTakeaway": "Your stopping distance must always be shorter than your visible distance."
+      }
+    }
+  },
+  {
+    "id": "LV-B-OVT-001",
+    "topic": "overtaking",
+    "subtopic": "Apdzīšanas aizliegums uz tiltiem un estakādēm",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "117. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Vai atļauts apdzīt uz tiltiem, estakādēm un zem tiem, izbraucot pretējā braukšanas joslā?",
+        "options": [
+          "Aizliegts",
+          "Atļauts, ja netiek pārsniegts ātrums",
+          "Atļauts, ja apdzen lēngaitas traktoru",
+          "Atļauts tikai diennakts gaišajā laikā"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apdzīt aizliegts uz tiltiem, viaduktiem, estakādēm un zem tiem, kā arī tuneļos (CSN 117. punkts), jo šajās vietās ir ierobežota ceļa telpa un manevrēšanas iespējas.",
+        "keyTakeaway": "Uz tiltiem un estakādēm apdzīt ar izbraukšanu pretējā joslā ir aizliegts."
+      },
+      "en": {
+        "question": "Is overtaking permitted on or under bridges, viaducts, and overpasses by entering the oncoming lane?",
+        "options": [
+          "Prohibited",
+          "Permitted provided speed limits are respected",
+          "Permitted when passing slow tractors",
+          "Permitted only in daylight"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 117, overtaking in the oncoming lane on or beneath bridges, overpasses, viaducts, and in tunnels is barred.",
+        "keyTakeaway": "Overtaking on bridges and viaducts is strictly prohibited."
+      }
+    }
+  },
+  {
+    "id": "LV-B-OVT-002",
+    "topic": "overtaking",
+    "subtopic": "Apdzīšana pirms gājēju pārejas",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "117. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kā jārīkojas vadītājam, ja blakus joslā braucošais automobilis pirms gājēju pārejas samazina ātrumu vai apstājas?",
+        "options": [
+          "Tāpat jāsamazina ātrums vai jāapstājas un jāturpina braukt tikai tad, kad pārliecinājies par gājēju neesamību",
+          "Jāpalielina ātrums, lai paspētu šķērsot pāreju pirmais",
+          "Drīkst apdzīt bez ātruma samazināšanas, ja gājējs vēl nav uzkāpis uz brauktuves",
+          "Jāieslēdz skaņas signāls un jābrauc garām"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ja pirms gājēju pārejas apstājies vai ātrumu samazina transportlīdzeklis, citu joslu vadītāji drīkst turpināt braukšanu tikai pēc tam, kad pārliecinājušies, ka uz pārejas nav gājēju (CSN 146. punkts). Apdzīt tieši uz gājēju pārejām ir aizliegts.",
+        "keyTakeaway": "Ja blakus josla pirms pārejas bremzē, bremzē arī tu."
+      },
+      "en": {
+        "question": "What must a driver do if a vehicle in an adjacent lane slows down or stops before a pedestrian crossing?",
+        "options": [
+          "Slow down or stop as well, and only proceed after confirming no pedestrians are crossing",
+          "Accelerate to cross the zebra crossing ahead of others",
+          "Overtake at current speed if no pedestrians have touched the asphalt yet",
+          "Sound the horn and drive through"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 146, when a vehicle slows down or stops before a crossing, drivers in adjacent lanes must slow down or stop and verify the crossing is clear.",
+        "keyTakeaway": "If a car in an adjacent lane stops before a crosswalk, you must stop too."
+      }
+    }
+  },
+  {
+    "id": "LV-B-OVT-003",
+    "topic": "overtaking",
+    "subtopic": "Apdzīšana krustojumos",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "117. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādos krustojumos Latvijā ir ATĻAUTS apdzīt, izbraucot pretējā braukšanas joslā?",
+        "options": [
+          "Tikai neregulējamos krustojumos, braucot pa galveno ceļu, kas nebeidzas krustojumā",
+          "Vienādas nozīmes krustojumos, ja neviens nebrauc no labās puses",
+          "Regulējamos krustojumos pie zaļās gaismas",
+          "Jebkurā krustojumā ārpus apdzīvotām vietām"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apdzīt ar izbraukšanu pretējā joslā ir aizliegts regulējamos krustojumos un vienādas nozīmes krustojumos. Apdzīšana ir atļauta tikai neregulējamos krustojumos, ja vadītājs brauc pa galveno ceļu attiecībā pret šķērsojamo ceļu (CSN 117. punkts).",
+        "keyTakeaway": "Krustojumā ar pretējo joslu drīkst apdzīt tikai tad, ja brauc pa galveno ceļu."
+      },
+      "en": {
+        "question": "At which intersections in Latvia is overtaking permitted by entering the oncoming lane?",
+        "options": [
+          "Only at uncontrolled intersections when driving on the priority road that does not end at the crossing",
+          "At uncontrolled equal intersections if clear on the right",
+          "At signalized intersections on green lights",
+          "At any rural intersection"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 117, overtaking in oncoming lanes at intersections is prohibited except when traveling on a priority road through an uncontrolled intersection.",
+        "keyTakeaway": "Overtaking at intersections is allowed only on uncontrolled priority roads."
+      }
+    }
+  },
+  {
+    "id": "LV-B-OVT-004",
+    "topic": "overtaking",
+    "subtopic": "Apdzenamā transportlīdzekļa vadītāja pienākumi",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "115. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Ko apdzenamā transportlīdzekļa vadītājam aizliegts darīt apdzīšanas manevra laikā?",
+        "options": [
+          "Aizliegts traucēt apdzīšanu, palielinot braukšanas ātrumu vai mainot trajektoriju",
+          "Aizliegts skatīties atpakaļskata spoguļos",
+          "Aizliegts braukt ar ieslēgtām tuvajām gaismām",
+          "Aizliegts samazināt ātrumu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apdzenamā transportlīdzekļa vadītājam aizliegts traucēt apdzīšanu, palielinot braukšanas ātrumu vai veicot citas darbības (CSN 115. punkts).",
+        "keyTakeaway": "Kad tevi apdzen, nekad nepalielini ātrumu."
+      },
+      "en": {
+        "question": "What is the driver of an overtaken vehicle forbidden to do during an overtaking maneuver?",
+        "options": [
+          "Forbidden to hinder overtaking by increasing speed or swerving",
+          "Forbidden to check rear-view mirrors",
+          "Forbidden to use low-beam headlights",
+          "Forbidden to slow down"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 115, a driver being overtaken is strictly barred from accelerating or obstructing the overtaking vehicle.",
+        "keyTakeaway": "Never accelerate while being overtaken."
+      }
+    }
+  },
+  {
+    "id": "LV-B-OVT-005",
+    "topic": "overtaking",
+    "subtopic": "Apdzīšana dzelzceļa pārbrauktuvju tuvumā",
+    "difficulty": "hard",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "117. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā attālumā pirms dzelzceļa pārbrauktuves aizliegts apdzīt citus transportlīdzekļus?",
+        "options": [
+          "Uz dzelzceļa pārbrauktuvēm un tuvāk par 100 metriem pirms tām",
+          "Tikai tieši uz pašām sliedēm",
+          "50 metrus pirms un 50 metrus pēc pārbrauktuves",
+          "Apdzīšana pie dzelzceļa ir atļauta bez ierobežojumiem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apdzīt aizliegts uz dzelzceļa pārbrauktuvēm un tuvāk par 100 metriem pirms tām (CSN 117. punkts). Aiz pārbrauktuves apdzīšana atkal ir atļauta, ja to neaizliedz ceļa apzīmējumi.",
+        "keyTakeaway": "Neapdzen uz sliedēm un tuvāk par 100 metriem pirms pārbrauktuves."
+      },
+      "en": {
+        "question": "At what distance before a railway level crossing is overtaking prohibited?",
+        "options": [
+          "On level crossings and closer than 100 meters before them",
+          "Only directly on top of the rails",
+          "50 meters before and 50 meters after",
+          "Overtaking near railway tracks has no restrictions"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 117, overtaking is barred directly on railway crossings and within 100 meters prior to them.",
+        "keyTakeaway": "Do not overtake on or within 100 meters before a railway crossing."
+      }
+    }
+  },
+  {
+    "id": "LV-B-STP-001",
+    "topic": "stopping_and_parking",
+    "subtopic": "Attālums no krustojuma apstājoties",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "124. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā minimālajā attālumā no šķērsojamās brauktuves malas atļauts apstāties un stāvēt krustojuma tuvumā?",
+        "options": [
+          "Ne tuvāk par 5 metriem no šķērsojamās brauktuves malas",
+          "Ne tuvāk par 10 metriem",
+          "Ne tuvāk par 15 metriem",
+          "Tieši krustojuma noapaļojumā"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apstāties un stāvēt aizliegts krustojumos un tuvāk par 5 metriem no šķērsojamās brauktuves malas (CSN 124. punkts). Tas nodrošina pārredzamību un drošu manevrēšanu.",
+        "keyTakeaway": "Krustojuma tuvumā neapstājies tuvāk par 5 metriem no šķērsielas malas."
+      },
+      "en": {
+        "question": "What is the minimum legal distance from an intersecting carriageway edge for stopping and parking?",
+        "options": [
+          "Not closer than 5 meters from the edge of the intersecting roadway",
+          "Not closer than 10 meters",
+          "Not closer than 15 meters",
+          "Directly within the corner curvature"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 124, stopping and parking are prohibited within intersections and closer than 5 meters from the edge of the intersecting roadway.",
+        "keyTakeaway": "Do not stop or park closer than 5 meters from an intersection edge."
+      }
+    }
+  },
+  {
+    "id": "LV-B-STP-002",
+    "topic": "stopping_and_parking",
+    "subtopic": "Apstāšanās pie gājēju pārejas",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "124. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā attālumā pirms gājēju pārejas aizliegts apstāties un stāvēt?",
+        "options": [
+          "Uz gājēju pārejām un tuvāk par 5 metriem pirms tām",
+          "Tikai uz pašas pārejas; pirms tās attālums nav ierobežots",
+          "Vismaz 20 metru attālumā",
+          "Tuvāk par 15 metriem pirms un aiz pārejas"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apstāties un stāvēt aizliegts uz gājēju pārejām un tuvāk par 5 metriem pirms tām (CSN 124. punkts). Uzreiz aiz gājēju pārejas apstāties ir atļauts, ja vien ceļš nav divvirzienu ar vienu joslu katrā virzienā.",
+        "keyTakeaway": "Uz gājēju pārejas un 5 m pirms tās apstāties ir aizliegts."
+      },
+      "en": {
+        "question": "At what distance before a pedestrian crossing is stopping and parking prohibited?",
+        "options": [
+          "On pedestrian crossings and closer than 5 meters before them",
+          "Only directly on the crossing; no distance restriction applies before it",
+          "At least 20 meters away",
+          "Within 15 meters before and after"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 124, stopping and parking are prohibited directly on crosswalks and closer than 5 meters before them to preserve visibility of pedestrians.",
+        "keyTakeaway": "Do not stop on a pedestrian crosswalk or closer than 5 meters before it."
+      }
+    }
+  },
+  {
+    "id": "LV-B-STP-003",
+    "topic": "stopping_and_parking",
+    "subtopic": "Attālums no sabiedriskā transporta pieturas",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "124. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā attālumā no sabiedriskā transporta pieturas zīmes vai iekāpšanas laukuma aizliegts apstāties un stāvēt?",
+        "options": [
+          "Tuvāk par 15 metriem no pieturas zīmes vai marķējuma",
+          "Tuvāk par 5 metriem",
+          "Tuvāk par 25 metriem",
+          "Pieturā drīkst stāvēt bez ierobežojumiem līdz 10 min"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apstāties un stāvēt aizliegts sabiedriskā transporta pieturās un tuvāk par 15 metriem no zīmes abos virzienos, ja nav marķējuma 947 (CSN 124. punkts). Izņēmums: pasažieru iekāpšana/izkāpšana, ja netiek traucēts sabiedriskais transports.",
+        "keyTakeaway": "Sabiedriskā transporta pieturā 15 m zonā stāvēt aizliegts."
+      },
+      "en": {
+        "question": "What is the minimum distance from a public transit stop sign or boarding platform where parking is banned?",
+        "options": [
+          "Closer than 15 meters from the stop sign or road marking",
+          "Closer than 5 meters",
+          "Closer than 25 meters",
+          "Vehicles may park up to 10 minutes freely"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 124, stopping and parking are prohibited within 15 meters of public transit stop signs unless briefly picking up passengers without obstructing buses.",
+        "keyTakeaway": "No parking within 15 meters of a public transit stop."
+      }
+    }
+  },
+  {
+    "id": "LV-B-STP-004",
+    "topic": "stopping_and_parking",
+    "subtopic": "Stāvēšanas attālums pie dzelzceļa pārbrauktuves",
+    "difficulty": "hard",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "125. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā attālumā no dzelzceļa pārbrauktuves aizliegts STĀVĒT?",
+        "options": [
+          "Tuvāk par 50 metriem no dzelzceļa pārbrauktuves",
+          "Tikai uz pašas pārbrauktuves",
+          "Tuvāk par 10 metriem",
+          "Tuvāk par 100 metriem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apstāties aizliegts uz dzelzceļa pārbrauktuvēm, bet stāvēt (ilgstoša novietošana) aizliegts uz pārbrauktuvēm un tuvāk par 50 metriem no tām (CSN 125. punkts).",
+        "keyTakeaway": "Stāvēt aizliegts tuvāk par 50 metriem no dzelzceļa pārbrauktuves."
+      },
+      "en": {
+        "question": "At what distance from a railway crossing is PARKING prohibited?",
+        "options": [
+          "Closer than 50 meters from the railway crossing",
+          "Only directly on the crossing",
+          "Closer than 10 meters",
+          "Closer than 100 meters"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: While momentary stopping is barred directly on crossings, parking is prohibited on crossings and closer than 50 meters from them (CSN Section 125).",
+        "keyTakeaway": "Parking is banned within 50 meters of a railway crossing."
+      }
+    }
+  },
+  {
+    "id": "LV-B-STP-005",
+    "topic": "stopping_and_parking",
+    "subtopic": "Attālums līdz nepārtrauktajai līnijai",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "124. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādam jābūt minimālajam attālumam starp apstādinātu transportlīdzekli un nepārtraukto ceļa garenvirziena līniju?",
+        "options": [
+          "Ne mazākam par 3 metriem",
+          "Ne mazākam par 1 metru",
+          "Ne mazākam par 5 metriem",
+          "Attālums nav noteikts, ja auto stāv pie apmales"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apstāties un stāvēt aizliegts vietās, kur attālums starp brauktuves nepārtraukto līniju un apstādināto transportlīdzekli ir mazāks par 3 metriem, jo tas piespiestu citus autovadītājus pārkāpt noteikumus un šķērsot nepārtraukto līniju (CSN 124. punkts).",
+        "keyTakeaway": "Līdz nepārtrauktajai līnijai no novietotā auto jābūt vismaz 3 metriem."
+      },
+      "en": {
+        "question": "What is the minimum required distance between a parked vehicle and a solid longitudinal dividing line?",
+        "options": [
+          "At least 3 meters",
+          "At least 1 meter",
+          "At least 5 meters",
+          "No specific distance if parked next to the curb"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 124, stopping or parking where the clearance between the vehicle and a solid white dividing line is less than 3 meters is prohibited.",
+        "keyTakeaway": "Maintain at least 3 meters between your parked car and a solid center line."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PED-001",
+    "topic": "pedestrians_and_cyclists",
+    "subtopic": "Gājēju pārejas šķērsošanas pienākumi",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "145. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Tuvojoties neregulējamai gājēju pārejai, kādi ir vadītāja pienākumi?",
+        "options": [
+          "Jāsamazina braukšanas ātrums un jādod ceļš gājējiem, kas atrodas uz pārejas vai uzkāpj uz tās",
+          "Jāpalielina ātrums, ja gājējs vēl ir uz pretējās ietves",
+          "Jāieslēdz skaņas signāls, lai brīdinātu gājējus",
+          "Jādod ceļš tikai bērniem un invalīdiem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Tuvojoties neregulējamai gājēju pārejai, vadītājam jāsamazina ātrums vai jāapstājas, lai dotu ceļu gājējiem, kuri šķērso brauktuvi pa gājēju pāreju vai iziet uz tās (CSN 145. punkts).",
+        "keyTakeaway": "Pirms gājēju pārejas samazini ātrumu un vienmēr palaid gājējus."
+      },
+      "en": {
+        "question": "When approaching an uncontrolled pedestrian crossing, what are the driver's duties?",
+        "options": [
+          "Reduce speed and yield to pedestrians who are on or stepping onto the crossing",
+          "Accelerate if the pedestrian is still on the far sidewalk",
+          "Sound the horn to warn pedestrians to stay back",
+          "Yield only to children and disabled individuals"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 145, drivers approaching uncontrolled crosswalks must slow down or stop to yield to pedestrians crossing or entering the crossing.",
+        "keyTakeaway": "Always slow down before crosswalks and yield to pedestrians."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PED-002",
+    "topic": "pedestrians_and_cyclists",
+    "subtopic": "Pagrieziens un gājēju palaišana",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "144. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Nogriežoties pa labi vai pa kreisi krustojumā, vai vadītājam jādod ceļš gājējiem, kas šķērso to ceļu, kurā viņš iegriežas?",
+        "options": [
+          "Jā, gājējiem vienmēr jādod ceļš neatkarīgi no tā, vai tur ir iezīmēta pāreja vai nav",
+          "Nē, ja tur nav uzzīmētas 'zebras' līnijas",
+          "Tikai tad, ja gājējs rāda rokas signālu",
+          "Tikai diennakts tumšajā laikā"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Nogriežoties pa labi vai pa kreisi, vadītājam jādod ceļš gājējiem un velosipēdistiem, kas šķērso to brauktuvi, kurā viņš nogriežas (CSN 144. punkts), pat ja gājēju pāreja nav marķēta ar zebras līniju.",
+        "keyTakeaway": "Griežoties krustojumā, vienmēr palaid gājējus, kas šķērso šķērsielu."
+      },
+      "en": {
+        "question": "When turning right or left at an intersection, must a driver yield to pedestrians crossing the entered road?",
+        "options": [
+          "Yes, always yield to pedestrians crossing the roadway into which you are turning, even without marked lines",
+          "No, only if a zebra crossing is painted",
+          "Only if the pedestrian raises an arm",
+          "Only at night"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 144, drivers turning at intersections must yield to pedestrians and cyclists crossing the road they are turning into.",
+        "keyTakeaway": "Always yield to pedestrians crossing the street you are turning into."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PED-003",
+    "topic": "pedestrians_and_cyclists",
+    "subtopic": "Velosipēdista pārvietošanās pa gājēju pāreju",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "212. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kā velosipēdistam un elektroskrejriteņa vadītājam atļauts šķērsot brauktuvi pa gājēju pāreju?",
+        "options": [
+          "Atļauts braukt gājēju iešanas ātrumā, netraucējot un neapdraudot gājējus",
+          "Atļauts braukt ar maksimālo ātrumu bez apstāšanās",
+          "Šķērsot pāreju braukšus ir aizliegts jebkādos apstākļos",
+          "Tikai turot rokās skaņas signāla pogu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Velosipēdistiem un elektroskrejriteņu vadītājiem Latvijā ir atļauts šķērsot brauktuvi pa gājēju pāreju braukšus ar gājēju pārvietošanās ātrumu, iepriekš pārliecinoties par drošību (CSN 212. un 228. punkts).",
+        "keyTakeaway": "Velobraucējs drīkst šķērsot gājēju pāreju tikai gājēju soļu ātrumā."
+      },
+      "en": {
+        "question": "How is a cyclist or e-scooter rider permitted to cross a roadway on a pedestrian crosswalk?",
+        "options": [
+          "Permitted to ride across at pedestrian walking speed without endangering pedestrians",
+          "Permitted at maximum speed without slowing down",
+          "Riding across is strictly prohibited under all circumstances",
+          "Only while sounding an audible warning bell"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under Latvian CSN Section 212, cyclists and micromobility riders may ride across pedestrian crosswalks at walking speed after verifying safety.",
+        "keyTakeaway": "Cyclists may ride across crosswalks only at pedestrian walking speed."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PED-004",
+    "topic": "pedestrians_and_cyclists",
+    "subtopic": "Gājēji ārpus apdzīvotām vietām un atstarotāji",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "13. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Pa kuru ceļa pusi gājējam jāpārvietojas ārpus apdzīvotām vietām tumsā un kādam jābūt aprīkojumam?",
+        "options": [
+          "Pa ceļa kreiso pusi (pretī transporta kustībai), un obligāti jāvalkā atstarotājs vai gaismu atstarojoša veste",
+          "Pa ceļa labo pusi kopā ar automobiļu plūsmu",
+          "Pa ceļa vidus līniju",
+          "Pārvietošanās kājām ārpus pilsētas ir aizliegta"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ārpus apdzīvotām vietām gājējiem jāiet pa ceļa kreiso nomali vai brauktuves malu pretim transportlīdzekļu braukšanas virzienam. Tumsā obligāti jālieto atstarotājs vai atstarojoša veste (CSN 13. punkts).",
+        "keyTakeaway": "Gājējam ārpus pilsētas jāiet pret satiksmi un ar atstarotāju."
+      },
+      "en": {
+        "question": "On which side of the road must pedestrians walk outside built-up areas at night, and with what equipment?",
+        "options": [
+          "On the left side (facing oncoming traffic), wearing a reflector or reflective safety vest",
+          "On the right side with the flow of vehicular traffic",
+          "Along the center dividing line",
+          "Walking outside built-up areas is forbidden"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 13, pedestrians outside built-up areas must walk on the left shoulder facing oncoming vehicles and wear reflectors or reflective vests in darkness.",
+        "keyTakeaway": "Walk on the left facing oncoming traffic and always wear reflectors."
+      }
+    }
+  },
+  {
+    "id": "LV-B-TRM-001",
+    "topic": "public_transport",
+    "subtopic": "Tramvaja priekšroka vienādas nozīmes krustojumā",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "131. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Vienādas nozīmes ceļu krustojumā no kreisās puses tuvojas tramvajs. Kuram ir priekšroka?",
+        "options": [
+          "Tramvajam, jo vienādas nozīmes krustojumos tramvajam ir priekšroka pār bezsliežu transportu neatkarīgi no virziena",
+          "Tavam automobilim, jo tramvajs atrodas no kreisās puses",
+          "Tam, kurš pirmais iebrauc krustojumā",
+          "Tramvajam nav priekšrokas, ja tas nogriežas"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vienādas nozīmes ceļu krustojumā tramvajam ir priekšroka pār bezsliežu transportlīdzekļiem neatkarīgi no tā braukšanas virziena (CSN 131. punkts). Labās rokas likums pret tramvaju nestrādā, ja ceļu nozīme ir vienāda.",
+        "keyTakeaway": "Vienādas nozīmes krustojumā tramvajam vienmēr ir priekšroka."
+      },
+      "en": {
+        "question": "At an uncontrolled equal intersection, a tram approaches from your left. Who has right of way?",
+        "options": [
+          "The tram, because at equal intersections trams have priority over road vehicles regardless of approach direction",
+          "Your car, because the tram is on your left",
+          "Whichever enters the junction first",
+          "The tram loses priority when turning"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 131, trams have priority over non-rail vehicles at equal intersections regardless of direction of approach.",
+        "keyTakeaway": "At equal intersections, trams always have right of way."
+      }
+    }
+  },
+  {
+    "id": "LV-B-TRM-002",
+    "topic": "public_transport",
+    "subtopic": "Autobusa izbraukšana no pieturas apdzīvotā vietā",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "150. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Apdzīvotā vietā pasažieru autobuss rāda kreiso pagrieziena rādītāju un uzsāk braukšanu no apzīmētas pieturas. Kādi ir tavi pienākumi?",
+        "options": [
+          "Jādod ceļš no pieturas braukšanu uzsākošajam sabiedriskajam transportam",
+          "Jāpalielina ātrums un jāapdzen autobuss",
+          "Autobusam nav priekšrokas, tas drīkst izbraukt tikai tukšā ceļā",
+          "Jāieslēdz skaņas signāls un jābrauc garām"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Apdzīvotās vietās vadītājiem jādod ceļš pasažieru sabiedriskajiem transportlīdzekļiem, kas uzsāk braukšanu no apzīmētas pieturas (CSN 150. punkts).",
+        "keyTakeaway": "Pilsētā palaid no pieturas izbraucošu autobusu vai trolejbusu."
+      },
+      "en": {
+        "question": "Inside a built-up area, a scheduled transit bus signals left and begins pulling out of a marked bus stop. What is your duty?",
+        "options": [
+          "Yield to the public transit vehicle pulling out of the stop",
+          "Accelerate to overtake the bus before it merges",
+          "The bus has no priority and must wait until clear",
+          "Honk your horn and proceed ahead"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 150, drivers in built-up areas must yield to scheduled buses and trolleybuses departing from marked stops.",
+        "keyTakeaway": "In towns, yield to buses pulling out of designated stops."
+      }
+    }
+  },
+  {
+    "id": "LV-B-TRM-003",
+    "topic": "public_transport",
+    "subtopic": "Josla maršruta transportam ('A' josla)",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "85. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Vai vieglajam automobilim atļauts braukt pa 'A' joslu (sabiedriskā transporta joslu)?",
+        "options": [
+          "Aizliegts, izņemot atsevišķus gadījumus (nogriešanās pa labi, ja josla atdalīta ar pārtrauktu līniju, vai elektromobiļiem)",
+          "Atļauts jebkurā laikā, ja netraucē autobusiem",
+          "Atļauts tikai sastrēgumos",
+          "Atļauts visiem automobiļiem ar 2 vai vairāk pasažieriem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Pa joslu, kas paredzēta pasažieru sabiedriskajam transportam (apzīmēta ar zīmi 505 vai burtu 'A'), citiem transportlīdzekļiem braukt aizliegts (CSN 85. punkts). Ja josla no pamatbrauktuves atdalīta ar pārtrauktu līniju, tajā atļauts iebraukt pirms labā pagrieziena vai pasažieru iekāpšanai.",
+        "keyTakeaway": "Pa 'A' joslu braukt aizliegts (izņemot labo pagriezienu pie pārtrauktās līnijas vai elektroauto)."
+      },
+      "en": {
+        "question": "May a regular passenger car drive in a designated bus lane ('A' lane)?",
+        "options": [
+          "Prohibited, except when entering via broken lines to turn right or for authorized electric vehicles",
+          "Permitted at all times if not impeding buses",
+          "Permitted only during heavy traffic jams",
+          "Permitted for high-occupancy vehicles (2+ passengers)"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 85, private passenger cars are barred from dedicated 'A' transit lanes, with narrow exceptions for right turns via broken lines.",
+        "keyTakeaway": "Bus lanes are restricted; private cars cannot use them except to turn right."
+      }
+    }
+  },
+  {
+    "id": "LV-B-TRM-004",
+    "topic": "public_transport",
+    "subtopic": "Tramvaja pietura ielas vidū bez iekāpšanas saliņas",
+    "difficulty": "hard",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "148. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Ielas vidū sliežu ceļā apturēts tramvajs pasažieru iekāpšanai (pietura bez saliņas). Kā jārīkojas vadītājam?",
+        "options": [
+          "Jāapstājas aiz tramvaja un jādod ceļš pasažieriem, kas iet uz tramvaju vai no tā",
+          "Drīkst uzmanīgi apbraukt tramvaju pa labo pusi bez apstāšanās",
+          "Jāieslēdz skaņas signāls un jāpaātrinās",
+          "Jāapbrauc tramvajs pa pretējām sliedēm"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vadītājam jādod ceļš gājējiem, kas iet uz pieturā apturētu tramvaju vai no tā (durvju pusē), ja iekāpšana notiek no brauktuves. Vadītājs drīkst turpināt braukšanu tikai pēc tam, kad gājēji atbrīvojuši brauktuvi un tramvaja durvis aizvērušās (CSN 148. punkts).",
+        "keyTakeaway": "Pasažieru iekāpšanas laikā no brauktuves apstājies un palaid gājējus."
+      },
+      "en": {
+        "question": "A tram stops in the center of the road to board passengers where there is no pedestrian platform. How must drivers proceed?",
+        "options": [
+          "Stop behind the tram and yield to passengers walking between the sidewalk and tram doors",
+          "Drive slowly past the open doors on the right without stopping",
+          "Sound the horn and accelerate through",
+          "Pass the tram using the oncoming tracks"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 148, drivers must stop behind a tram boarding from the roadway and allow passengers to reach the sidewalk safely.",
+        "keyTakeaway": "Stop behind a tram boarding passengers from the carriageway."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LAN-001",
+    "topic": "lane_selection",
+    "subtopic": "Rāvējslēdzēja princips",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "82. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Ko nosaka 'rāvējslēdzēja princips' Latvijas ceļu satiksmē, kad viena no braukšanas joslām beidzas sastrēgumā?",
+        "options": [
+          "Vadītāji no abām joslām iebrauc atlikušajā joslā pārmaiņus pa vienam (1:1)",
+          "Priekšroka ir tikai tai joslai, kas turpinās, un otra josla gaida tukšu ceļu",
+          "Iebrauc tas automobilis, kurš ir lielāks vai brauc ātrāk",
+          "Princips attiecas tikai uz kravas transportu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vietās, kur braukšanas josla beidzas un veidojas sastrēgums, vadītājiem jāievēro rāvējslēdzēja princips — brauktuves turpinājumā transportlīdzekļi no blakus joslām iekļaujas pārmaiņus pa vienam (CSN 82.1 punkts).",
+        "keyTakeaway": "Rāvējslēdzēja princips = sastrēgumā joslas saplūst pārmaiņus pa vienam auto."
+      },
+      "en": {
+        "question": "What does the 'zipper merge principle' dictate in Latvian traffic when a lane ends in slow congested traffic?",
+        "options": [
+          "Drivers from both lanes merge into the continuous lane alternately one by one (1:1)",
+          "Only the continuous lane has priority; ending lane cars wait indefinitely",
+          "The larger or faster vehicle takes priority",
+          "The principle applies only to freight trucks"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 82.1, in congested traffic where a lane terminates, drivers should merge alternately in turn (zipper merge 1:1).",
+        "keyTakeaway": "Zipper merge means taking turns one by one where a lane ends."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LAN-002",
+    "topic": "lane_selection",
+    "subtopic": "Braukšana ārpus apdzīvotām vietām daudzjoslu ceļā",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "76. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Pa kuru joslu jāvada transportlīdzeklis ārpus apdzīvotām vietām uz ceļa ar divām vai vairāk joslām vienā virzienā?",
+        "options": [
+          "Pēc iespējas tuvāk brauktuves labajai malai (pa labo malējo joslu)",
+          "Pa kreiso joslu, jo tur parasti ir labāks segums",
+          "Pa jebkuru brīvo joslu pēc vadītāja izvēles",
+          "Vienmēr pa vidējo joslu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ārpus apdzīvotām vietām jābrauc pēc iespējas tuvāk brauktuves labajai malai. Kreisās joslas atļauts izmantot tikai apdzīšanai, apbraukšanai vai kreisajam pagriezienam (CSN 76. punkts).",
+        "keyTakeaway": "Ārpus pilsētas vienmēr turi labo malu un atbrīvo kreiso joslu."
+      },
+      "en": {
+        "question": "Which lane must you use outside built-up areas on a roadway with two or more lanes in the same direction?",
+        "options": [
+          "As close as possible to the right edge (rightmost lane)",
+          "The leftmost lane because pavement quality is generally better",
+          "Any lane of the driver's choice",
+          "Always the center lane"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 76, drivers outside built-up areas must keep to the rightmost lane, using left lanes only to pass or turn.",
+        "keyTakeaway": "Keep right outside built-up areas; use left lanes only to overtake."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LAN-003",
+    "topic": "lane_selection",
+    "subtopic": "Kreisais pagrieziens vienvirziena ielā",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "87. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds stāvoklis uz brauktuves jāieņem pirms kreisā pagrieziena vienvirziena ielā?",
+        "options": [
+          "Iespējami tuvāk brauktuves kreisajai malai (kreisajā malējā joslā)",
+          "Brauktuves vidū",
+          "Labajā malējā joslā",
+          "Nav nozīmes, ja ieslēgts kreisais pagrieziena rādītājs"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vienvirziena ceļā pirms nogriešanās pa kreisi vadītājam laicīgi jāieņem stāvoklis pēc iespējas tuvāk brauktuves kreisajai malai (CSN 87. punkts), jo pretī braucošas satiksmes nav.",
+        "keyTakeaway": "Vienvirziena ielā pirms kreisā pagrieziena ieņem galējo kreiso malu."
+      },
+      "en": {
+        "question": "What lane position must a driver take before turning left on a one-way street?",
+        "options": [
+          "As close as possible to the leftmost curb (leftmost lane)",
+          "In the dead center of the carriageway",
+          "In the rightmost lane",
+          "Lane position does not matter if signaling"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 87, before turning left on a one-way street, the driver must position the vehicle against the extreme left edge.",
+        "keyTakeaway": "On a one-way street, turn left from the extreme left curb."
+      }
+    }
+  },
+  {
+    "id": "LV-B-VEH-001",
+    "topic": "vehicle_safety",
+    "subtopic": "Ziemas riepu minimālais protektors",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "223. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir minimālais pieļaujamais riepu protektora dziļums vieglajam automobilim ziemas periodā (1. decembris – 1. marts)?",
+        "options": [
+          "4,0 mm",
+          "1,6 mm",
+          "3,0 mm",
+          "2,0 mm"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ziemas periodā (no 1. decembra līdz 1. martam) vieglo automobiļu riepu protektora dziļums nedrīkst būt mazāks par 4,0 mm (CSN 223. punkts). Vasaras riepām minimālais ir 1,6 mm.",
+        "keyTakeaway": "Ziemas riepu minimālais protektors ir 4,0 mm (1. decembris – 1. marts)."
+      },
+      "en": {
+        "question": "What is the minimum permitted tire tread depth for passenger cars in winter (Dec 1 – Mar 1) in Latvia?",
+        "options": [
+          "4.0 mm",
+          "1.6 mm",
+          "3.0 mm",
+          "2.0 mm"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 223, winter tires on passenger cars must have a tread depth of at least 4.0 mm from December 1 to March 1.",
+        "keyTakeaway": "Winter tire tread depth must be at least 4.0 mm."
+      }
+    }
+  },
+  {
+    "id": "LV-B-VEH-002",
+    "topic": "vehicle_safety",
+    "subtopic": "Vasaras riepu minimālais protektors",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "223. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir minimālais pieļaujamais riepu protektora dziļums vieglajam automobilim vasaras periodā?",
+        "options": [
+          "1,6 mm",
+          "1,0 mm",
+          "2,5 mm",
+          "3,5 mm"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vasaras periodā vieglo automobiļu riepu protektora dziļums nedrīkst būt mazāks par 1,6 mm (CSN 223. punkts). Drošībai pret akvaplanēšanu ieteicams riepas mainīt jau pie 3 mm.",
+        "keyTakeaway": "Vasaras riepu minimālais likumīgais protektors ir 1,6 mm."
+      },
+      "en": {
+        "question": "What is the minimum permitted tire tread depth for passenger cars during summer in Latvia?",
+        "options": [
+          "1.6 mm",
+          "1.0 mm",
+          "2.5 mm",
+          "3.5 mm"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 223, summer tires on passenger cars must have at least 1.6 mm of tread depth across the principal grooves.",
+        "keyTakeaway": "Summer tire legal minimum tread depth is 1.6 mm."
+      }
+    }
+  },
+  {
+    "id": "LV-B-VEH-003",
+    "topic": "vehicle_safety",
+    "subtopic": "Dienas gaitas gaismas",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "162. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kad Latvijā automobilim jābūt iedegtām tuvajām gaismām vai dienas gaitas lukturiem?",
+        "options": [
+          "Vienmēr visu gadu 24 stundas diennaktī",
+          "Tikai tumsā un sliktas redzamības apstākļos",
+          "Tikai ārpus apdzīvotām vietām",
+          "Tikai no 1. septembra līdz 1. maijam"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Mehāniskajiem transportlīdzekļiem Latvijā diennakts gaišajā laikā jābrauc ar iedegtiem dienas gaitas lukturiem vai tuvās gaismas lukturiem visu gadu (CSN 162. punkts).",
+        "keyTakeaway": "Gaismām jābūt ieslēgtām vienmēr (24/7/365)."
+      },
+      "en": {
+        "question": "When must daytime running lights or low beams be switched on while driving in Latvia?",
+        "options": [
+          "At all times, 24 hours a day year-round",
+          "Only in darkness and adverse weather",
+          "Only outside built-up areas",
+          "Only from September 1 to May 1"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 162, daytime running lights or dipped headlights must be used on all motor vehicles at all times year-round.",
+        "keyTakeaway": "Headlights or DRLs must be illuminated at all times."
+      }
+    }
+  },
+  {
+    "id": "LV-B-VEH-004",
+    "topic": "vehicle_safety",
+    "subtopic": "Stikla tīrītāju bojājums lietus laikā",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "222. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Vai atļauts turpināt braukšanu lietus vai sniega laikā, ja nedarbojas vadītāja puses stikla tīrītājs?",
+        "options": [
+          "Aizliegts turpināt braukšanu",
+          "Atļauts braukt līdz tuvākajam servisam ar ātrumu līdz 30 km/h",
+          "Atļauts, ja ieslēgts avārijas gaismas signāls",
+          "Atļauts, ja pasažieris palīdz vērot ceļu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Aizliegts braukt, ja lietus vai snigšanas laikā nedarbojas stikla tīrītājs vadītāja pusē (CSN 222. punkts). Šāds bojājums tieši apdraud satiksmes drošību nulles redzamības dēļ.",
+        "keyTakeaway": "Ja lietū nestrādā vadītāja logu tīrītājs, braukt ir kategoriski aizliegts."
+      },
+      "en": {
+        "question": "May a vehicle continue driving in rain or snow if the driver's side windshield wiper has failed?",
+        "options": [
+          "Driving is strictly prohibited",
+          "Permitted to drive to a workshop at under 30 km/h",
+          "Permitted with hazard flashers on",
+          "Permitted if a passenger helps look out"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 222, operating a vehicle in rain or snowfall when the driver's side wiper does not function is strictly prohibited.",
+        "keyTakeaway": "Driving in rain or snow with a broken driver-side wiper is prohibited."
+      }
+    }
+  },
+  {
+    "id": "LV-B-VEH-005",
+    "topic": "vehicle_safety",
+    "subtopic": "Tālo gaismu pārslēgšana uz tuvajām",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "165. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā attālumā līdz pretim braucošajam transportlīdzeklim tālās gaismas jāpārslēdz uz tuvajām?",
+        "options": [
+          "Ne mazāk kā 150 metru attālumā vai agrāk, ja pretim braucošais par to signalizē",
+          "Ne mazāk kā 50 metru attālumā",
+          "Tikai tad, kad transportlīdzekļi jau izmainās",
+          "Pārslēgšana nav obligāta, ja brauc pa šoseju"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Tālās gaismas jāpārslēdz uz tuvajām ne mazāk kā 150 m attālumā pirms pretim braucošā auto, kā arī lielākā attālumā, ja vadītājs signalizē par apžilbināšanu (CSN 165. punkts).",
+        "keyTakeaway": "Tālās gaismas izslēdz vismaz 150 metrus pirms pretimbraucošā."
+      },
+      "en": {
+        "question": "At what minimum distance from an oncoming vehicle must high beams be dipped to low beams?",
+        "options": [
+          "At least 150 meters away, or earlier if the oncoming driver flashes headlights",
+          "At least 50 meters away",
+          "Only at the moment of passing",
+          "Dipping is not mandatory on divided motorways"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 165, high beams must be dimmed to low beams at least 150 meters before oncoming traffic, or sooner if dazzling occurs.",
+        "keyTakeaway": "Switch from high to low beams at least 150 meters before oncoming traffic."
+      }
+    }
+  },
+  {
+    "id": "LV-B-DRV-001",
+    "topic": "driver_responsibilities",
+    "subtopic": "Obligātais transportlīdzekļa aprīkojums",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "224. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādam obligātajam aprīkojumam jāatrodas vieglajā automobilī Latvijā?",
+        "options": [
+          "Avārijas trīsstūrim, medicīniskajai aptieciņai, ugunsdzēšamajam aparātam un atstarojošajai vestei",
+          "Tikai rezerves ritenim un domkratam",
+          "Tikai atstarojošajai vestei",
+          "Tikai piekabes āķim un vilkšanas trosei"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vieglajā automobilī obligāti jābūt: avārijas trīsstūrim, pirmās palīdzības aptieciņai, ugunsdzēšamajam aparātam un gaismu atstarojošai vestei (CSN 224. punkts).",
+        "keyTakeaway": "Auto obligātais komplekts: trīsstūris, aptieciņa, ugunsdzēšamais un veste."
+      },
+      "en": {
+        "question": "What mandatory emergency equipment must be carried inside a passenger car in Latvia?",
+        "options": [
+          "Warning triangle, first aid kit, fire extinguisher, and reflective safety vest",
+          "Only a spare tire and jack",
+          "Only a reflective vest",
+          "Only a tow rope and jumper cables"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 224, every passenger car must be equipped with a warning triangle, approved first aid kit, fire extinguisher, and high-visibility vest.",
+        "keyTakeaway": "Mandatory kit: warning triangle, first aid kit, extinguisher, and reflective vest."
+      }
+    }
+  },
+  {
+    "id": "LV-B-DRV-002",
+    "topic": "driver_responsibilities",
+    "subtopic": "Drošības jostu lietošana",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "25. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kuriem transportlīdzekļa pasažieriem obligāti jāpiesprādzējas ar drošības jostām braukšanas laikā?",
+        "options": [
+          "Vadītājam un visiem pasažieriem, kuru sēdvietas aprīkotas ar drošības jostām (arī aizmugurē)",
+          "Tikai vadītājam un priekšējam pasažierim",
+          "Tikai ārpus apdzīvotām vietām",
+          "Tikai bērniem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vadītājam un pasažieriem, kuru sēdvietas aprīkotas ar drošības jostām, braukšanas laikā jābūt piesprādzētiem (CSN 25. punkts). Tas attiecas gan uz priekšējiem, gan aizmugurējiem sēdekļiem.",
+        "keyTakeaway": "Piesprādzēties obligāti visiem — gan priekšā, gan aizmugurē."
+      },
+      "en": {
+        "question": "Which vehicle occupants must wear seatbelts while traveling?",
+        "options": [
+          "The driver and all passengers whose seats are equipped with seatbelts (including rear seats)",
+          "Only the driver and front-seat passenger",
+          "Only outside built-up areas",
+          "Only children under 18"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 25, seatbelt use is mandatory for all occupants in all seats equipped with safety belts.",
+        "keyTakeaway": "Everyone in the vehicle must buckle up, including rear passengers."
+      }
+    }
+  },
+  {
+    "id": "LV-B-DRV-003",
+    "topic": "driver_responsibilities",
+    "subtopic": "Bērnu pārvadāšana vieglajā auto",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "184. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā gadījumā bērnam, braucot vieglajā automobilī, obligāti jāizmanto bērnu sēdeklītis vai paliktnis?",
+        "options": [
+          "Ja bērna augums nepārsniedz 150 cm",
+          "Ja bērns ir jaunāks par 7 gadiem neatkarīgi no auguma",
+          "Tikai tad, ja brauc priekšējā sēdeklī",
+          "Ja bērna svars ir zem 50 kg"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Bērnus, kuru augums nepārsniedz 150 cm, transportlīdzeklī, kura sēdvietas aprīkotas ar drošības jostām, jāpārvadā viņu vecumam un svaram piemērotā bērnu sēdeklītī vai uz paliktņa (CSN 184. punkts).",
+        "keyTakeaway": "Līdz 150 cm augumam bērnam obligāts speciāls sēdeklītis vai paliktnis."
+      },
+      "en": {
+        "question": "Under what condition must a child use a child safety seat or booster cushion in a passenger car?",
+        "options": [
+          "If the child's height is under 150 cm",
+          "If the child is younger than 7 years regardless of height",
+          "Only when riding in the front passenger seat",
+          "If the child weighs under 50 kg"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 184, children under 150 cm in height must be restrained in an approved child car seat or booster suited to their weight and height.",
+        "keyTakeaway": "Children under 150 cm must use an approved child car seat or booster."
+      }
+    }
+  },
+  {
+    "id": "LV-B-DRV-004",
+    "topic": "driver_responsibilities",
+    "subtopic": "Viedtālruņa lietošana pie stūres",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "25. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kā vadītājam atļauts lietot mobilo tālruni transportlīdzekļa kustības laikā?",
+        "options": [
+          "Tikai izmantojot brīvroku sistēmu (hands-free), neturot tālruni rokā",
+          "Atļauts turēt rokā, ja saruna ir īsāka par vienu minūti",
+          "Atļauts rakstīt īsziņas, ja auto stāv pie sarkanās gaismas",
+          "Atļauts tikai lēnas braukšanas laikā"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Transportlīdzekļa vadītājam kustības laikā aizliegts lietot tālruni, viedierīci vai piezīmjdatoru, turot to rokā. Lietošana atļauta tikai ar brīvroku sistēmu (CSN 25. punkts).",
+        "keyTakeaway": "Tālruni pie stūres rokās turēt aizliegts — izmanto tikai brīvroku sistēmu."
+      },
+      "en": {
+        "question": "How is a driver legally permitted to use a mobile phone while driving?",
+        "options": [
+          "Exclusively using a hands-free system without holding the phone in hand",
+          "Holding the phone is allowed for calls under one minute",
+          "Typing messages is allowed while stopped at red lights",
+          "Holding the phone is allowed in slow-moving traffic"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 25, handling any mobile phone or handheld smart device while driving is strictly prohibited unless operating through a hands-free interface.",
+        "keyTakeaway": "Never hold a phone while driving; hands-free use only."
+      }
+    }
+  },
+  {
+    "id": "LV-B-ALC-001",
+    "topic": "alcohol_and_prohibitions",
+    "subtopic": "Alkohola norma jaunajiem vadītājiem",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "28. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāda ir maksimālā pieļaujamā alkohola koncentrācija asinīs autovadītājam ar stāžu zem 2 gadiem?",
+        "options": [
+          "0,2 promiles",
+          "0,5 promiles",
+          "0,0 promiles",
+          "0,8 promiles"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vadītājiem, kuru vadītāja stāžs ir mazāks par diviem gadiem, alkohola koncentrācija asinīs nedrīkst pārsniegt 0,2 promiles (Ceļu satiksmes likuma 28. pants).",
+        "keyTakeaway": "Jaunajiem vadītājiem (stāžs < 2 gadi) alkohola robeža ir 0,2 promiles."
+      },
+      "en": {
+        "question": "What is the maximum permissible blood alcohol concentration for drivers with less than 2 years experience in Latvia?",
+        "options": [
+          "0.2 promille",
+          "0.5 promille",
+          "0.0 promille",
+          "0.8 promille"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under Section 28 of the Road Traffic Law, novice drivers with under two years of driving experience are subject to a strict 0.2 promille limit.",
+        "keyTakeaway": "Novice drivers (<2 years license) have a strict 0.2 promille blood alcohol limit."
+      }
+    }
+  },
+  {
+    "id": "LV-B-ALC-002",
+    "topic": "alcohol_and_prohibitions",
+    "subtopic": "Alkohola norma pieredzējušiem vadītājiem",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "28. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāda ir maksimālā pieļaujamā alkohola koncentrācija asinīs B kategorijas vadītājam ar stāžu virs 2 gadiem?",
+        "options": [
+          "0,5 promiles",
+          "0,2 promiles",
+          "0,8 promiles",
+          "1,0 promile"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Vadītājiem ar stāžu virs diviem gadiem vieglā automobiļa vadīšanai pieļaujamā alkohola koncentrācija asinīs nedrīkst pārsniegt 0,5 promiles (Ceļu satiksmes likuma 28. pants).",
+        "keyTakeaway": "Pieredzējušiem vadītājiem (> 2 gadi) alkohola robeža ir 0,5 promiles."
+      },
+      "en": {
+        "question": "What is the maximum permissible blood alcohol concentration for drivers with more than 2 years of experience?",
+        "options": [
+          "0.5 promille",
+          "0.2 promille",
+          "0.8 promille",
+          "1.0 promille"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under Section 28 of the Road Traffic Law, drivers with over two years of experience have a maximum blood alcohol allowance of 0.5 promille.",
+        "keyTakeaway": "Experienced drivers (>2 years) have a 0.5 promille blood alcohol limit."
+      }
+    }
+  },
+  {
+    "id": "LV-B-ALC-003",
+    "topic": "alcohol_and_prohibitions",
+    "subtopic": "Alkohola lietošana pēc CSNg",
+    "difficulty": "hard",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "28. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Vai vadītājam atļauts lietot alkoholiskos dzērienus pēc ceļu satiksmes negadījuma?",
+        "options": [
+          "Kategoriski aizliegts līdz policijas pārbaudei vai atbrīvošanai no tās",
+          "Atļauts nomierināšanās nolūkā",
+          "Atļauts, ja negadījumā nav cietušo",
+          "Atļauts pēc saskaņotā paziņojuma aizpildīšanas"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Transportlīdzekļa vadītājam aizliegts lietot alkoholu, narkotiskas vai psihotropas vielas pēc ceļu satiksmes negadījuma, kurā viņš bijis iesaistīts, līdz policijas pārbaudes veikšanai (Ceļu satiksmes likuma 28. pants). Par to paredzēts sods kā par braukšanu reibumā.",
+        "keyTakeaway": "Pēc avārijas alkoholu lietot ir stingri aizliegts līdz policijas pārbaudei."
+      },
+      "en": {
+        "question": "Is a driver permitted to consume alcoholic beverages after being involved in a road traffic collision?",
+        "options": [
+          "Strictly prohibited until police examination is completed or exempted",
+          "Permitted in small amounts to calm nerves",
+          "Permitted provided there are no injuries",
+          "Permitted immediately after filling the European statement"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under Section 28 of the Road Traffic Law, consuming alcohol after an accident before undergoing official testing carries penalties identical to drunk driving.",
+        "keyTakeaway": "Consuming alcohol after an accident is strictly illegal until tested by police."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SAF-001",
+    "topic": "hazards",
+    "subtopic": "Akvaplanēšana un pareizā rīcība",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "99. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kā jārīkojas vadītājam, ja automobiļa riteņi uz slapja ceļa zaudē saķeri un sākas akvaplanēšana?",
+        "options": [
+          "Plūdeni jāsamazina gāzes pedāļa spiediens, jātura stūre taisni un jāizvairās no straujas bremzēšanas",
+          "Strauji un spēcīgi jānospiež bremžu pedālis",
+          "Strauji jāpagriež stūre uz ceļa nomali",
+          "Jāieslēdz stāvbremze"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Akvaplanēšanas gadījumā starp riepu un ceļu izveidojas ūdens slānis. Strauja bremzēšana vai stūres raustīšana izraisa nekontrolējamu sānslīdi. Jāatlaid gāzes pedālis un jāsagaida saķeres atjaunošanās.",
+        "keyTakeaway": "Akvaplanējot: nespied strauji bremzi, atlaid gāzi un turi stūri taisni."
+      },
+      "en": {
+        "question": "What is the correct action if tires lose grip on standing water and hydroplaning (aquaplaning) occurs?",
+        "options": [
+          "Smoothly ease off the accelerator, keep the steering wheel straight, and avoid abrupt braking",
+          "Slam on the brakes immediately and firmly",
+          "Jerk the steering wheel sharply towards the shoulder",
+          "Pull the handbrake up"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Aquaplaning separates the tire from the asphalt with a water wedge. Sudden braking or steering inputs trigger severe spinouts. Ease off throttle and hold the wheel steady.",
+        "keyTakeaway": "When aquaplaning: ease off the accelerator, do not brake sharply, hold the wheel straight."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SAF-002",
+    "topic": "hazards",
+    "subtopic": "Melnā ledus bīstamākās vietas",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": false,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "99. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kurās vietās rudenī un ziemā visbiežāk veidojas neredzams apledojums ('melnais ledus')?",
+        "options": [
+          "Uz tiltiem, estakādēm, meža ielokos un ceļu posmos ūdenstilpņu tuvumā",
+          "Tikai uz pilsētas bruģa",
+          "Tikai tuneļos",
+          "Vietās, kur ceļš ir tikko noasfaltēts"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Tilti un viadukti atdziest no abām pusēm (no augšas un apakšas), tāpēc ledus tur veidojas vispirms pat pie +2°C gaisa temperatūras. Tāpat mitrums no upēm un ezeriem veicina ātru apledošanu.",
+        "keyTakeaway": "Uz tiltiem un pie upēm melnais ledus veidojas vispirms."
+      },
+      "en": {
+        "question": "Where does invisible black ice form most rapidly in autumn and winter?",
+        "options": [
+          "On bridges, overpasses, forest corridors, and roads alongside water bodies",
+          "Only on city cobblestone streets",
+          "Only inside enclosed tunnels",
+          "Only on freshly paved asphalt"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Bridges freeze first because cold air circulates above and beneath the deck, while proximity to rivers and lakes increases ambient moisture.",
+        "keyTakeaway": "Bridges, overpasses, and lakeside roads freeze first into black ice."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SAF-003",
+    "topic": "hazards",
+    "subtopic": "Savvaļas dzīvnieku bīstamība",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "99. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kā rīkoties, ja krēslā meža posmā uz ceļa pēkšņi izskrien meža dzīvnieks (piemēram, briedis vai aļnis)?",
+        "options": [
+          "Jāveic enerģiska bremzēšana savā joslā; jāizvairās no nekontrolētiem manevriem pretējā joslā vai grāvī",
+          "Jāieslēdz tālās gaismas un skaņas signāls, nebremzējot",
+          "Strauji jāmet stūre pretējā braukšanas joslā",
+          "Jāpalielina ātrums, lai dzīvnieks nobītos"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Sadursmē ar lielu dzīvnieku galvenais mērķis ir maksimāli samazināt ātrumu savā joslā. Bēgšana pretējā joslā bieži beidzas ar frontālu sadursmi ar citu auto vai ietriekšanos kokos.",
+        "keyTakeaway": "Dzīvnieka priekšā strauji bremzē savā joslā, nevis meties pretējā joslā vai kokos."
+      },
+      "en": {
+        "question": "How should you react if a wild animal (such as a deer or elk) suddenly bounds into the roadway in a forest section at dusk?",
+        "options": [
+          "Brake firmly in your lane; avoid uncontrolled evasive swerves into oncoming traffic or ditches",
+          "Flash high beams and sound the horn without decelerating",
+          "Jerk the wheel sharply into the oncoming traffic lane",
+          "Accelerate to scare the animal away"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Heavy braking in your own lane reduces collision energy safely; swerving into oncoming lanes risks fatal head-on crashes with other vehicles.",
+        "keyTakeaway": "Brake firmly in your own lane; avoid swerving into oncoming traffic."
+      }
+    }
+  },
+  {
+    "id": "LV-B-MWY-001",
+    "topic": "motorways",
+    "subtopic": "Aizliegtie satiksmes dalībnieki uz ātrgaitas ceļa",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "157. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kuriem satiksmes dalībniekiem aizliegts braukt pa ātrgaitas ceļu (automaģistrāli)?",
+        "options": [
+          "Gājējiem, velosipēdistiem, mopēdiem un transportam, kura ātrums nepārsniedz 40 km/h",
+          "Visiem automobiļiem ar piekabi",
+          "Motocikliem",
+          "Vieglajiem auto ar dīzeļdzinēju"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Pa ātrgaitas ceļiem aizliegts pārvietoties gājējiem, velosipēdistiem, mopēdiem, traktortehnikai un transportlīdzekļiem, kuru konstrukcijas ātrums ir mazāks par 40 km/h (CSN 157. punkts).",
+        "keyTakeaway": "Uz ātrgaitas ceļa aizliegti gājēji, velo, mopēdi un lēngaita zem 40 km/h."
+      },
+      "en": {
+        "question": "Which road users are prohibited from traveling on motorways and expressways?",
+        "options": [
+          "Pedestrians, cyclists, mopeds, and vehicles unable to travel faster than 40 km/h",
+          "All vehicles towing trailers",
+          "Motorcycles",
+          "Diesel passenger cars"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 157, pedestrians, bicycles, mopeds, farm machinery, and vehicles unable to exceed 40 km/h are barred from motorways.",
+        "keyTakeaway": "Motorways exclude pedestrians, bicycles, mopeds, and vehicles slower than 40 km/h."
+      }
+    }
+  },
+  {
+    "id": "LV-B-MWY-002",
+    "topic": "motorways",
+    "subtopic": "Apgriešanās un braukšana atpakaļgaitā uz automaģistrāles",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "158. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Vai uz automaģistrālēm un ātrgaitas ceļiem atļauts apgriezties braukšanai pretējā virzienā vai braukt atpakaļgaitā?",
+        "options": [
+          "Kategoriski aizliegts visā ceļa posmā (arī sadalošās joslas pārtraukumos)",
+          "Atļauts, ja nav citu automobiļu",
+          "Atļauts tikai tehniskajos apgriešanās lokos",
+          "Atļauts tikai ar ātrumu līdz 20 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Uz ātrgaitas ceļiem aizliegts apgriezties braukšanai pretējā virzienā, iebraukt sadalošajā joslā un braukt atpakaļgaitā (CSN 158. punkts). Tas rada ārkārtēju smagu avāriju risku.",
+        "keyTakeaway": "Uz automaģistrāles apgriezties un braukt atpakaļgaitā ir stingri aizliegts."
+      },
+      "en": {
+        "question": "Are U-turns or reversing maneuvers permitted on motorways?",
+        "options": [
+          "Strictly prohibited along the entire roadway, including dividing barrier gaps",
+          "Permitted when no other cars are in sight",
+          "Permitted in maintenance crossing openings",
+          "Permitted in reverse at under 20 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 158, reversing, performing U-turns, and driving across central dividing reservations on motorways is strictly banned.",
+        "keyTakeaway": "Reversing and U-turns are strictly banned on motorways."
+      }
+    }
+  },
+  {
+    "id": "LV-B-EMG-001",
+    "topic": "emergency_and_first_aid",
+    "subtopic": "Avārijas trīsstūra attālums ārpus apdzīvotām vietām",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "160. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā minimālajā attālumā no automobiļa jāizliek avārijas trīsstūris piespiedu apstāšanās gadījumā ārpus apdzīvotām vietām?",
+        "options": [
+          "Ne mazāk kā 50 metru attālumā (apdzīvotās vietās — ne mazāk kā 15 metru)",
+          "Ne mazāk kā 25 metru attālumā",
+          "Ne mazāk kā 100 metru attālumā",
+          "Tieši pie aizmugurējā bufera"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Piespiedu apstāšanās gadījumā avārijas zīmi (trīsstūri) ārpus apdzīvotām vietām izliek ne mazāk kā 50 m no transportlīdzekļa, bet apdzīvotās vietās — ne mazāk kā 15 m (CSN 160. punkts).",
+        "keyTakeaway": "Avārijas trīsstūris: vismaz 50 m ārpus pilsētas, 15 m pilsētā."
+      },
+      "en": {
+        "question": "At what minimum distance behind a vehicle must a warning triangle be set up outside built-up areas?",
+        "options": [
+          "At least 50 meters (at least 15 meters inside built-up areas)",
+          "At least 25 meters",
+          "At least 100 meters",
+          "Directly beside the rear bumper"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 160, the warning triangle must be placed at least 50 meters behind the vehicle outside built-up areas and 15 meters inside.",
+        "keyTakeaway": "Warning triangle distance: 50 m rural, 15 m urban."
+      }
+    }
+  },
+  {
+    "id": "LV-B-EMG-002",
+    "topic": "emergency_and_first_aid",
+    "subtopic": "Saskaņotā paziņojuma nosacījumi",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "28. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādos gadījumos pēc ceļu satiksmes negadījuma drīkst aizpildīt Saskaņoto paziņojumu bez policijas izsaukšanas?",
+        "options": [
+          "Iesaistīti tikai 2 auto, nav cietušo personu, nav bojāta trešo personu manta un vadītāji vienojas par apstākļiem",
+          "Jebkurā avārijā, ja vainīgais atzīst vainu",
+          "Tikai tad, ja bojājumi nepārsniedz 500 eiro",
+          "Ja viens no vadītājiem ir ārzemnieks"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Saskaņoto paziņojumu drīkst noformēt, ja negadījumā iesaistīti tikai 2 transportlīdzekļi, nav cietuši cilvēki, nav nodarīti bojājumi trešo personu mantai un abi vadītāji spēj vienoties par negadījuma apstākļiem.",
+        "keyTakeaway": "Saskaņotais paziņojums: 2 auto, 0 cietušo, 0 trešo personu bojājumu, pilnīga vienošanās."
+      },
+      "en": {
+        "question": "Under what conditions may a European Accident Statement be completed without calling the police?",
+        "options": [
+          "Only 2 vehicles involved, no personal injuries, no damage to third-party property, and mutual agreement on facts",
+          "In any collision if someone admits fault",
+          "Only if vehicle damages are below 500 euros",
+          "Whenever one driver is a foreign national"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under Latvian traffic law, the Agreed Statement can be used if only two vehicles collided, nobody was hurt, no third-party property was damaged, and both drivers agree on circumstances.",
+        "keyTakeaway": "Accident statement: 2 cars, no injuries, no third-party damage, full mutual agreement."
+      }
+    }
+  },
+  {
+    "id": "LV-B-EMG-003",
+    "topic": "emergency_and_first_aid",
+    "subtopic": "Stabila sānu poza bezsamaņas stāvoklī",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "1. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kādā stāvoklī jānovieto bezsamaņā esošs cietušais, kurš elpo patstāvīgi un kuram nav mugurkaula traumas aizdomu?",
+        "options": [
+          "Stabilā sānu pozā, lai nodrošinātu elpceļu brīvību un novērstu nosmakšanu",
+          "Uz muguras ar spilvenu zem galvas",
+          "Sēdus pozīcijā ar noliektu galvu",
+          "Uz vēdera ar rokām aiz muguras"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Bezsamaņā esošs cilvēks, kurš elpo, jānovieto stabilā sānu pozā. Tas novērš mēles atpakaļatkritienu un elpceļu nosprostošanos ar vēmekļiem.",
+        "keyTakeaway": "Elpojošu bezsamaņas cietušo guldi stabilajā sānu pozā."
+      },
+      "en": {
+        "question": "In what position should an unconscious victim who is breathing normally be placed (assuming no spinal injury)?",
+        "options": [
+          "In the recovery position on their side to keep airways clear and prevent suffocation",
+          "Flat on their back with a pillow under their head",
+          "In an upright seated position with head bent forward",
+          "Prone on their stomach with hands behind back"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Placing an unconscious breathing victim in the recovery position prevents airway obstruction by the tongue or vomit.",
+        "keyTakeaway": "Place an unconscious, breathing person into the stable side recovery position."
+      }
+    }
+  },
+  {
+    "id": "LV-B-RAI-001",
+    "topic": "railway_crossings",
+    "subtopic": "Sarkanais mirgojošais signāls pie dzelzceļa",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "173. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Pie dzelzceļa pārbrauktuves mirgo sarkanie signāli, bet barjera vēl nav nolaista. Vai drīkst šķērsot pārbrauktuvi?",
+        "options": [
+          "Aizliegts; mirgojošs sarkans signāls kategoriski aizliedz kustību neatkarīgi no barjeras",
+          "Atļauts, ja vilciens vēl nav redzams",
+          "Atļauts, ja paspēj pārbraukt pirms barjeras nolaišanās",
+          "Atļauts tikai vieglajiem auto"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Mirgojošs sarkans luksofora signāls aizliedz iebraukt dzelzceļa pārbrauktuvē neatkarīgi no tā, vai barjera ir pacelta vai vēl tikai sāk nolaisties (CSN 173. punkts).",
+        "keyTakeaway": "Sarkanā gaisma pie sliedēm = iebraukt aizliegts vienmēr."
+      },
+      "en": {
+        "question": "Red flashing signals are active at a level crossing, but the barrier gate has not lowered yet. May you cross?",
+        "options": [
+          "Prohibited; a flashing red signal strictly forbids crossing regardless of barrier state",
+          "Permitted if no train is visible yet",
+          "Permitted if you can make it across before the barrier drops",
+          "Permitted for passenger cars only"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 173, an active flashing red crossing signal bars entry across the tracks regardless of gate position.",
+        "keyTakeaway": "Red flashing light at railway crossing strictly prohibits crossing."
+      }
+    }
+  },
+  {
+    "id": "LV-B-RAI-002",
+    "topic": "railway_crossings",
+    "subtopic": "Apstāšanās vieta pirms dzelzceļa bez zīmēm",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "175. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kur vadītājam jāapstājas pirms dzelzceļa pārbrauktuves, ja nav stop-līnijas un nav aizlieguma zīmju, bet tuvojas vilciens?",
+        "options": [
+          "Ne tuvāk par 10 metriem no tuvākās sliedes",
+          "1 metru no sliedes",
+          "Tieši starp sliežu ceļiem",
+          "Ne tuvāk par 50 metriem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Ja pirms dzelzceļa pārbrauktuves nav stop-līnijas vai zīmes 207, vadītājam jāapstājas ne tuvāk par 10 m no tuvākās sliedes, bet barjeras gadījumā — ne tuvāk par 5 m no barjeras (CSN 175. punkts).",
+        "keyTakeaway": "Pie sliedēm bez zīmēm apstājies vismaz 10 metrus pirms pirmās sliedes."
+      },
+      "en": {
+        "question": "Where must a driver stop before a railway level crossing if no stop line or signs exist when a train approaches?",
+        "options": [
+          "Not closer than 10 meters from the nearest rail",
+          "1 meter from the nearest rail",
+          "Between the tracks",
+          "Not closer than 50 meters"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Under CSN Section 175, when required to stop without a stop line, drivers must halt at least 10 meters before the nearest rail (or 5 meters from barriers).",
+        "keyTakeaway": "Stop at least 10 meters before the nearest rail if no stop line is marked."
+      }
+    }
+  },
+  {
+    "id": "LV-B-ECO-001",
+    "topic": "eco_driving",
+    "subtopic": "Pārnesumu pārslēgšana degvielas ekonomijai",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "1. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāds ir optimālais dzinēja apgriezienu diapazons pārnesuma pārslēgšanai uz augšu ekonomiskas braukšanas nolūkā parastam vieglajam automobilim?",
+        "options": [
+          "Aptuveni pie 2000–2500 apgriezieniem minūtē (RPM)",
+          "Tikai pie dzinēja maksimālajiem apgriezieniem (virs 5000 RPM)",
+          "Vienmēr pie 1000 RPM",
+          "Pārnesums jāpārslēdz tikai tad, kad dzinējs sāk raustīties"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Eko-braukšanas pamatprincips ir savlaicīga pārnesumu pārslēgšana augšup pie 2000–2500 RPM benzīna dzinējiem (dīzeļiem jau pie 1800–2000 RPM), novēršot lieku degvielas patēriņu un dzinēja troksni.",
+        "keyTakeaway": "Ekonomiskai braukšanai pārslēdz pārnesumu augšup jau pie 2000–2500 RPM."
+      },
+      "en": {
+        "question": "What is the optimal engine RPM range for upshifting to achieve fuel efficiency in standard modern passenger cars?",
+        "options": [
+          "Approximately 2000–2500 RPM (around 1800–2000 RPM for diesels)",
+          "Only at redline maximum power (above 5000 RPM)",
+          "Always below 1000 RPM",
+          "Only when the engine begins shuddering"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: Eco-driving best practice recommends upshifting smoothly at 2000–2500 RPM to minimize fuel consumption and emissions.",
+        "keyTakeaway": "Upshift early at 2000–2500 RPM for optimum fuel economy."
+      }
+    }
+  },
+  {
+    "id": "LV-B-ECO-002",
+    "topic": "eco_driving",
+    "subtopic": "Paredzoša braukšana un inerce",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "1. punkts"
+    },
+    "translations": {
+      "lv": {
+        "question": "Kāda vadīšanas tehnika visefektīvāk samazina degvielas patēriņu un bremžu nodilumu pilsētā?",
+        "options": [
+          "Paredzoša braukšana: laicīga akseleratora atlaišana un ripošana ieslēgtā pārnesumā pirms sarkanā signāla",
+          "Bieža paātrināšanās un strauja bremzēšana pie katra luksofora",
+          "Ripošana neitrālajā pārnesumā ar izslēgtu dzinēju",
+          "Pastāvīga braukšana ar pirmo pārnesumu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Noteikuma pamats: Mūsdienu dzinējos, bremzējot ar dzinēju (ripojot ieslēgtā pārnesumā bez gāzes nospiešanas), degvielas padeve tiek pilnībā atslēgta (patēriņš 0,0 l/100km). Paredzoša braukšana novērš lieku bremzēšanu.",
+        "keyTakeaway": "Paredzoša braukšana un bremzēšana ar dzinēju nodrošina nulles patēriņu inercē."
+      },
+      "en": {
+        "question": "Which driving technique most effectively reduces fuel consumption and brake wear in urban traffic?",
+        "options": [
+          "Anticipatory driving: releasing the accelerator early and coasting in gear towards red lights",
+          "Aggressive sprint acceleration and hard late braking at each signal",
+          "Coasting in neutral gear with the ignition off",
+          "Driving continuously in first gear"
+        ],
+        "correctIndex": 0,
+        "explanation": "Rule: In modern fuel-injected engines, deceleration in gear cuts off fuel injection completely (0.0 l/100km fuel consumption) while preserving vehicle control.",
+        "keyTakeaway": "Anticipate traffic flow and coast in gear to cut fuel consumption."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PRI-009",
+    "topic": "right_of_way",
+    "subtopic": "Apļveida krustojumi",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "131. punkts"
+    },
+    "tags": [
+      "priority",
+      "roundabout",
+      "give_way"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Tu tuvojies apļveida krustojumam, pirms kura uzstādīta zīme 'Dodiet ceļu'. Kuram transportlīdzeklim ir priekšroka?",
+        "options": [
+          "Transportlīdzekļiem, kas jau brauc pa apļveida krustojumu",
+          "Transportlīdzeklim, kas iebrauc aplī no labās puses",
+          "Tam, kurš brauc ar lielāku ātrumu",
+          "Iebraucošajam, ja tas veic pagriezienu pa labi"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ja pirms apļveida krustojuma uzstādīta zīme 'Dodiet ceļu' (Nr. 206) kopā ar zīmi 'Apļveida kustība', priekšroka ir tiem vadītājiem, kuri jau atrodas apļveida krustojumā.",
+        "keyTakeaway": "Pirms apļa zīme 'Dodiet ceļu' nosaka, ka aplī braucošajiem ir priekšroka."
+      },
+      "en": {
+        "question": "You are approaching a roundabout preceded by the 'Give Way' sign. Which vehicle has priority?",
+        "options": [
+          "Vehicles already circulating inside the roundabout",
+          "Vehicles entering the roundabout from the right",
+          "Whichever vehicle travels faster",
+          "The entering vehicle if making an immediate right turn"
+        ],
+        "correctIndex": 0,
+        "explanation": "When a roundabout is signed with 'Give Way', drivers already on the roundabout have priority over entering vehicles.",
+        "keyTakeaway": "With a Give Way sign at entry, circular traffic has right of way."
+      }
+    }
+  },
+  {
+    "id": "LV-B-INT-007",
+    "topic": "intersections",
+    "subtopic": "Neregulējami krustojumi",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "129. punkts"
+    },
+    "tags": [
+      "intersections",
+      "turning",
+      "oncoming"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Veicot kreiso pagriezienu vienādas nozīmes ceļu krustojumā, kam vadītājam ir jādod ceļš?",
+        "options": [
+          "Pretimbraucošajiem, kas brauc taisni vai nogriežas pa labi, un no labās puses braucošajiem",
+          "Tikai no aizmugures braucošajiem transportlīdzekļiem",
+          "Nevienam, jo kreisais pagrieziens dod priekšroku",
+          "Tikai gājējiem uz gājēju pārejām"
+        ],
+        "correctIndex": 0,
+        "explanation": "Griežoties pa kreisi, jādod ceļš pretimbraucošajiem, kuri brauc taisni vai nogriežas pa labi, kā arī no labās puses braucošajiem vienādas nozīmes krustojumā.",
+        "keyTakeaway": "Kreisais pagrieziens prasa dot ceļu pretimbraucošajiem (taisni/pa labi) un labās puses satiksmei."
+      },
+      "en": {
+        "question": "When turning left at an uncontrolled intersection of equal roads, to whom must you give way?",
+        "options": [
+          "To oncoming traffic driving straight or turning right, and traffic from your right",
+          "Only to traffic approaching from behind",
+          "To nobody, because turning left gives right of way",
+          "Only to pedestrians on crossings"
+        ],
+        "correctIndex": 0,
+        "explanation": "Turning left requires yielding to oncoming vehicles moving straight or right, and to vehicles approaching from the right under the general right-hand rule.",
+        "keyTakeaway": "Left turns yield to oncoming vehicles (straight/right) and to traffic from the right."
+      }
+    }
+  },
+  {
+    "id": "LV-B-INT-008",
+    "topic": "intersections",
+    "subtopic": "Pārblīvēts krustojums",
+    "difficulty": "easy",
+    "type": "singleChoice",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "125. punkts"
+    },
+    "tags": [
+      "intersections",
+      "congestion",
+      "blocking"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Vai drīkst iebraukt krustojumā, ja aiz tā izveidojies sastrēgums?",
+        "options": [
+          "Nedrīkst, ja tas piespiedīs apstāties krustojumā un traucēs šķērsvirziena satiksmei",
+          "Drīkst vienmēr, ja luksoforā deg zaļais signāls",
+          "Drīkst tikai tad, ja brauc sabiedriskais transports",
+          "Drīkst, ja vadītājs signalizē ar skaņas signālu"
+        ],
+        "correctIndex": 0,
+        "explanation": "Aizliegts iebraukt krustojumā pat pie atļaujošā luksofora signāla, ja aiz krustojuma ir sastrēgums, kas piespiestu vadītāju apstāties un traucēt šķērsenisko kustību.",
+        "keyTakeaway": "Neiebrauc krustojumā, ja nevari to pilnībā šķērsot pirms sastrēguma."
+      },
+      "en": {
+        "question": "Are you allowed to enter an intersection if there is a traffic jam beyond it?",
+        "options": [
+          "No, if doing so forces you to stop and block transverse traffic",
+          "Yes, whenever the traffic light is green",
+          "Only if you are driving public transport",
+          "Yes, as long as you use your horn"
+        ],
+        "correctIndex": 0,
+        "explanation": "Drivers must not enter an intersection even on green if traffic congestion will force them to stop and obstruct cross traffic.",
+        "keyTakeaway": "Do not block the box: only enter an intersection if you can completely exit it."
+      }
+    }
+  },
+  {
+    "id": "LV-B-LGT-007",
+    "topic": "traffic_lights",
+    "subtopic": "Dzeltenais mirgojošais signāls",
+    "difficulty": "easy",
+    "type": "singleChoice",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "53. punkts"
+    },
+    "tags": [
+      "traffic_lights",
+      "yellow_flashing",
+      "priority"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Ko nozīmē luksofora mirgojošais dzeltenais signāls?",
+        "options": [
+          "Atļauj kustību un brīdina par neregulējamu krustojumu vai gājēju pāreju",
+          "Aizliedz kustību visiem transportlīdzekļiem",
+          "Nosaka, ka tūlīt iedegsies sarkanais signāls",
+          "Nozīmē, ka krustojumam ir priekšroka pār visiem pārējiem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Dzeltenais mirgojošais signāls atļauj kustību un informē par neregulējamu krustojumu vai bīstamu vietu, kur jāievēro priekšrocības zīmes vai labās rokas likums.",
+        "keyTakeaway": "Dzeltenais mirgojošais = atļauta kustība ar paaugstinātu uzmanību neregulējamā krustojumā."
+      },
+      "en": {
+        "question": "What does a flashing yellow traffic light indicate?",
+        "options": [
+          "Movement is permitted, signaling an uncontrolled intersection or pedestrian crossing",
+          "Movement is strictly prohibited for all vehicles",
+          "The red light is about to illuminate immediately",
+          "You automatically have priority over all intersecting traffic"
+        ],
+        "correctIndex": 0,
+        "explanation": "A flashing yellow signal permits movement and warns of an uncontrolled junction or hazard; drivers must follow priority signs or general right-of-way rules.",
+        "keyTakeaway": "Flashing yellow means proceed with caution at an uncontrolled crossing/junction."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-009",
+    "topic": "road_signs",
+    "subtopic": "Priekšrocības beigas",
+    "difficulty": "medium",
+    "type": "roadSignRecognition",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "Ceļa zīme 202"
+    },
+    "tags": [
+      "road_signs",
+      "priority",
+      "end_priority"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Ko apzīmē ceļa zīme 'Galvenā ceļa beigas' (dzeltens rombs ar melnām diagonālām svītrām)?",
+        "options": [
+          "Vietu, kur beidzas ceļš ar priekšroku un turpmāk jāievēro citas prioritātes zīmes vai labās rokas likums",
+          "Ka ceļš tālāk ir slēgts transportlīdzekļu satiksmei",
+          "Ka jāsamazina ātrums līdz 30 km/h",
+          "Ka sākas vienvirziena ceļš"
+        ],
+        "correctIndex": 0,
+        "explanation": "Zīme 202 'Galvenā ceļa beigas' norāda, ka priekšrocība uz šī ceļa beidzas, un nākamajos krustojumos jāņem vērā uzstādītās prioritātes zīmes vai jādod ceļš no labās puses.",
+        "keyTakeaway": "Galvenā ceļa beigas nozīmē, ka zūd automātiskā priekšroka pār šķērsceļiem."
+      },
+      "en": {
+        "question": "What does the 'End of Priority Road' sign (yellow diamond crossed by black lines) indicate?",
+        "options": [
+          "The priority road ends and subsequent intersections require following signs or the right-hand rule",
+          "The road is permanently closed to traffic ahead",
+          "You must reduce speed strictly to 30 km/h",
+          "A one-way street begins immediately"
+        ],
+        "correctIndex": 0,
+        "explanation": "Sign 202 marks the end of priority; at upcoming junctions drivers must observe priority signs or yield to traffic from the right.",
+        "keyTakeaway": "End of Priority Road terminates your right-of-way status."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SIG-010",
+    "topic": "road_signs",
+    "subtopic": "Aizlieguma zīmes",
+    "difficulty": "easy",
+    "type": "roadSignRecognition",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "Ceļa zīme 301"
+    },
+    "tags": [
+      "road_signs",
+      "prohibition",
+      "no_entry"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Kāds ir ceļa zīmes 301 'Iebraukt aizliegts' (sarkans aplis ar baltu horizontālu svītru) mērķis?",
+        "options": [
+          "Aizliedz iebraukt visiem transportlīdzekļiem šajā virzienā (izņemot maršruta sabiedrisko transportu)",
+          "Aizliedz tikai kravas automobiļiem",
+          "Atļauj iebraukt tikai iedzīvotājiem un piegādei",
+          "Aizliedz apstāties un stāvēt"
+        ],
+        "correctIndex": 0,
+        "explanation": "Zīme 301 'Iebraukt aizliegts' (tautā saukta par 'ķieģeli') aizliedz iebraukt visiem transportlīdzekļiem šajā virzienā. Izņēmums var būt maršruta sabiedriskais transports.",
+        "keyTakeaway": "Zīme 301 pilnībā aizliedz iebraukšanu no konkrētās puses."
+      },
+      "en": {
+        "question": "What does road sign 301 'No Entry' (red circle with horizontal white bar) forbid?",
+        "options": [
+          "Entry for all vehicles in this direction (except designated scheduled public transit)",
+          "Entry only for heavy commercial trucks",
+          "Entry for anyone except local residents and deliveries",
+          "Stopping and parking along the curb"
+        ],
+        "correctIndex": 0,
+        "explanation": "Sign 301 'No Entry' strictly prohibits all vehicular entry into that roadway segment from that direction.",
+        "keyTakeaway": "No Entry sign bans entry for all vehicles from that approach direction."
+      }
+    }
+  },
+  {
+    "id": "LV-B-MRK-007",
+    "topic": "road_markings",
+    "subtopic": "Sabiedriskā transporta pietura",
+    "difficulty": "medium",
+    "type": "singleChoice",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "Ceļa apzīmējums 928"
+    },
+    "tags": [
+      "road_markings",
+      "bus_stop",
+      "stopping"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Ko uz brauktuves apzīmē dzeltena zigzagveida līnija (apzīmējums 928)?",
+        "options": [
+          "Maršruta sabiedriskā transporta vai taksometru stāvvietas zonu",
+          "Vietu, kur aizliegts braukt ar ātrumu virs 30 km/h",
+          "Bīstamu ceļa sašaurinājumu",
+          "Gājēju pārejas zonu bez luksofora"
+        ],
+        "correctIndex": 0,
+        "explanation": "Dzeltena zigzag līnija apzīmē maršruta sabiedriskā transporta pieturu vai taksometru stāvvietu. Citiem transportlīdzekļiem tur aizliegts stāvēt.",
+        "keyTakeaway": "Dzeltenā zigzag līnija iezīmē autobusu/trolejbusu pieturas un taksometru stāvvietas."
+      },
+      "en": {
+        "question": "What does a yellow zigzag line marked on the roadway indicate?",
+        "options": [
+          "A scheduled public transport stop or taxi stand area",
+          "A zone where speed must not exceed 30 km/h",
+          "A dangerous roadway bottleneck",
+          "An unsignalized pedestrian crossing zone"
+        ],
+        "correctIndex": 0,
+        "explanation": "A yellow zigzag line on the asphalt designates a public transit stop or designated taxi stand where ordinary parking is prohibited.",
+        "keyTakeaway": "Yellow zigzag markings designate public transit stops and taxi stands."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SPD-007",
+    "topic": "speed_and_distance",
+    "subtopic": "Drošas distances intervāls",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "118. punkts"
+    },
+    "tags": [
+      "speed",
+      "distance",
+      "two_second_rule"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Kādu laika distanci normālos sausos ceļa apstākļos ieteicams ievērot līdz priekšā braucošajam transportlīdzeklim?",
+        "options": [
+          "Vismaz 2 sekunžu distanci (slapjos un ziemas apstākļos — vismaz 3 līdz 4 sekundes)",
+          "Pussekundes distanci",
+          "Precīzi 10 metrus neatkarīgi no ātruma",
+          "1 sekundi jebkuros laika apstākļos"
+        ],
+        "correctIndex": 0,
+        "explanation": "Sausos un skaidros apstākļos droša distance ir vismaz 2 sekundes līdz priekšā braucošajam auto; slapjos, tumšos un ziemas apstākļos tā jāpalielina līdz 3-4 sekundēm vai vairāk.",
+        "keyTakeaway": "Divu sekunžu likums ir drošas distances pamatnorma sausos ceļa apstākļos."
+      },
+      "en": {
+        "question": "What minimum following distance in time is recommended under normal dry road conditions?",
+        "options": [
+          "At least 2 seconds (increasing to 3–4 seconds or more on wet or winter roads)",
+          "Half a second",
+          "Exactly 10 meters regardless of speed",
+          "1 second regardless of weather conditions"
+        ],
+        "correctIndex": 0,
+        "explanation": "Under dry, favorable conditions, maintaining at least a 2-second time gap gives adequate reaction and braking time; adverse conditions require at least 3-4 seconds.",
+        "keyTakeaway": "The 2-second rule provides baseline safety distance in good conditions."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SPD-008",
+    "topic": "speed_and_distance",
+    "subtopic": "Ātrums uz grants ceļiem",
+    "difficulty": "medium",
+    "type": "singleChoice",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "111. punkts"
+    },
+    "tags": [
+      "speed",
+      "gravel_road",
+      "rural"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Kāds ir maksimālais atļautais braukšanas ātrums B kategorijas vieglajam automobilim uz grants seguma ceļiem ārpus apdzīvotām vietām Latvijā?",
+        "options": [
+          "80 km/h (ja nav uzstādītas citas ātruma ierobežojuma zīmes)",
+          "90 km/h",
+          "100 km/h",
+          "70 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "Latvijā ārpus apdzīvotām vietām uz grants seguma ceļiem vieglajiem automobiļiem maksimālais atļautais ātrums ir 80 km/h.",
+        "keyTakeaway": "Uz grants ceļiem ārpus pilsētām maksimālais atļautais ātrums ir 80 km/h."
+      },
+      "en": {
+        "question": "What is the general maximum speed limit for a Category B passenger car on gravel roads outside built-up areas in Latvia?",
+        "options": [
+          "80 km/h (unless other speed limit signs apply)",
+          "90 km/h",
+          "100 km/h",
+          "70 km/h"
+        ],
+        "correctIndex": 0,
+        "explanation": "In Latvia, the statutory speed limit on rural gravel roads outside built-up areas is 80 km/h for passenger cars.",
+        "keyTakeaway": "The rural gravel road speed limit in Latvia is 80 km/h."
+      }
+    }
+  },
+  {
+    "id": "LV-B-STP-006",
+    "topic": "stopping_and_parking",
+    "subtopic": "Attālums līdz krustojumam",
+    "difficulty": "medium",
+    "type": "singleChoice",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "142. punkts"
+    },
+    "tags": [
+      "stopping",
+      "parking",
+      "intersections",
+      "distance"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Kādā minimālā attālumā no brauktuvju krustošanās vietas krustojumā atļauts apstāties un stāvēt?",
+        "options": [
+          "Ne tuvāk par 5 metriem no šķērsojamās brauktuves malas",
+          "Ne tuvāk par 2 metriem",
+          "Ne tuvāk par 15 metriem",
+          "Tieši pie brauktuvju krustošanās robežas"
+        ],
+        "correctIndex": 0,
+        "explanation": "Aizliegts apstāties un stāvēt krustojumos un tuvāk par 5 metriem no šķērsojamās brauktuves malas, lai neaizsegtu redzamību un netraucētu manevrēšanu.",
+        "keyTakeaway": "Pie krustojuma jāievēro vismaz 5 metru attālums no šķērsojamās brauktuves malas."
+      },
+      "en": {
+        "question": "What is the minimum legal distance from an intersection edge where stopping and parking are permitted?",
+        "options": [
+          "Not closer than 5 meters from the edge of the intersecting roadway",
+          "Not closer than 2 meters",
+          "Not closer than 15 meters",
+          "Right at the boundary of the intersection"
+        ],
+        "correctIndex": 0,
+        "explanation": "Stopping and parking are prohibited within intersections and closer than 5 meters from the edge of the intersecting roadway.",
+        "keyTakeaway": "You must park at least 5 meters away from the edge of intersecting roads."
+      }
+    }
+  },
+  {
+    "id": "LV-B-STP-007",
+    "topic": "stopping_and_parking",
+    "subtopic": "Stāvēšana uz ietves",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "139. punkts"
+    },
+    "tags": [
+      "parking",
+      "sidewalk",
+      "pedestrians"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Kad atļauts novietot vieglo automobili stāvēšanai uz ietves?",
+        "options": [
+          "Tikai vietās, kur tas atļauts ar stāvēšanas veida ceļa zīmēm un papildzīmēm",
+          "Jebkurā vietā, ja uz ietves paliek vismaz 1 metrs brīvas vietas",
+          "Vienmēr nakts laikā no 22:00 līdz 06:00",
+          "Jebkurā vietā, ja ieslēgta avārijas gaismas signalizācija"
+        ],
+        "correctIndex": 0,
+        "explanation": "Stāvēt uz ietves drīkst tikai tad, ja tas īpaši atļauts ar ceļa zīmi 537 'Stāvvieta' kopā ar atbilstošu stāvēšanas veida papildzīmi (piemēram, 827-832).",
+        "keyTakeaway": "Stāvēt uz ietves atļauts tikai ar atbilstošām ceļa zīmēm."
+      },
+      "en": {
+        "question": "When is a passenger car permitted to park on a sidewalk?",
+        "options": [
+          "Only where explicitly permitted by parking signs and parking method sub-plates",
+          "Anywhere as long as at least 1 meter width remains clear",
+          "Always at night between 22:00 and 06:00",
+          "Anywhere if hazard warning flashers are activated"
+        ],
+        "correctIndex": 0,
+        "explanation": "Parking on the sidewalk is prohibited unless specifically authorized by parking sign 537 along with the corresponding sub-sign detailing the parking position.",
+        "keyTakeaway": "Sidewalk parking is strictly illegal unless explicitly authorized by signs."
+      }
+    }
+  },
+  {
+    "id": "LV-B-PED-005",
+    "topic": "pedestrians_and_cyclists",
+    "subtopic": "Pagrieziens un gājēji",
+    "difficulty": "easy",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "124. punkts"
+    },
+    "tags": [
+      "pedestrians",
+      "turning",
+      "priority"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Nogriežoties pa labi vai pa kreisi krustojumā, kam vadītājam jādod ceļš?",
+        "options": [
+          "Gājējiem un mikromobilitātes/velosipēdu vadītājiem, kuri šķērso ceļu, kurā nogriežas",
+          "Tikai tiem gājējiem, kuriem ir atstarotājs",
+          "Nevienam, ja gājēju pāreja nav iezīmēta ar 'zebru'",
+          "Tikai maršruta autobusiem"
+        ],
+        "correctIndex": 0,
+        "explanation": "Nogriežoties pa labi vai pa kreisi, vadītājam jādod ceļš gājējiem un velosipēdistiem, kuri šķērso brauktuvi, kurā viņš nogriežas, neatkarīgi no tā, vai ir 'zebra'.",
+        "keyTakeaway": "Nogriežoties vienmēr dod ceļu gājējiem un velobraucējiem, kuri šķērso ceļu."
+      },
+      "en": {
+        "question": "When turning right or left at an intersection, to whom must you give way?",
+        "options": [
+          "Pedestrians and cyclists/micromobility users crossing the roadway you are entering",
+          "Only to pedestrians wearing visible reflective safety items",
+          "To nobody, unless there is a painted zebra crossing",
+          "Exclusively to scheduled buses"
+        ],
+        "correctIndex": 0,
+        "explanation": "Drivers turning right or left must yield to pedestrians and cyclists crossing the road into which the turn is being made, even without painted markings.",
+        "keyTakeaway": "Turning vehicles must always yield to pedestrians crossing the entrance road."
+      }
+    }
+  },
+  {
+    "id": "LV-B-TRM-005",
+    "topic": "public_transport",
+    "subtopic": "Pietura bez drošības saliņas",
+    "difficulty": "medium",
+    "type": "ruleApplication",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "149. punkts"
+    },
+    "tags": [
+      "tram",
+      "passengers",
+      "boarding"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Tramvaja pietura atrodas brauktuves vidū bez iekāpšanas saliņas. Ko jādara vadītājam, ja pieturā apstājies tramvajs?",
+        "options": [
+          "Jāapstājas un jādod ceļš pasažieriem, kuri dodas uz vai no tramvaja",
+          "Drīkst lēni apbraukt tramvaju pa kreiso pusi",
+          "Jāturpina kustība ar ātrumu līdz 30 km/h, signalizējot ar skaņas signālu",
+          "Nav jāapstājas, jo pasažieriem jādod ceļš automobilim"
+        ],
+        "correctIndex": 0,
+        "explanation": "Ja tramvajs apstājies pieturā brauktuves vidū, vadītājam jāapstājas pirms pieturas un jādod ceļš pasažieriem, kuri kāpj tramvajā vai izkāpj no tā.",
+        "keyTakeaway": "Ja tramvajam nav saliņas, autovadītājs apstājas un laiž pasažierus uz/no tramvaja."
+      },
+      "en": {
+        "question": "A tram stops in the middle of the street at a stop without a refuge island. What must the driver do?",
+        "options": [
+          "Stop and give way to passengers walking to or from the tram across the roadway",
+          "Overtake the stopped tram cautiously on its left side",
+          "Proceed at up to 30 km/h while sounding the horn",
+          "Do not stop, since boarding passengers must yield to vehicular traffic"
+        ],
+        "correctIndex": 0,
+        "explanation": "Drivers must stop behind a tram stopped at an islandless stop and yield right of way to passengers boarding or alighting across the lane.",
+        "keyTakeaway": "Stop and yield to passengers crossing the road to or from an islandless tram stop."
+      }
+    }
+  },
+  {
+    "id": "LV-B-SAF-004",
+    "topic": "vehicle_safety",
+    "subtopic": "Riepu protektora dziļums",
+    "difficulty": "medium",
+    "type": "singleChoice",
+    "isSafetyQuestion": true,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Ceļu satiksmes noteikumi (CSN)",
+      "section": "Tehniskais stāvoklis (Pielikums 5)"
+    },
+    "tags": [
+      "tires",
+      "safety",
+      "tread_depth"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Kāds ir minimālais pieļaujamais riepu protektora dziļums vieglajiem automobiļiem vasaras un ziemas periodā?",
+        "options": [
+          "Vasarā vismaz 1,6 mm, ziemā (no 1. decembra līdz 1. martam) vismaz 4,0 mm",
+          "Vasarā 1,0 mm, ziemā 2,0 mm",
+          "Vasarā 2,5 mm, ziemā 3,0 mm",
+          "Vienāds visu gadu — vismaz 3,0 mm"
+        ],
+        "correctIndex": 0,
+        "explanation": "Latvijā B kategorijas vieglajiem automobiļiem minimālais protektora dziļums vasaras riepām ir 1,6 mm, bet ziemas riepām ziemas periodā — vismaz 4,0 mm.",
+        "keyTakeaway": "Protektora minimālais dziļums: 1,6 mm vasarā un 4,0 mm ziemas riepām ziemā."
+      },
+      "en": {
+        "question": "What is the minimum legal tire tread depth for passenger cars in summer and winter periods in Latvia?",
+        "options": [
+          "At least 1.6 mm in summer, and at least 4.0 mm for winter tires in winter",
+          "1.0 mm in summer, 2.0 mm in winter",
+          "2.5 mm in summer, 3.0 mm in winter",
+          "3.0 mm year-round for all tire types"
+        ],
+        "correctIndex": 0,
+        "explanation": "In Latvia, passenger car tires must have a minimum tread depth of 1.6 mm for summer tires and 4.0 mm for winter tires during the winter season.",
+        "keyTakeaway": "Tire tread depth minimums: 1.6 mm in summer, 4.0 mm in winter."
+      }
+    }
+  },
+  {
+    "id": "LV-B-ECO-003",
+    "topic": "eco_driving",
+    "subtopic": "Riepu spiediens un degvielas patēriņš",
+    "difficulty": "easy",
+    "type": "singleChoice",
+    "isSafetyQuestion": false,
+    "isPremium": true,
+    "contentVersion": "development-1",
+    "source": {
+      "title": "Drošas un ekonomiskas braukšanas principi",
+      "section": "Riepu uzturēšana"
+    },
+    "tags": [
+      "eco_driving",
+      "fuel_economy",
+      "tire_pressure"
+    ],
+    "translations": {
+      "lv": {
+        "question": "Kā nepietiekams spiediens riepās ietekmē degvielas patēriņu un automobiļa drošību?",
+        "options": [
+          "Palielina degvielas patēriņu, pasliktina vadāmību un pagarina bremzēšanas ceļu",
+          "Samazina degvielas patēriņu un mīkstina braukšanu",
+          "Neietekmē degvielas patēriņu, tikai rada troksni",
+          "Uzlabo saķeri uz sausa asfalta lielā ātrumā"
+        ],
+        "correctIndex": 0,
+        "explanation": "Pārāk zems gaisa spiediens riepās palielina rites pretestību (kas ievērojami paaugstina degvielas patēriņu), pasliktina stabilitāti līkumos un paātrina riepu nodilumu.",
+        "keyTakeaway": "Pareizs riepu spiediens ietaupa degvielu, pagarina riepu mūžu un garantē stabilitāti."
+      },
+      "en": {
+        "question": "How does insufficient tire pressure affect fuel consumption and vehicle safety?",
+        "options": [
+          "It increases fuel consumption, worsens vehicle handling, and lengthens braking distance",
+          "It decreases fuel consumption and provides softer ride comfort",
+          "It has no impact on fuel usage, only increasing road noise",
+          "It improves cornering grip on dry asphalt at highway speeds"
+        ],
+        "correctIndex": 0,
+        "explanation": "Under-inflated tires increase rolling resistance leading to higher fuel consumption, degrade steering response, and accelerate irregular tire wear.",
+        "keyTakeaway": "Proper tire pressure optimizes fuel efficiency, tire longevity, and stability."
+      }
+    }
+  }
+]

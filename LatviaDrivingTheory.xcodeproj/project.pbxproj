@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0052811E068A1CAB4EA4525B /* Components/VisualGraphics/IntersectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD585624FAA1E1E4F26E5FD /* Components/VisualGraphics/IntersectionView.swift */; };
+		022DC48671295F5AE3CA9AC3 /* Services/QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC7F3B504C60C4985FE6C7 /* Services/QuestionRepository.swift */; };
+		065943FA19FE7C183D8AA469 /* Resources/LatviaDrivingTheory.storekit in Resources */ = {isa = PBXBuildFile; fileRef = DC122D4407F7E77CDC8089ED /* Resources/LatviaDrivingTheory.storekit */; };
+		09BCB0875E40A7904DB14595 /* Models/ExamConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2AF07FA7DDEA09DE10D188 /* Models/ExamConfiguration.swift */; };
+		0C5D240E499FFD9714651FAD /* Services/ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB25BC34F75EE6490718885 /* Services/ProgressStore.swift */; };
+		13982D16BBF6E075642F06C6 /* Features/Settings/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E79CF583C0D32D1B5E4B13 /* Features/Settings/SettingsView.swift */; };
+		15C80EA6D3886667E788CF0E /* Features/Mistakes/MyMistakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7177B97EAC2ACA6F951E1 /* Features/Mistakes/MyMistakesView.swift */; };
+		19E0853DAE798AFB967106A0 /* Features/Progress/TopicPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CC5C7DC1F1E630EADF544 /* Features/Progress/TopicPerformanceView.swift */; };
+		21EE5E02B2373BE35BF10151 /* Features/Quiz/QuizSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0389156C450872373EE82C52 /* Features/Quiz/QuizSummaryView.swift */; };
+		23DCE3D5218635A57F28882E /* Components/AppLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF4ADE045C7021B8927CF02 /* Components/AppLogoView.swift */; };
+		24C898E424C787A8285D5D22 /* Features/Onboarding/OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD92643E6CAA58138D7BA6D /* Features/Onboarding/OnboardingView.swift */; };
+		26AF26B14698824779B0C3FF /* Services/RoadSignRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FEBC958C4867FDC5EC4095 /* Services/RoadSignRepository.swift */; };
+		2754945A134FAE93D0C55B52 /* Models/RoadSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA322E25049EFA35BF0F5A53 /* Models/RoadSign.swift */; };
+		3203588EFCC2E2EBD2890BB1 /* Components/LanguagePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4B6C814D2CD468E3B70CE /* Components/LanguagePickerSheet.swift */; };
+		3530EBE950A9CCDB77D27076 /* Models/VisualScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A3173F6F1561F237D1A60 /* Models/VisualScenario.swift */; };
+		371F4D641E20F672B702233F /* Features/Practice/PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5DF7CB7B51DD7AC9D16DBF /* Features/Practice/PracticeView.swift */; };
+		37ADCF819D9D0B4126ECC446 /* Features/Settings/PremiumPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A5CF5BED19FF436D564B45 /* Features/Settings/PremiumPaywallView.swift */; };
+		37FBE9425B3FE1DD27225BEB /* Features/Progress/MockExamChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9828D230FE470AC6BD7BA956 /* Features/Progress/MockExamChartView.swift */; };
+		3ED88797C316849B669A524D /* Features/MockExam/MockExamActiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BED50D7699FB5EE9676761 /* Features/MockExam/MockExamActiveView.swift */; };
+		4637DEC1D7A420390BA5393A /* Components/AnswerOptionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FCFA1DE37747AC29F1C0 /* Components/AnswerOptionCard.swift */; };
+		4951D6C9A52D76D337930914 /* Resources/Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 61ACAB0EBBDB6F2D74BBD78C /* Resources/Questions.json */; };
+		4C1CD71AF19A1A8DFA3A5349 /* Features/MockExam/MockExamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7716170C5F5A7C5C3737642 /* Features/MockExam/MockExamViewModel.swift */; };
+		5095C1F311E9D5ED6809DCBC /* App/LatviaDrivingTheoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1087AE4C4F7400E6F7CE80FA /* App/LatviaDrivingTheoryApp.swift */; };
+		50F3AC28F849C674369DE269 /* Features/Progress/DailyGoalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467D7F63906E08782DBD4006 /* Features/Progress/DailyGoalCardView.swift */; };
+		5BCE226963CFA057A3EFDF51 /* App/AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F856F1D834CFA2E3CF26ABCB /* App/AppLinks.swift */; };
+		5CEE80056856C1F6566E0149 /* Components/VisualGraphics/TrafficLightVectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF84513E0F930B08746ACA /* Components/VisualGraphics/TrafficLightVectorView.swift */; };
+		62649D7481042C42F06F15D0 /* Features/Practice/TopicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807CC951D80A85781C8220FF /* Features/Practice/TopicDetailView.swift */; };
+		6BCEAC2742CA457036076639 /* Features/Progress/ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95B65189A60B104CF0CCEF /* Features/Progress/ProgressView.swift */; };
+		722D5658BAB4468BB3E119ED /* Features/Quiz/QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA66F9121A3E2EC8258425 /* Features/Quiz/QuizViewModel.swift */; };
+		7342FFA76A07CCD4ACD3705F /* Components/VisualGraphics/VehicleVectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E51F82679EDD399A1E66E7 /* Components/VisualGraphics/VehicleVectorView.swift */; };
+		75BC990BB9DE9309CD6BCCEB /* Components/CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A843F46AEC4E78D0125EA457 /* Components/CircularProgressView.swift */; };
+		79AB591F0A71F3AA351C6FED /* Features/RoadSigns/RoadSignDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE4C3E1F482E12727B89A61 /* Features/RoadSigns/RoadSignDetailView.swift */; };
+		821212CA031CA2220F700D98 /* App/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE682C8343605CEF83230FD /* App/RootView.swift */; };
+		84B7035666063D5C5CAB5AE8 /* Features/RoadSigns/RoadSignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEF40FE812D72BEE19A186 /* Features/RoadSigns/RoadSignsView.swift */; };
+		8557457F1CEAB72645AE8054 /* Features/Progress/ActivityCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF5238E03E0742D0D96E5C3 /* Features/Progress/ActivityCalendarView.swift */; };
+		873AFF96376601D6994AC2AC /* Services/MonetizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C44C73B5996C70DDF86184 /* Services/MonetizationTests.swift */; };
+		887319FB5636EB9898BD9952 /* Models/Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EDB5940095976C8C55BF8 /* Models/Topic.swift */; };
+		896AE91C6AAE2B95EDAAD5C0 /* Features/MockExam/MockExamResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B895247E67023FD50F1730B /* Features/MockExam/MockExamResultView.swift */; };
+		8BA8F3B395C2616523FF4F5E /* Models/DailyActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4136EF7E131C4F2854E5CAEC /* Models/DailyActivity.swift */; };
+		91D61511CBF550BB8E39A62E /* Services/PremiumAccessManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CCF403FE1189B8482434FF /* Services/PremiumAccessManager.swift */; };
+		91D61511CBF550BB8E39A630 /* Services/QuestionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CCF403FE1189B848243401 /* Services/QuestionValidator.swift */; };
+		A30154096075444525F2BDF9 /* Features/Home/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98361BC6F53625A672ADB56 /* Features/Home/HomeView.swift */; };
+		A3A646CEF73FCC0D7E0B82D6 /* Services/StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB810D0B2DBB580EC52C676 /* Services/StoreKitManager.swift */; };
+		A3E0F31A4BE9884ABB916CAF /* DesignSystem/CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23FECBEA2F33949871653BE /* DesignSystem/CardModifier.swift */; };
+		B09F5AB3A007E252C866F12C /* Models/Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9CA527DB32F6D5314F810 /* Models/Question.swift */; };
+		B6199941421C5C6AC5B7F839 /* Models/Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB65A12F1FE82AE3BC1BC51 /* Models/Language.swift */; };
+		B88430A22940C2F6FA1405A4 /* Services/ExamReadinessCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CA050CE57B0F0F4D966099 /* Services/ExamReadinessCalculator.swift */; };
+		B9FF85DFFBA22D23072B6116 /* Services/DailyGoalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F5173C8DBDB0ECBCA5DCA6 /* Services/DailyGoalManager.swift */; };
+		BB67DDEB30B32556FC80DF12 /* Models/UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D8D84EC28E71F7A96B900E /* Models/UserProgress.swift */; };
+		C9D5C7F469262916BD548366 /* Features/Quiz/QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1BB5700841A566675B74A6 /* Features/Quiz/QuizView.swift */; };
+		CACCC3A1DD6EDB4676EF2B10 /* Features/MockExam/QuestionBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F2DAAC7E205F659EA42234 /* Features/MockExam/QuestionBoardView.swift */; };
+		CEE7170E8781303F7099A134 /* Features/MockExam/MockExamIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C33E1029960BE78A4B910B /* Features/MockExam/MockExamIntroView.swift */; };
+		D44CFEE2B53477C10FEB2C4C /* Components/ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF2C28933D18A550E8FA3E1 /* Components/ProgressBarView.swift */; };
+		EA2692B1B930FC64D2D6EF21 /* Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59FDF5A62E078B4FF203E3E /* Resources/Assets.xcassets */; };
+		EDB08AC5576815F4879FBB36 /* DesignSystem/AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A911F6B8FB7E76BDDEA08 /* DesignSystem/AppColors.swift */; };
+		F9B9060AE16FC9DF1F24B8C6 /* Components/VisualGraphics/TrafficSignVectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2AEA4569CD7BA1ADEEA70 /* Components/VisualGraphics/TrafficSignVectorView.swift */; };
+		FA019A0E48CD22E11DAD57F2 /* Features/MockExam/MockExamReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA1F107F5E163021AB95A0 /* Features/MockExam/MockExamReviewView.swift */; };
+		FF45C8068A9752D88D38D1B1 /* Features/Progress/DailyGoalSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED5732073F7EA6DA34E70B /* Features/Progress/DailyGoalSettingsView.swift */; };
+		FF51233DFE5FFECFD1DE5C53 /* Services/LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2ED28EA2DC9A8A4F8B918D /* Services/LocalizationManager.swift */; };
+		FFC644F5BACFCF296862C5D0 /* Services/PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2908CE910B370355826E7CC /* Services/PurchaseManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A5CF5BED19FF436D564B45 /* Features/Settings/PremiumPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/PremiumPaywallView.swift; sourceTree = "<group>"; };
+		0389156C450872373EE82C52 /* Features/Quiz/QuizSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Quiz/QuizSummaryView.swift; sourceTree = "<group>"; };
+		08CCF403FE1189B8482434FF /* Services/PremiumAccessManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/PremiumAccessManager.swift; sourceTree = "<group>"; };
+		08CCF403FE1189B848243401 /* Services/QuestionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/QuestionValidator.swift; sourceTree = "<group>"; };
+		0AF5238E03E0742D0D96E5C3 /* Features/Progress/ActivityCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Progress/ActivityCalendarView.swift; sourceTree = "<group>"; };
+		1087AE4C4F7400E6F7CE80FA /* App/LatviaDrivingTheoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/LatviaDrivingTheoryApp.swift; sourceTree = "<group>"; };
+		1EC9CA527DB32F6D5314F810 /* Models/Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Question.swift; sourceTree = "<group>"; };
+		225EDB5940095976C8C55BF8 /* Models/Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Topic.swift; sourceTree = "<group>"; };
+		2A5DF7CB7B51DD7AC9D16DBF /* Features/Practice/PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Practice/PracticeView.swift; sourceTree = "<group>"; };
+		2AF9FCFA1DE37747AC29F1C0 /* Components/AnswerOptionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/AnswerOptionCard.swift; sourceTree = "<group>"; };
+		33FA1F107F5E163021AB95A0 /* Features/MockExam/MockExamReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/MockExam/MockExamReviewView.swift; sourceTree = "<group>"; };
+		353CC5C7DC1F1E630EADF544 /* Features/Progress/TopicPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Progress/TopicPerformanceView.swift; sourceTree = "<group>"; };
+		3BF2AEA4569CD7BA1ADEEA70 /* Components/VisualGraphics/TrafficSignVectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/VisualGraphics/TrafficSignVectorView.swift; sourceTree = "<group>"; };
+		3C95B65189A60B104CF0CCEF /* Features/Progress/ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Progress/ProgressView.swift; sourceTree = "<group>"; };
+		3CD585624FAA1E1E4F26E5FD /* Components/VisualGraphics/IntersectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/VisualGraphics/IntersectionView.swift; sourceTree = "<group>"; };
+		3DDEF40FE812D72BEE19A186 /* Features/RoadSigns/RoadSignsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/RoadSigns/RoadSignsView.swift; sourceTree = "<group>"; };
+		3E2ED28EA2DC9A8A4F8B918D /* Services/LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/LocalizationManager.swift; sourceTree = "<group>"; };
+		3EB810D0B2DBB580EC52C676 /* Services/StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/StoreKitManager.swift; sourceTree = "<group>"; };
+		4136EF7E131C4F2854E5CAEC /* Models/DailyActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/DailyActivity.swift; sourceTree = "<group>"; };
+		42F2DAAC7E205F659EA42234 /* Features/MockExam/QuestionBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/MockExam/QuestionBoardView.swift; sourceTree = "<group>"; };
+		467D7F63906E08782DBD4006 /* Features/Progress/DailyGoalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Progress/DailyGoalCardView.swift; sourceTree = "<group>"; };
+		4A1BB5700841A566675B74A6 /* Features/Quiz/QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Quiz/QuizView.swift; sourceTree = "<group>"; };
+		52C44C73B5996C70DDF86184 /* Services/MonetizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/MonetizationTests.swift; sourceTree = "<group>"; };
+		54F4B6C814D2CD468E3B70CE /* Components/LanguagePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/LanguagePickerSheet.swift; sourceTree = "<group>"; };
+		57ED5732073F7EA6DA34E70B /* Features/Progress/DailyGoalSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Progress/DailyGoalSettingsView.swift; sourceTree = "<group>"; };
+		5ADF84513E0F930B08746ACA /* Components/VisualGraphics/TrafficLightVectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/VisualGraphics/TrafficLightVectorView.swift; sourceTree = "<group>"; };
+		61ACAB0EBBDB6F2D74BBD78C /* Resources/Questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Resources/Questions.json; sourceTree = "<group>"; };
+		66F5173C8DBDB0ECBCA5DCA6 /* Services/DailyGoalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/DailyGoalManager.swift; sourceTree = "<group>"; };
+		6AB25BC34F75EE6490718885 /* Services/ProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ProgressStore.swift; sourceTree = "<group>"; };
+		6B2AF07FA7DDEA09DE10D188 /* Models/ExamConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ExamConfiguration.swift; sourceTree = "<group>"; };
+		6FD92643E6CAA58138D7BA6D /* Features/Onboarding/OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Onboarding/OnboardingView.swift; sourceTree = "<group>"; };
+		7B895247E67023FD50F1730B /* Features/MockExam/MockExamResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/MockExam/MockExamResultView.swift; sourceTree = "<group>"; };
+		807CC951D80A85781C8220FF /* Features/Practice/TopicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Practice/TopicDetailView.swift; sourceTree = "<group>"; };
+		89FEBC958C4867FDC5EC4095 /* Services/RoadSignRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/RoadSignRepository.swift; sourceTree = "<group>"; };
+		8CF2C28933D18A550E8FA3E1 /* Components/ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/ProgressBarView.swift; sourceTree = "<group>"; };
+		90BC7F3B504C60C4985FE6C7 /* Services/QuestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/QuestionRepository.swift; sourceTree = "<group>"; };
+		94E51F82679EDD399A1E66E7 /* Components/VisualGraphics/VehicleVectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/VisualGraphics/VehicleVectorView.swift; sourceTree = "<group>"; };
+		9828D230FE470AC6BD7BA956 /* Features/Progress/MockExamChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Progress/MockExamChartView.swift; sourceTree = "<group>"; };
+		A23FECBEA2F33949871653BE /* DesignSystem/CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/CardModifier.swift; sourceTree = "<group>"; };
+		A843F46AEC4E78D0125EA457 /* Components/CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/CircularProgressView.swift; sourceTree = "<group>"; };
+		B5C33E1029960BE78A4B910B /* Features/MockExam/MockExamIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/MockExam/MockExamIntroView.swift; sourceTree = "<group>"; };
+		B66A3173F6F1561F237D1A60 /* Models/VisualScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/VisualScenario.swift; sourceTree = "<group>"; };
+		B6E79CF583C0D32D1B5E4B13 /* Features/Settings/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		B7716170C5F5A7C5C3737642 /* Features/MockExam/MockExamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/MockExam/MockExamViewModel.swift; sourceTree = "<group>"; };
+		BBE682C8343605CEF83230FD /* App/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/RootView.swift; sourceTree = "<group>"; };
+		C9CA050CE57B0F0F4D966099 /* Services/ExamReadinessCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ExamReadinessCalculator.swift; sourceTree = "<group>"; };
+		CA322E25049EFA35BF0F5A53 /* Models/RoadSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RoadSign.swift; sourceTree = "<group>"; };
+		D4D7177B97EAC2ACA6F951E1 /* Features/Mistakes/MyMistakesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Mistakes/MyMistakesView.swift; sourceTree = "<group>"; };
+		DBCA66F9121A3E2EC8258425 /* Features/Quiz/QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Quiz/QuizViewModel.swift; sourceTree = "<group>"; };
+		DC122D4407F7E77CDC8089ED /* Resources/LatviaDrivingTheory.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/LatviaDrivingTheory.storekit; sourceTree = "<group>"; };
+		DDE4C3E1F482E12727B89A61 /* Features/RoadSigns/RoadSignDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/RoadSigns/RoadSignDetailView.swift; sourceTree = "<group>"; };
+		DEB65A12F1FE82AE3BC1BC51 /* Models/Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Language.swift; sourceTree = "<group>"; };
+		E3BED50D7699FB5EE9676761 /* Features/MockExam/MockExamActiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/MockExam/MockExamActiveView.swift; sourceTree = "<group>"; };
+		E59FDF5A62E078B4FF203E3E /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		E7D8D84EC28E71F7A96B900E /* Models/UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/UserProgress.swift; sourceTree = "<group>"; };
+		ED08F10455CEDADDF8E3D454 /* LatviaDrivingTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatviaDrivingTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2908CE910B370355826E7CC /* Services/PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/PurchaseManager.swift; sourceTree = "<group>"; };
+		F856F1D834CFA2E3CF26ABCB /* App/AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppLinks.swift; sourceTree = "<group>"; };
+		F98361BC6F53625A672ADB56 /* Features/Home/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/HomeView.swift; sourceTree = "<group>"; };
+		FB0A911F6B8FB7E76BDDEA08 /* DesignSystem/AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/AppColors.swift; sourceTree = "<group>"; };
+		FEF4ADE045C7021B8927CF02 /* Components/AppLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components/AppLogoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C92DD416700C675A2583C93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016E5C04A36B9E44ADA45781 = {
+			isa = PBXGroup;
+			children = (
+				561AB6B54CA0E34C0B6B78A5 /* LatviaDrivingTheory */,
+				1BABC9FE70385367B81EC546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BABC9FE70385367B81EC546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED08F10455CEDADDF8E3D454 /* LatviaDrivingTheory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561AB6B54CA0E34C0B6B78A5 /* LatviaDrivingTheory */ = {
+			isa = PBXGroup;
+			children = (
+				F856F1D834CFA2E3CF26ABCB /* App/AppLinks.swift */,
+				1087AE4C4F7400E6F7CE80FA /* App/LatviaDrivingTheoryApp.swift */,
+				BBE682C8343605CEF83230FD /* App/RootView.swift */,
+				2AF9FCFA1DE37747AC29F1C0 /* Components/AnswerOptionCard.swift */,
+				FEF4ADE045C7021B8927CF02 /* Components/AppLogoView.swift */,
+				A843F46AEC4E78D0125EA457 /* Components/CircularProgressView.swift */,
+				54F4B6C814D2CD468E3B70CE /* Components/LanguagePickerSheet.swift */,
+				8CF2C28933D18A550E8FA3E1 /* Components/ProgressBarView.swift */,
+				3CD585624FAA1E1E4F26E5FD /* Components/VisualGraphics/IntersectionView.swift */,
+				5ADF84513E0F930B08746ACA /* Components/VisualGraphics/TrafficLightVectorView.swift */,
+				3BF2AEA4569CD7BA1ADEEA70 /* Components/VisualGraphics/TrafficSignVectorView.swift */,
+				94E51F82679EDD399A1E66E7 /* Components/VisualGraphics/VehicleVectorView.swift */,
+				FB0A911F6B8FB7E76BDDEA08 /* DesignSystem/AppColors.swift */,
+				A23FECBEA2F33949871653BE /* DesignSystem/CardModifier.swift */,
+				F98361BC6F53625A672ADB56 /* Features/Home/HomeView.swift */,
+				D4D7177B97EAC2ACA6F951E1 /* Features/Mistakes/MyMistakesView.swift */,
+				E3BED50D7699FB5EE9676761 /* Features/MockExam/MockExamActiveView.swift */,
+				B5C33E1029960BE78A4B910B /* Features/MockExam/MockExamIntroView.swift */,
+				7B895247E67023FD50F1730B /* Features/MockExam/MockExamResultView.swift */,
+				33FA1F107F5E163021AB95A0 /* Features/MockExam/MockExamReviewView.swift */,
+				B7716170C5F5A7C5C3737642 /* Features/MockExam/MockExamViewModel.swift */,
+				42F2DAAC7E205F659EA42234 /* Features/MockExam/QuestionBoardView.swift */,
+				6FD92643E6CAA58138D7BA6D /* Features/Onboarding/OnboardingView.swift */,
+				2A5DF7CB7B51DD7AC9D16DBF /* Features/Practice/PracticeView.swift */,
+				807CC951D80A85781C8220FF /* Features/Practice/TopicDetailView.swift */,
+				0AF5238E03E0742D0D96E5C3 /* Features/Progress/ActivityCalendarView.swift */,
+				467D7F63906E08782DBD4006 /* Features/Progress/DailyGoalCardView.swift */,
+				57ED5732073F7EA6DA34E70B /* Features/Progress/DailyGoalSettingsView.swift */,
+				9828D230FE470AC6BD7BA956 /* Features/Progress/MockExamChartView.swift */,
+				3C95B65189A60B104CF0CCEF /* Features/Progress/ProgressView.swift */,
+				353CC5C7DC1F1E630EADF544 /* Features/Progress/TopicPerformanceView.swift */,
+				0389156C450872373EE82C52 /* Features/Quiz/QuizSummaryView.swift */,
+				4A1BB5700841A566675B74A6 /* Features/Quiz/QuizView.swift */,
+				DBCA66F9121A3E2EC8258425 /* Features/Quiz/QuizViewModel.swift */,
+				DDE4C3E1F482E12727B89A61 /* Features/RoadSigns/RoadSignDetailView.swift */,
+				3DDEF40FE812D72BEE19A186 /* Features/RoadSigns/RoadSignsView.swift */,
+				01A5CF5BED19FF436D564B45 /* Features/Settings/PremiumPaywallView.swift */,
+				B6E79CF583C0D32D1B5E4B13 /* Features/Settings/SettingsView.swift */,
+				4136EF7E131C4F2854E5CAEC /* Models/DailyActivity.swift */,
+				6B2AF07FA7DDEA09DE10D188 /* Models/ExamConfiguration.swift */,
+				DEB65A12F1FE82AE3BC1BC51 /* Models/Language.swift */,
+				1EC9CA527DB32F6D5314F810 /* Models/Question.swift */,
+				CA322E25049EFA35BF0F5A53 /* Models/RoadSign.swift */,
+				225EDB5940095976C8C55BF8 /* Models/Topic.swift */,
+				E7D8D84EC28E71F7A96B900E /* Models/UserProgress.swift */,
+				B66A3173F6F1561F237D1A60 /* Models/VisualScenario.swift */,
+				66F5173C8DBDB0ECBCA5DCA6 /* Services/DailyGoalManager.swift */,
+				C9CA050CE57B0F0F4D966099 /* Services/ExamReadinessCalculator.swift */,
+				3E2ED28EA2DC9A8A4F8B918D /* Services/LocalizationManager.swift */,
+				52C44C73B5996C70DDF86184 /* Services/MonetizationTests.swift */,
+				08CCF403FE1189B8482434FF /* Services/PremiumAccessManager.swift */,
+				08CCF403FE1189B848243401 /* Services/QuestionValidator.swift */,
+				6AB25BC34F75EE6490718885 /* Services/ProgressStore.swift */,
+				F2908CE910B370355826E7CC /* Services/PurchaseManager.swift */,
+				90BC7F3B504C60C4985FE6C7 /* Services/QuestionRepository.swift */,
+				89FEBC958C4867FDC5EC4095 /* Services/RoadSignRepository.swift */,
+				3EB810D0B2DBB580EC52C676 /* Services/StoreKitManager.swift */,
+				E59FDF5A62E078B4FF203E3E /* Resources/Assets.xcassets */,
+				61ACAB0EBBDB6F2D74BBD78C /* Resources/Questions.json */,
+				DC122D4407F7E77CDC8089ED /* Resources/LatviaDrivingTheory.storekit */,
+			);
+			path = LatviaDrivingTheory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA54ED94411969572E7CE728 /* LatviaDrivingTheory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62369FB915143384972F539 /* Build configuration list for PBXNativeTarget "LatviaDrivingTheory" */;
+			buildPhases = (
+				9CD1113D1A0440D90EF379BC /* Sources */,
+				C92DD416700C675A2583C93A /* Frameworks */,
+				5D678E4AC7BCF177A1D9373C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatviaDrivingTheory;
+			productName = LatviaDrivingTheory;
+			productReference = ED08F10455CEDADDF8E3D454 /* LatviaDrivingTheory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B49395E1ACC410FBE7C35F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CA54ED94411969572E7CE728 = {
+						CreatedOnToolsVersion = 15.0;
+						DevelopmentTeam = 67H9LYH78R;
+					};
+				};
+			};
+			buildConfigurationList = 877A59C8A2B3DE9D57625958 /* Build configuration list for PBXProject "LatviaDrivingTheory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016E5C04A36B9E44ADA45781;
+			productRefGroup = 1BABC9FE70385367B81EC546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA54ED94411969572E7CE728 /* LatviaDrivingTheory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D678E4AC7BCF177A1D9373C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2692B1B930FC64D2D6EF21 /* Resources/Assets.xcassets in Resources */,
+				4951D6C9A52D76D337930914 /* Resources/Questions.json in Resources */,
+				065943FA19FE7C183D8AA469 /* Resources/LatviaDrivingTheory.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CD1113D1A0440D90EF379BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCE226963CFA057A3EFDF51 /* App/AppLinks.swift in Sources */,
+				5095C1F311E9D5ED6809DCBC /* App/LatviaDrivingTheoryApp.swift in Sources */,
+				821212CA031CA2220F700D98 /* App/RootView.swift in Sources */,
+				4637DEC1D7A420390BA5393A /* Components/AnswerOptionCard.swift in Sources */,
+				23DCE3D5218635A57F28882E /* Components/AppLogoView.swift in Sources */,
+				75BC990BB9DE9309CD6BCCEB /* Components/CircularProgressView.swift in Sources */,
+				3203588EFCC2E2EBD2890BB1 /* Components/LanguagePickerSheet.swift in Sources */,
+				D44CFEE2B53477C10FEB2C4C /* Components/ProgressBarView.swift in Sources */,
+				0052811E068A1CAB4EA4525B /* Components/VisualGraphics/IntersectionView.swift in Sources */,
+				5CEE80056856C1F6566E0149 /* Components/VisualGraphics/TrafficLightVectorView.swift in Sources */,
+				F9B9060AE16FC9DF1F24B8C6 /* Components/VisualGraphics/TrafficSignVectorView.swift in Sources */,
+				7342FFA76A07CCD4ACD3705F /* Components/VisualGraphics/VehicleVectorView.swift in Sources */,
+				EDB08AC5576815F4879FBB36 /* DesignSystem/AppColors.swift in Sources */,
+				A3E0F31A4BE9884ABB916CAF /* DesignSystem/CardModifier.swift in Sources */,
+				A30154096075444525F2BDF9 /* Features/Home/HomeView.swift in Sources */,
+				15C80EA6D3886667E788CF0E /* Features/Mistakes/MyMistakesView.swift in Sources */,
+				3ED88797C316849B669A524D /* Features/MockExam/MockExamActiveView.swift in Sources */,
+				CEE7170E8781303F7099A134 /* Features/MockExam/MockExamIntroView.swift in Sources */,
+				896AE91C6AAE2B95EDAAD5C0 /* Features/MockExam/MockExamResultView.swift in Sources */,
+				FA019A0E48CD22E11DAD57F2 /* Features/MockExam/MockExamReviewView.swift in Sources */,
+				4C1CD71AF19A1A8DFA3A5349 /* Features/MockExam/MockExamViewModel.swift in Sources */,
+				CACCC3A1DD6EDB4676EF2B10 /* Features/MockExam/QuestionBoardView.swift in Sources */,
+				24C898E424C787A8285D5D22 /* Features/Onboarding/OnboardingView.swift in Sources */,
+				371F4D641E20F672B702233F /* Features/Practice/PracticeView.swift in Sources */,
+				62649D7481042C42F06F15D0 /* Features/Practice/TopicDetailView.swift in Sources */,
+				8557457F1CEAB72645AE8054 /* Features/Progress/ActivityCalendarView.swift in Sources */,
+				50F3AC28F849C674369DE269 /* Features/Progress/DailyGoalCardView.swift in Sources */,
+				FF45C8068A9752D88D38D1B1 /* Features/Progress/DailyGoalSettingsView.swift in Sources */,
+				37FBE9425B3FE1DD27225BEB /* Features/Progress/MockExamChartView.swift in Sources */,
+				6BCEAC2742CA457036076639 /* Features/Progress/ProgressView.swift in Sources */,
+				19E0853DAE798AFB967106A0 /* Features/Progress/TopicPerformanceView.swift in Sources */,
+				21EE5E02B2373BE35BF10151 /* Features/Quiz/QuizSummaryView.swift in Sources */,
+				C9D5C7F469262916BD548366 /* Features/Quiz/QuizView.swift in Sources */,
+				722D5658BAB4468BB3E119ED /* Features/Quiz/QuizViewModel.swift in Sources */,
+				79AB591F0A71F3AA351C6FED /* Features/RoadSigns/RoadSignDetailView.swift in Sources */,
+				84B7035666063D5C5CAB5AE8 /* Features/RoadSigns/RoadSignsView.swift in Sources */,
+				37ADCF819D9D0B4126ECC446 /* Features/Settings/PremiumPaywallView.swift in Sources */,
+				13982D16BBF6E075642F06C6 /* Features/Settings/SettingsView.swift in Sources */,
+				8BA8F3B395C2616523FF4F5E /* Models/DailyActivity.swift in Sources */,
+				09BCB0875E40A7904DB14595 /* Models/ExamConfiguration.swift in Sources */,
+				B6199941421C5C6AC5B7F839 /* Models/Language.swift in Sources */,
+				B09F5AB3A007E252C866F12C /* Models/Question.swift in Sources */,
+				2754945A134FAE93D0C55B52 /* Models/RoadSign.swift in Sources */,
+				887319FB5636EB9898BD9952 /* Models/Topic.swift in Sources */,
+				BB67DDEB30B32556FC80DF12 /* Models/UserProgress.swift in Sources */,
+				3530EBE950A9CCDB77D27076 /* Models/VisualScenario.swift in Sources */,
+				B9FF85DFFBA22D23072B6116 /* Services/DailyGoalManager.swift in Sources */,
+				B88430A22940C2F6FA1405A4 /* Services/ExamReadinessCalculator.swift in Sources */,
+				FF51233DFE5FFECFD1DE5C53 /* Services/LocalizationManager.swift in Sources */,
+				873AFF96376601D6994AC2AC /* Services/MonetizationTests.swift in Sources */,
+				91D61511CBF550BB8E39A62E /* Services/PremiumAccessManager.swift in Sources */,
+				91D61511CBF550BB8E39A630 /* Services/QuestionValidator.swift in Sources */,
+				0C5D240E499FFD9714651FAD /* Services/ProgressStore.swift in Sources */,
+				FFC644F5BACFCF296862C5D0 /* Services/PurchaseManager.swift in Sources */,
+				022DC48671295F5AE3CA9AC3 /* Services/QuestionRepository.swift in Sources */,
+				26AF26B14698824779B0C3FF /* Services/RoadSignRepository.swift in Sources */,
+				A3A646CEF73FCC0D7E0B82D6 /* Services/StoreKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F6732A15130ADFD4A20D414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91C01608A8F8B5555C1821E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B29A462C53F177E42554E366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67H9LYH78R;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CSDD Teorija";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latviadriving.theory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E4DE6061913151686BECED63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67H9LYH78R;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "CSDD Teorija";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.latviadriving.theory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877A59C8A2B3DE9D57625958 /* Build configuration list for PBXProject "LatviaDrivingTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6732A15130ADFD4A20D414 /* Debug */,
+				91C01608A8F8B5555C1821E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62369FB915143384972F539 /* Build configuration list for PBXNativeTarget "LatviaDrivingTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29A462C53F177E42554E366 /* Debug */,
+				E4DE6061913151686BECED63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B49395E1ACC410FBE7C35F5 /* Project object */;
+}

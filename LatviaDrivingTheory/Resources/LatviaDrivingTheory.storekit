@@ -1,0 +1,164 @@
+{
+  "identifier" : "LatviaDrivingTheoryStoreKit",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "3001",
+      "localizations" : [
+        {
+          "description" : "Full lifetime access to all CSDD Category B theory questions, road signs and exams.",
+          "displayName" : "PRO Lifetime",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Full lifetime access to all CSDD Category B theory questions, road signs and exams.",
+          "displayName" : "PRO Lifetime",
+          "locale" : "en_GB"
+        },
+        {
+          "description" : "Pilna mūža piekļuve visiem CSDD B kategorijas teorijas jautājumiem, ceļa zīmēm un eksāmeniem.",
+          "displayName" : "PRO uz mūžu",
+          "locale" : "lv"
+        }
+      ],
+      "productID" : "lv.drivingtheory.pro.lifetime",
+      "referenceName" : "Latvia Driving Theory Pro Lifetime",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "3002",
+      "localizations" : [
+        {
+          "description" : "Full lifetime access to all CSDD Category B theory questions, road signs and exams.",
+          "displayName" : "PRO Lifetime",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Pilna mūža piekļuve visiem CSDD B kategorijas teorijas jautājumiem, ceļa zīmēm un eksāmeniem.",
+          "displayName" : "PRO uz mūžu",
+          "locale" : "lv"
+        }
+      ],
+      "productID" : "lv.drivingtheory.premium.lifetime",
+      "referenceName" : "Latvia Driving Theory Premium Lifetime Fallback",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "lv",
+    "_storefront" : "LVA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "2001",
+      "localizations" : [
+        {
+          "description" : "Pilna piekļuve visiem eksāmeniem un jautājumiem",
+          "displayName" : "Latvia Driving Theory Pro",
+          "locale" : "lv"
+        },
+        {
+          "description" : "Full access to all questions and exams",
+          "displayName" : "Latvia Driving Theory Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Latvia Driving Theory Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "2002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Pilna piekļuve visiem jautājumiem un eksāmeniem, automātiska ikmēneša atjaunošana.",
+              "displayName" : "PRO mēnesim",
+              "locale" : "lv"
+            },
+            {
+              "description" : "Full access to all questions and exams, renews monthly.",
+              "displayName" : "PRO Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "lv.drivingtheory.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Latvia Driving Theory Pro Monthly",
+          "subscriptionGroupID" : "2001",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "2003",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Pilna piekļuve visiem jautājumiem un eksāmeniem, automātiska ikmēneša atjaunošana.",
+              "displayName" : "PRO mēnesim",
+              "locale" : "lv"
+            },
+            {
+              "description" : "Full access to all questions and exams, renews monthly.",
+              "displayName" : "PRO Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "lv.drivingtheory.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Latvia Driving Theory Premium Monthly Fallback",
+          "subscriptionGroupID" : "2001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
