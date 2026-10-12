@@ -304,6 +304,9 @@ public struct QuizView: View {
     }
 
     private func dismissQuiz() {
+        if viewModel.isCompleted {
+            ProgressStore.shared.completePracticeSession()
+        }
         if let onFinished = onFinished {
             onFinished()
         } else {

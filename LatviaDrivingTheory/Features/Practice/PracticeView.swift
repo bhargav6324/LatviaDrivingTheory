@@ -126,11 +126,13 @@ public struct PracticeView: View {
 
                 HStack {
                     if premium.isPremium {
-                        Text("\(accessibleCount) questions")
+                        Text("\(accessibleCount) \(localization.currentLanguage == .latvian ? "jautājumi" : "questions")")
                             .font(.caption2)
                             .foregroundColor(AppColors.textSecondary)
                     } else if isLocked {
-                        Text("0 free questions • \(fullTotal) in Premium")
+                        Text(localization.currentLanguage == .latvian
+                             ? "0 bezmaksas jautājumi • \(fullTotal) Premium versijā"
+                             : "0 free questions • \(fullTotal) in Premium")
                             .font(.caption2)
                             .foregroundColor(AppColors.textTertiary)
                     } else {

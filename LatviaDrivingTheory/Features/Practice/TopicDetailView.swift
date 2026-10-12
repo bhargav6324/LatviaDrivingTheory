@@ -90,7 +90,9 @@ public struct TopicDetailView: View {
                 VStack(spacing: 14) {
                     HStack(spacing: 12) {
                         StatCardView(
-                            title: premium.isPremium ? "Questions" : "Free Questions",
+                            title: premium.isPremium
+                                ? (localization.currentLanguage == .latvian ? "Jautājumi" : "Questions")
+                                : (localization.currentLanguage == .latvian ? "Bezmaksas" : "Free Questions"),
                             value: "\(questions.count)",
                             icon: "doc.text.fill",
                             iconColor: AppColors.latviaCarmine
@@ -113,7 +115,7 @@ public struct TopicDetailView: View {
                         )
 
                         StatCardView(
-                            title: "Mistakes",
+                            title: localization.t(.mistakesStat),
                             value: "\(stats.mistakes)",
                             icon: "exclamationmark.triangle.fill",
                             iconColor: stats.mistakes > 0 ? AppColors.errorRed : AppColors.textSecondary
@@ -149,6 +151,7 @@ public struct TopicDetailView: View {
                     } else {
                         Button {
                             guard !questions.isEmpty else { return }
+                            progressStore.startPracticeSession(topic: topic)
                             activeQuizConfig = QuizSessionConfig(mode: .topic(topic), questions: questions)
                         } label: {
                             HStack {

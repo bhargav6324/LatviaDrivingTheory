@@ -87,8 +87,11 @@ public struct QuizSummaryView: View {
                 .frame(width: 140, height: 140)
                 .padding(.vertical, 4)
 
-                // Stats Cards Grid (Attempted, Correct, Mistakes, Accuracy)
-                HStack(spacing: 8) {
+                // Stats Cards 2x2 Grid (Attempted, Correct, Mistakes, Accuracy)
+                LazyVGrid(columns: [
+                    GridItem(.flexible(), spacing: 12),
+                    GridItem(.flexible(), spacing: 12)
+                ], spacing: 12) {
                     StatCardView(
                         title: localization.t(.questionsAttempted),
                         value: "\(attempted)/\(total)",
@@ -140,7 +143,7 @@ public struct QuizSummaryView: View {
                         }
                     }
                     .padding(.top, 8)
-                } else if attempted > 0 {
+                } else if mistakesCount == 0 && attempted > 0 {
                     HStack(spacing: 12) {
                         Image(systemName: "checkmark.seal.fill")
                             .font(.system(size: 32))
@@ -150,7 +153,9 @@ public struct QuizSummaryView: View {
                             Text(localization.t(.noMistakesInSession))
                                 .font(.system(.subheadline, design: .rounded).bold())
                                 .foregroundColor(AppColors.textPrimary)
-                            Text("All questions answered were 100% correct.")
+                            Text(localization.currentLanguage == .latvian
+                                 ? "Visas atbildes bija 100% pareizas."
+                                 : "All questions answered were 100% correct.")
                                 .font(.caption)
                                 .foregroundColor(AppColors.textSecondary)
                         }

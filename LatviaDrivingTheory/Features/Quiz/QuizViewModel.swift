@@ -37,6 +37,9 @@ public final class QuizViewModel: ObservableObject {
     public init(mode: QuizMode, questions: [Question]) {
         self.mode = mode
         self.questions = questions
+        if case .topic(let topic) = mode {
+            ProgressStore.shared.startPracticeSession(topic: topic)
+        }
     }
 
     public func reload(questions: [Question]) {

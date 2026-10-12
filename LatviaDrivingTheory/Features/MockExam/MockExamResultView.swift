@@ -35,8 +35,11 @@ public struct MockExamResultView: View {
                         .padding(.horizontal)
                 }
 
-                // Stats Grid
-                HStack(spacing: 10) {
+                // Stats 2x2 Grid
+                LazyVGrid(columns: [
+                    GridItem(.flexible(), spacing: 12),
+                    GridItem(.flexible(), spacing: 12)
+                ], spacing: 12) {
                     StatCardView(
                         title: localization.t(.examScoreLabel),
                         value: "\(result.score)/\(result.totalQuestions)",

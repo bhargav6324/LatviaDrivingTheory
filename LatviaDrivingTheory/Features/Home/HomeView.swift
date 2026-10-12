@@ -5,7 +5,6 @@ public enum HomeRoute: Hashable {
     case mockExam
     case myMistakes
     case roadSigns
-    case allTopics
 }
 
 public struct HomeView: View {
@@ -27,10 +26,12 @@ public struct HomeView: View {
                     // 1. Exam Readiness Card
                     examReadinessCard
 
-                    // 2. Continue Learning Card
-                    continueLearningCard
+                    // 2. Continue Learning Card (ONLY shown if unfinished practice session exists)
+                    if let resumeTopic = progressStore.incompletePracticeTopic {
+                        continueLearningCard(for: resumeTopic)
+                    }
 
-                    // 3. Main Action Grid
+                    // 3. Main Action Cards (Mock Exam, My Mistakes, Road Signs)
                     mainActionsGrid
 
                     Spacer(minLength: 24)
@@ -49,12 +50,12 @@ public struct HomeView: View {
                     MyMistakesView()
                 case .roadSigns:
                     RoadSignsView()
-                case .allTopics:
-                    PracticeView()
                 }
             }
             .sheet(isPresented: $showLanguagePicker) {
-                LanguagePickerSheet()
+                LanguagePickerSheet(isDismissable: true) {
+                    showLanguagePicker = false
+                }
             }
         }
     }
@@ -65,10 +66,11 @@ public struct HomeView: View {
             AppLogoView(size: 44)
 
             VStack(alignment: .leading, spacing: 2) {
-                Text(localization.currentLanguage == .latvian ? AppLinks.appNameLV : AppLinks.appNameEN)
+                Text(localization.currentLanguage == .latvian ? AppLinks.appNameLV : "Latvia Driving Theory")
                     .font(.system(.title3, design: .rounded).bold())
                     .foregroundColor(AppColors.textPrimary)
                     .lineLimit(1)
+                    .minimumScaleFactor(0.8)
 
                 Text(localization.t(.categoryB))
                     .font(.subheadline)
@@ -136,9 +138,9 @@ public struct HomeView: View {
     }
 
     // MARK: - 2. Continue Learning Card
-    private var continueLearningCard: some View {
+    private func continueLearningCard(for topic: TopicCategory) -> some View {
         let accessibleTopics = TopicCategory.allCases.filter { premium.hasAccessibleQuestions(for: $0) }
-        let resumeTopic = progressStore.recentTopic.flatMap { accessibleTopics.contains($0) ? $0 : nil } ?? accessibleTopics.first ?? .rightOfWay
+        let resumeTopic = accessibleTopics.contains(topic) ? topic : (accessibleTopics.first ?? topic)
 
         return NavigationLink(value: HomeRoute.topic(resumeTopic)) {
             HStack(spacing: 16) {
@@ -192,102 +194,106 @@ public struct HomeView: View {
                     }
                 }()
 
-                return mainActionRow(
+                homeActionCard(
                     icon: "doc.text.fill",
                     iconColor: AppColors.latviaCarmine,
                     title: localization.t(.mockExamTitle),
                     subtitle: subtitle
                 )
             }
+            .buttonStyle(PlainButtonStyle())
 
             // My Mistakes
             NavigationLink(value: HomeRoute.myMistakes) {
                 let mistakeCount = progressStore.activeMistakeCount(filteredBy: premium.isPremium ? nil : Set(premium.freeQuestionIDs))
 
-                return HStack(spacing: 14) {
-                    Image(systemName: "exclamationmark.triangle.fill")
-                        .font(.title3)
-                        .foregroundColor(AppColors.errorRed)
-                        .frame(width: 42, height: 42)
-                        .background(AppColors.errorRed.opacity(0.12))
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(localization.t(.myMistakesTitle))
-                            .font(.headline)
-                            .foregroundColor(AppColors.textPrimary)
-
-                        Text(localization.t(.myMistakesSubtitle))
-                            .font(.caption)
-                            .foregroundColor(AppColors.textSecondary)
-                    }
-
-                    Spacer()
-
-                    if mistakeCount > 0 {
-                        Text("\(mistakeCount)")
-                            .font(.caption.bold())
-                            .foregroundColor(.white)
-                            .padding(.horizontal, 8)
-                            .padding(.vertical, 3)
-                            .background(AppColors.errorRed)
-                            .clipShape(Capsule())
-                    }
-
-                    Image(systemName: "chevron.right")
-                        .font(.caption.bold())
-                        .foregroundColor(AppColors.textTertiary)
-                }
-                .appCard(padding: 16)
+                homeActionCard(
+                    icon: "exclamationmark.triangle.fill",
+                    iconColor: AppColors.errorRed,
+                    title: localization.t(.myMistakesTitle),
+                    subtitle: localization.t(.myMistakesSubtitle),
+                    badgeCount: mistakeCount > 0 ? mistakeCount : nil,
+                    badgeColor: AppColors.errorRed
+                )
             }
+            .buttonStyle(PlainButtonStyle())
 
             // Road Signs
             NavigationLink(value: HomeRoute.roadSigns) {
-                mainActionRow(
+                homeActionCard(
                     icon: "shield.fill",
                     iconColor: AppColors.warningAmber,
                     title: localization.t(.roadSignsTitle),
                     subtitle: localization.t(.roadSignsSubtitle)
                 )
             }
-
-            // Topic Practice
-            NavigationLink(value: HomeRoute.allTopics) {
-                mainActionRow(
-                    icon: "square.grid.2x2.fill",
-                    iconColor: AppColors.safetyPurple,
-                    title: localization.t(.practiceQuestionsTitle),
-                    subtitle: localization.t(.practiceQuestionsSubtitle)
-                )
-            }
+            .buttonStyle(PlainButtonStyle())
         }
     }
 
-    private func mainActionRow(icon: String, iconColor: Color, title: String, subtitle: String) -> some View {
+    // Standardized Reusable Home Action Card Component
+    private func homeActionCard(
+        icon: String,
+        iconColor: Color,
+        title: String,
+        subtitle: String,
+        badgeCount: Int? = nil,
+        badgeColor: Color = AppColors.errorRed
+    ) -> some View {
         HStack(spacing: 14) {
-            Image(systemName: icon)
-                .font(.title3)
-                .foregroundColor(iconColor)
-                .frame(width: 42, height: 42)
-                .background(iconColor.opacity(0.12))
-                .clipShape(RoundedRectangle(cornerRadius: 10))
+            // Unified Icon Container (44x44, 12pt corner radius)
+            ZStack {
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .fill(iconColor.opacity(0.12))
+                    .frame(width: 44, height: 44)
 
-            VStack(alignment: .leading, spacing: 2) {
+                Image(systemName: icon)
+                    .font(.system(size: 20, weight: .semibold))
+                    .foregroundColor(iconColor)
+            }
+            .frame(width: 44, height: 44)
+
+            // Leading-Aligned Text Stack
+            VStack(alignment: .leading, spacing: 3) {
                 Text(title)
                     .font(.headline)
                     .foregroundColor(AppColors.textPrimary)
+                    .lineLimit(1)
+                    .frame(maxWidth: .infinity, alignment: .leading)
 
                 Text(subtitle)
-                    .font(.caption)
+                    .font(.subheadline)
                     .foregroundColor(AppColors.textSecondary)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
             }
+            .frame(maxWidth: .infinity, alignment: .leading)
 
-            Spacer()
+            // Trailing Content: optional badge + vertically centered chevron
+            HStack(spacing: 8) {
+                if let count = badgeCount, count > 0 {
+                    Text("\(count)")
+                        .font(.caption.bold())
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 3)
+                        .background(badgeColor)
+                        .clipShape(Capsule())
+                }
 
-            Image(systemName: "chevron.right")
-                .font(.caption.bold())
-                .foregroundColor(AppColors.textTertiary)
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 14, weight: .semibold))
+                    .foregroundColor(AppColors.textTertiary)
+            }
         }
-        .appCard(padding: 16)
+        .padding(16)
+        .background(AppColors.cardBackground)
+        .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .stroke(AppColors.cardBorder, lineWidth: 1)
+        )
     }
 }

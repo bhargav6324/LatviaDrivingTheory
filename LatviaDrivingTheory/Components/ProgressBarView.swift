@@ -49,20 +49,34 @@ public struct StatCardView: View {
     }
 
     public var body: some View {
-        VStack(alignment: .leading, spacing: 6) {
+        VStack(alignment: .leading, spacing: 8) {
             HStack(spacing: 6) {
-                Image(systemName: icon)
-                    .font(.caption)
-                    .foregroundColor(iconColor)
+                ZStack {
+                    RoundedRectangle(cornerRadius: 6, style: .continuous)
+                        .fill(iconColor.opacity(0.12))
+                        .frame(width: 24, height: 24)
+                    Image(systemName: icon)
+                        .font(.system(size: 12, weight: .semibold))
+                        .foregroundColor(iconColor)
+                }
+
                 Text(title)
                     .font(.caption)
                     .foregroundColor(AppColors.textSecondary)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+
+                Spacer(minLength: 0)
             }
+
             Text(value)
                 .font(.system(.title3, design: .rounded).bold())
                 .foregroundColor(AppColors.textPrimary)
+                .lineLimit(1)
+                .minimumScaleFactor(0.8)
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .appCard(padding: 12, cornerRadius: 12)
+        .frame(maxWidth: .infinity, minHeight: 74, alignment: .topLeading)
+        .appCard(padding: 12, cornerRadius: 14)
     }
 }

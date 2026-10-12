@@ -230,7 +230,6 @@ public struct ProgressView: View {
 
             LazyVGrid(columns: [
                 GridItem(.flexible(), spacing: 12),
-                GridItem(.flexible(), spacing: 12),
                 GridItem(.flexible(), spacing: 12)
             ], spacing: 12) {
                 StatCardView(

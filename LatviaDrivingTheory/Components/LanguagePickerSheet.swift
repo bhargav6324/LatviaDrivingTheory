@@ -1,13 +1,16 @@
 import SwiftUI
 
 public struct LanguagePickerSheet: View {
+    @Environment(\.dismiss) private var dismiss
     @ObservedObject var localization = LocalizationManager.shared
+    @State private var selectedLanguage: AppLanguage
     public var isDismissable: Bool
     public var onDismiss: (() -> Void)?
 
     public init(isDismissable: Bool = true, onDismiss: (() -> Void)? = nil) {
         self.isDismissable = isDismissable
         self.onDismiss = onDismiss
+        _selectedLanguage = State(initialValue: LocalizationManager.shared.currentLanguage)
     }
 
     public var body: some View {
@@ -19,7 +22,7 @@ public struct LanguagePickerSheet: View {
                     .foregroundColor(AppColors.latviaCarmine)
                     .padding(.top, 12)
 
-                Text(localization.currentLanguage == .latvian ? "Izvēlieties valodu" : "Choose Language")
+                Text(selectedLanguage == .latvian ? "Izvēlieties valodu" : "Choose Language")
                     .font(.system(.title2, design: .rounded).bold())
                     .foregroundColor(AppColors.textPrimary)
 
@@ -33,10 +36,9 @@ public struct LanguagePickerSheet: View {
             // Language Options
             VStack(spacing: 12) {
                 ForEach(AppLanguage.allCases) { lang in
-                    let isSelected = localization.currentLanguage == lang
+                    let isSelected = selectedLanguage == lang
                     Button {
-                        localization.setLanguage(lang)
-                        onDismiss?()
+                        selectedLanguage = lang
                     } label: {
                         HStack(spacing: 16) {
                             Text(lang.flag)
@@ -75,10 +77,11 @@ public struct LanguagePickerSheet: View {
             Spacer()
 
             Button {
-                localization.setLanguage(localization.currentLanguage)
+                localization.setLanguage(selectedLanguage)
                 onDismiss?()
+                dismiss()
             } label: {
-                Text(localization.currentLanguage == .latvian ? "Turpināt" : "Continue")
+                Text(selectedLanguage == .latvian ? "Turpināt" : "Continue")
                     .primaryButton(backgroundColor: AppColors.latviaCarmine)
             }
             .padding(.horizontal)

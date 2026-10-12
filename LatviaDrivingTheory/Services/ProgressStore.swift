@@ -8,11 +8,17 @@ public final class ProgressStore: ObservableObject {
     private let mistakesKey = "latvia_driving_mistakes_v1"
     private let mockExamsKey = "latvia_driving_mock_exams_v1"
     private let recentTopicKey = "latvia_driving_recent_topic"
+    private let incompletePracticeTopicKey = "latvia_driving_incomplete_practice_topic"
 
     @Published public private(set) var questionProgressMap: [String: QuestionProgress] = [:]
     @Published public private(set) var mistakesMap: [String: MistakeRecord] = [:]
     @Published public private(set) var mockExamHistory: [ExamResult] = []
     @Published public var recentTopic: TopicCategory?
+    @Published public var incompletePracticeTopic: TopicCategory?
+
+    public var hasIncompletePractice: Bool {
+        incompletePracticeTopic != nil
+    }
 
     private init() {
         loadData()
@@ -38,6 +44,11 @@ public final class ProgressStore: ObservableObject {
            let topic = TopicCategory(rawValue: topicRaw) {
             self.recentTopic = topic
         }
+
+        if let incompleteRaw = UserDefaults.standard.string(forKey: incompletePracticeTopicKey),
+           let topic = TopicCategory(rawValue: incompleteRaw) {
+            self.incompletePracticeTopic = topic
+        }
     }
 
     private func saveData() {
@@ -53,6 +64,20 @@ public final class ProgressStore: ObservableObject {
         if let recent = recentTopic {
             UserDefaults.standard.set(recent.rawValue, forKey: recentTopicKey)
         }
+    }
+
+    // MARK: - Practice Session Lifecycle (Continue Practice)
+
+    public func startPracticeSession(topic: TopicCategory) {
+        incompletePracticeTopic = topic
+        recentTopic = topic
+        UserDefaults.standard.set(topic.rawValue, forKey: incompletePracticeTopicKey)
+        UserDefaults.standard.set(topic.rawValue, forKey: recentTopicKey)
+    }
+
+    public func completePracticeSession() {
+        incompletePracticeTopic = nil
+        UserDefaults.standard.removeObject(forKey: incompletePracticeTopicKey)
     }
 
     // MARK: - Answer Recording

@@ -536,10 +536,6 @@ public struct SettingsView: View {
 
                             Spacer()
 
-                            Text(AppLinks.supportEmail)
-                                .font(.caption)
-                                .foregroundColor(AppColors.textSecondary)
-
                             Image(systemName: "arrow.up.right")
                                 .font(.caption2.weight(.bold))
                                 .foregroundColor(AppColors.textTertiary)
