@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atbalsts un palīdzība – CSDD Teorijas Eksāmens</title>
+  <meta name="description" content="Klientu atbalsts, biežāk uzdotie jautājumi un palīdzība CSDD Teorijas Eksāmens lietotnei.">
+  <link rel="icon" type="image/png" sizes="64x64" href="/assets/images/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <!-- Non-Affiliation Header Banner -->
+  <aside class="affiliation-banner" role="complementary" aria-label="Valsts iestāžu atruna">
+    <div class="container affiliation-banner-inner">
+      <svg class="affiliation-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="8" x2="12" y2="12"></line>
+        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+      </svg>
+      <span class="affiliation-text" data-i18n="disclaimerGovernment">
+        Šī lietotne ir neatkarīgs mācību rīks un nav saistīta ar CSDD vai tās oficiālajiem pakalpojumiem.
+      </span>
+    </div>
+  </aside>
+
+  <!-- Sticky Site Header -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="/" class="header-brand" aria-label="CSDD Teorijas Eksāmens Sākums">
+        <img src="/assets/images/app-icon.png" alt="CSDD Teorijas Eksāmens Ikona" class="header-icon" width="38" height="38">
+        <span class="header-title" data-i18n="appName">CSDD Teorijas Eksāmens</span>
+      </a>
+
+      <nav class="nav-links" role="navigation" aria-label="Galvenā navigācija">
+        <a href="/" class="nav-link" data-i18n="btnBackHome">Sākums</a>
+        <a href="/#features" class="nav-link" data-i18n="navFeatures">Iespējas</a>
+        <a href="/#signs" class="nav-link" data-i18n="navRoadSigns">Ceļa zīmes</a>
+        <a href="/#mock-exams" class="nav-link" data-i18n="navMockExams">Eksāmena tests</a>
+        <a href="/#pricing" class="nav-link" data-i18n="navPricing">Cenas</a>
+        <a href="/support" class="nav-link active" data-i18n="navSupport">Atbalsts</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switcher" role="radiogroup" aria-label="Izvēlēties valodu">
+          <button type="button" class="lang-btn active" data-lang="lv" aria-pressed="true">LV</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <a href="#" class="btn btn-appstore appstore-btn">
+          <svg viewBox="0 0 170 170" aria-hidden="true"><path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.69-3.08-7.66-7.88-11.9-14.41-6.19-9.5-11-20.2-14.42-32.1-3.42-11.91-5.13-23.3-5.13-34.18 0-14.36 3.59-26.31 10.77-35.85 7.18-9.54 16.14-14.42 26.89-14.64 4.58 0 9.87 1.25 15.87 3.75 6 2.5 10.15 3.8 12.45 3.9 2.07-.11 6.36-1.46 12.87-4.04 6.51-2.58 11.83-3.79 15.97-3.64 11.97.66 21.46 5.21 28.48 13.66-10.45 6.31-15.57 15.02-15.35 26.13.22 8.7 3.54 16 9.96 21.9 6.42 5.9 13.93 9.25 22.52 10.05-2.29 6.86-5.12 14.04-8.51 21.54zM119.22 33.15c0-6.96 2.51-13.66 7.53-20.1 5.01-6.44 11.22-10.79 18.63-13.05.22 1.63.33 3.05.33 4.25 0 6.96-2.58 13.79-7.74 20.48-5.16 6.69-11.37 10.87-18.63 12.54-.11-1.42-.12-2.8-.12-4.12z"/></svg>
+          <span data-i18n="btnDownloadAppStore">Lejupielādēt App Store</span>
+        </a>
+
+        <button type="button" class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Atvērt izvēlni" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true" role="dialog" aria-label="Mobilā izvēlne">
+    <div class="mobile-nav-header">
+      <img src="/assets/images/app-icon.png" alt="Ikona" width="32" height="32">
+      <span data-i18n="appName">CSDD Teorijas Eksāmens</span>
+    </div>
+    
+    <div class="lang-switcher" role="radiogroup" aria-label="Izvēlēties valodu">
+      <button type="button" class="lang-btn active" data-lang="lv">LV</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <nav class="mobile-nav-links">
+      <a href="/" class="mobile-nav-link" data-i18n="btnBackHome">Sākums</a>
+      <a href="/#features" class="mobile-nav-link" data-i18n="navFeatures">Iespējas</a>
+      <a href="/#signs" class="mobile-nav-link" data-i18n="navRoadSigns">Ceļa zīmes</a>
+      <a href="/#mock-exams" class="mobile-nav-link" data-i18n="navMockExams">Eksāmena tests</a>
+      <a href="/#pricing" class="mobile-nav-link" data-i18n="navPricing">Cenas</a>
+      <a href="/support" class="mobile-nav-link" data-i18n="navSupport">Atbalsts</a>
+      <a href="/privacy" class="mobile-nav-link" data-i18n="navPrivacy">Privātuma politika</a>
+      <a href="/terms" class="mobile-nav-link" data-i18n="navTerms">Lietošanas noteikumi</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Hero Header -->
+    <section class="page-hero">
+      <div class="container-narrow">
+        <span class="badge-pill" data-i18n="navSupport">Atbalsts</span>
+        <h1 data-i18n="supportTitle">Atbalsts un palīdzība</h1>
+        <p data-i18n="supportSubtitle">Biežāk uzdotie jautājumi un klientu atbalsts CSDD Teorijas Eksāmens lietotnei.</p>
+      </div>
+    </section>
+
+    <div class="container-narrow" style="padding-bottom: 96px;">
+      
+      <!-- FAQ Section -->
+      <section class="support-faq-section" aria-labelledby="faq-heading">
+        <h2 id="faq-heading" class="section-title-sm" data-i18n="faqSectionTitle">Biežāk uzdotie jautājumi</h2>
+
+        <div class="faq-list">
+          <!-- FAQ 1 -->
+          <article class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span data-i18n="faq1Q">Kā darbojas CSDD teorijas eksāmena tests lietotnē?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq1A">Eksāmena tests precīzi atbilst oficiālajiem Latvijas CSDD noteikumiem B kategorijai: 30 jautājumi, 30 minūšu laika limits un ne vairāk kā 3 pieļaujamās kļūdas (vismaz 27 pareizas atbildes, 90%). Pēc testa pabeigšanas tiek parādīts kļūdu pārskats ar skaidrojumiem un CSN punktiem.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 2 -->
+          <article class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span data-i18n="faq2Q">Vai lietotne darbojas bez interneta savienojuma?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq2A">Jā, 100%. Visi jautājumi, skaidrojumi un ceļa zīmes tiek saglabāti tieši tavā ierīcē. Vari mācīties sabiedriskajā transportā, ceļojumā vai vietās ar vāju internetu.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 3 -->
+          <article class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span data-i18n="faq3Q">Vai mani dati un progress tiek kaut kur pārsūtīti?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq3A">Nē. Mēs ievērojam stingru privātuma politiku: lietotnē nav lietotāju kontu un mācību progress netiek sūtīts uz serveriem. Visi rezultāti glabājas tikai tavā telefonā vai planšetdatorā.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 4 -->
+          <article class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span data-i18n="faq4Q">Es iegādājos PRO, bet iespējas neparādās. Ko darīt?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq4A">Pārliecinies, ka esi pieteicies tajā pašā Apple kontā, ar kuru veici pirkumu, un lietotnes iestatījumos nospied &apos;Atjaunot pirkumus&apos; (Restore Purchases). Ja problēma saglabājas, restartē lietotni vai sazinies ar mums.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 5 -->
+          <article class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span data-i18n="faq5Q">Kas ir iekļauts PRO Mūža piekļuvē?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq5A">PRO Mūža piekļuve ir vienreizējs maksājums, kas uz visiem laikiem atbloķē visas esošās un turpmākās PRO funkcijas, tostarp pilnu 500+ jautājumu banku, neierobežotus eksāmena testus un kļūdu treniņu.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 6 -->
+          <article class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span data-i18n="faq6Q">Vai šī ir oficiāla CSDD lietotne?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq6A">Nē. Šī lietotne ir neatkarīgs mācību rīks un nav saistīta ar CSDD vai tās oficiālajiem pakalpojumiem.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 7 -->
+          <article class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span data-i18n="faq7Q">Vai šie ir oficiālie CSDD eksāmena jautājumi?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq7A">Nē. Lietotnē tiek izmantoti neatkarīgi izstrādāti prakses jautājumi, kas balstīti uz Latvijas Ceļu satiksmes noteikumiem un oficiālo B kategorijas mācību programmu.</p>
+            </div>
+          </article>
+
+          <!-- FAQ 8 -->
+          <article class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span data-i18n="faq8Q">Kā es varu nomainīt lietotnes valodu?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p data-i18n="faq8A">Atver lietotnes iestatījumus un izvēlies Latviešu vai English. Visa saskarne, jautājumi, atbildes un ceļa zīmes pārslēgsies acumirklī.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact Support Card -->
+      <section class="contact-card" aria-labelledby="contact-heading">
+        <h3 id="contact-heading" data-i18n="contactTitle">Sazināties ar atbalstu</h3>
+        <p data-i18n="contactSubtitle">Ja neatradi atbildi uz savu jautājumu, lūdzu, raksti mums uz e-pastu.</p>
+        
+        <div>
+          <a href="mailto:raxitsingh2002@gmail.com?subject=CSDD%20Teorijas%20Eksāmens%20Support" class="contact-email-badge support-email-link">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span class="support-email-text">raxitsingh2002@gmail.com</span>
+          </a>
+        </div>
+
+        <p class="contact-warning-text" data-i18n="contactWarning">
+          Sazinoties ar atbalstu, lūdzu, norādi lietotnes versiju un ierīces modeli. Nesūti paroles vai personīgus datus.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-brand">
+            <img src="/assets/images/app-icon.png" alt="App Icon" class="footer-icon" width="34" height="34">
+            <span data-i18n="appName">CSDD Teorijas Eksāmens</span>
+          </div>
+          <p class="footer-tagline" data-i18n="footerTagline">Neatkarīgs mācību rīks sagatavošanās procesam Latvijas B kategorijas teorijas eksāmenam.</p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 data-i18n="navFeatures">Navigācija</h4>
+          <ul class="footer-links-list">
+            <li><a href="/" data-i18n="btnBackHome">Sākums</a></li>
+            <li><a href="/#features" data-i18n="navFeatures">Iespējas</a></li>
+            <li><a href="/#signs" data-i18n="navRoadSigns">Ceļa zīmes</a></li>
+            <li><a href="/#mock-exams" data-i18n="navMockExams">Eksāmena tests</a></li>
+            <li><a href="/#pricing" data-i18n="navPricing">Cenas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Atbalsts un juridiskā info</h4>
+          <ul class="footer-links-list">
+            <li><a href="/support" data-i18n="navSupport">Atbalsts</a></li>
+            <li><a href="/privacy" data-i18n="navPrivacy">Privātuma politika</a></li>
+            <li><a href="/terms" data-i18n="navTerms">Lietošanas noteikumi</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Government Affiliation Disclaimer -->
+      <div class="footer-disclaimer-box">
+        <p class="footer-disclaimer-text" data-i18n="disclaimerGovernment">
+          Šī lietotne ir neatkarīgs mācību rīks un nav saistīta ar CSDD vai tās oficiālajiem pakalpojumiem.
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <span data-i18n="copyright">© 2026 CSDD Teorijas Eksāmens. Visas tiesības aizsargātas.</span>
+        
+        <div class="lang-switcher" role="radiogroup" aria-label="Izvēlēties kājenes valodu">
+          <button type="button" class="lang-btn active" data-lang="lv">Latviešu</button>
+          <button type="button" class="lang-btn" data-lang="en">English</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- App Store Download Modal Dialog -->
+  <div class="modal-overlay" id="download-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <img src="/assets/images/app-icon.png" alt="App Icon" class="modal-icon" width="64" height="64">
+      <h3 id="modal-title" data-i18n="modalTitle">CSDD Teorijas Eksāmens iOS ierīcēm</h3>
+      <p data-i18n="modalBody">Lietotne drīzumā būs pieejama Apple App Store. Ja pārbaudāt šo lapu App Store Connect recenzēšanai, saite tiks aktivizēta pēc lietotnes apstiprināšanas.</p>
+      <div class="modal-btn-row">
+        <button type="button" class="btn btn-secondary" id="modal-close-btn" data-i18n="modalBtnClose">Aizvērt</button>
+        <a href="/support" class="btn btn-primary" data-i18n="modalBtnSupport">Sazināties ar atbalstu</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/js/config.js"></script>
+  <script src="/assets/js/translations.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
